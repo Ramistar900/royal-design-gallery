@@ -1,0 +1,894 @@
+{
+  "schema_version": 2,
+  "title": "ROYAL Design · App Icon Collections",
+  "rights": {
+    "owner": "ROYAL Design",
+    "license": "ROYAL_ORIGINAL",
+    "policy": "Original geometric SVG artwork authored for ROYAL projects. No third-party icon files, marketplace artwork, traced paths, brand logos, or copied compositions are included.",
+    "commercial_use": "Internal use in ROYAL applications is permitted. External redistribution must retain this provenance notice."
+  },
+  "totals": {
+    "app_collections": 6,
+    "concepts": 52,
+    "flat_svg": 52,
+    "dimensional_svg": 52
+  },
+  "versions": [
+    {
+      "version": "V10",
+      "slug": "almalaki",
+      "application": "Almalaki",
+      "name_ar": "الملكي",
+      "description_ar": "المقهى والمطعم والطلبات والمبيعات",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v10/almalaki",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "application-specific ROYAL palette",
+      "icons": [
+        {
+          "key": "coffee",
+          "label_ar": "قهوة",
+          "label_en": "Coffee",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/coffee.svg",
+            "3d": "icons/v10/almalaki/3d/coffee.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "restaurant",
+          "label_ar": "المطعم",
+          "label_en": "Restaurant",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/restaurant.svg",
+            "3d": "icons/v10/almalaki/3d/restaurant.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "menu",
+          "label_ar": "قائمة الطعام",
+          "label_en": "Menu",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/menu.svg",
+            "3d": "icons/v10/almalaki/3d/menu.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "cart",
+          "label_ar": "سلة التسوق",
+          "label_en": "Shopping cart",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/cart.svg",
+            "3d": "icons/v10/almalaki/3d/cart.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "order",
+          "label_ar": "الطلبات",
+          "label_en": "Orders",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/order.svg",
+            "3d": "icons/v10/almalaki/3d/order.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "table",
+          "label_ar": "الطاولات والحجوزات",
+          "label_en": "Tables & bookings",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/table.svg",
+            "3d": "icons/v10/almalaki/3d/table.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "delivery",
+          "label_ar": "التوصيل",
+          "label_en": "Delivery",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/delivery.svg",
+            "3d": "icons/v10/almalaki/3d/delivery.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "payment",
+          "label_ar": "الدفع",
+          "label_en": "Payment",
+          "variants": {
+            "2d": "icons/v10/almalaki/2d/payment.svg",
+            "3d": "icons/v10/almalaki/3d/payment.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    },
+    {
+      "version": "V11",
+      "slug": "royal-tv",
+      "application": "ROYAL TV",
+      "name_ar": "ROYAL TV",
+      "description_ar": "التلفاز والقنوات والبث والتحكم والمشاهدة",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v11/royal-tv",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "application-specific ROYAL palette",
+      "icons": [
+        {
+          "key": "television",
+          "label_ar": "التلفاز",
+          "label_en": "Television",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/television.svg",
+            "3d": "icons/v11/royal-tv/3d/television.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "live",
+          "label_ar": "بث مباشر",
+          "label_en": "Live broadcast",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/live.svg",
+            "3d": "icons/v11/royal-tv/3d/live.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "channels",
+          "label_ar": "القنوات",
+          "label_en": "Channels",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/channels.svg",
+            "3d": "icons/v11/royal-tv/3d/channels.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "remote",
+          "label_ar": "جهاز التحكم",
+          "label_en": "Remote control",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/remote.svg",
+            "3d": "icons/v11/royal-tv/3d/remote.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "guide",
+          "label_ar": "دليل البرامج",
+          "label_en": "Program guide",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/guide.svg",
+            "3d": "icons/v11/royal-tv/3d/guide.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "favorite",
+          "label_ar": "المفضلة",
+          "label_en": "Favorites",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/favorite.svg",
+            "3d": "icons/v11/royal-tv/3d/favorite.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "cast",
+          "label_ar": "بث إلى الشاشة",
+          "label_en": "Cast to screen",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/cast.svg",
+            "3d": "icons/v11/royal-tv/3d/cast.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "subtitles",
+          "label_ar": "الترجمة النصية",
+          "label_en": "Subtitles",
+          "variants": {
+            "2d": "icons/v11/royal-tv/2d/subtitles.svg",
+            "3d": "icons/v11/royal-tv/3d/subtitles.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    },
+    {
+      "version": "V12",
+      "slug": "royal-plus",
+      "application": "ROYAL+ Launcher",
+      "name_ar": "ROYAL+",
+      "description_ar": "الواجهة والطقس والخلفيات والقرآن ومواقيت الصلاة",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v12/royal-plus",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "application-specific ROYAL palette",
+      "icons": [
+        {
+          "key": "apps",
+          "label_ar": "التطبيقات",
+          "label_en": "Apps",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/apps.svg",
+            "3d": "icons/v12/royal-plus/3d/apps.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "weather",
+          "label_ar": "الطقس المشمس",
+          "label_en": "Sunny weather",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/weather.svg",
+            "3d": "icons/v12/royal-plus/3d/weather.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "rain",
+          "label_ar": "المطر",
+          "label_en": "Rain",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/rain.svg",
+            "3d": "icons/v12/royal-plus/3d/rain.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "fireplace",
+          "label_ar": "المدفأة",
+          "label_en": "Fireplace",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/fireplace.svg",
+            "3d": "icons/v12/royal-plus/3d/fireplace.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "birds",
+          "label_ar": "أصوات الطيور",
+          "label_en": "Bird ambience",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/birds.svg",
+            "3d": "icons/v12/royal-plus/3d/birds.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "quran",
+          "label_ar": "القرآن الكريم",
+          "label_en": "Quran",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/quran.svg",
+            "3d": "icons/v12/royal-plus/3d/quran.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "prayer",
+          "label_ar": "مواقيت الصلاة",
+          "label_en": "Prayer times",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/prayer.svg",
+            "3d": "icons/v12/royal-plus/3d/prayer.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "wallpaper",
+          "label_ar": "الخلفيات",
+          "label_en": "Wallpapers",
+          "variants": {
+            "2d": "icons/v12/royal-plus/2d/wallpaper.svg",
+            "3d": "icons/v12/royal-plus/3d/wallpaper.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    },
+    {
+      "version": "V13",
+      "slug": "rs-tv",
+      "application": "RS TV (Sinjar TV Show)",
+      "name_ar": "RS TV / Sinjar",
+      "description_ar": "قوائم القنوات ومصادر البث ومشغل الفيديو",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v13/rs-tv",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "application-specific ROYAL palette",
+      "icons": [
+        {
+          "key": "channel-list",
+          "label_ar": "قائمة القنوات",
+          "label_en": "Channel list",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/channel-list.svg",
+            "3d": "icons/v13/rs-tv/3d/channel-list.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "stream",
+          "label_ar": "بث الفيديو",
+          "label_en": "Video stream",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/stream.svg",
+            "3d": "icons/v13/rs-tv/3d/stream.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "player",
+          "label_ar": "مشغل الفيديو",
+          "label_en": "Video player",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/player.svg",
+            "3d": "icons/v13/rs-tv/3d/player.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "fullscreen",
+          "label_ar": "ملء الشاشة",
+          "label_en": "Fullscreen",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/fullscreen.svg",
+            "3d": "icons/v13/rs-tv/3d/fullscreen.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "subtitles",
+          "label_ar": "الترجمة",
+          "label_en": "Subtitles",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/subtitles.svg",
+            "3d": "icons/v13/rs-tv/3d/subtitles.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "audio",
+          "label_ar": "مسار الصوت",
+          "label_en": "Audio track",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/audio.svg",
+            "3d": "icons/v13/rs-tv/3d/audio.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "source",
+          "label_ar": "مصدر البث",
+          "label_en": "Stream source",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/source.svg",
+            "3d": "icons/v13/rs-tv/3d/source.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "refresh",
+          "label_ar": "تحديث القائمة",
+          "label_en": "Refresh list",
+          "variants": {
+            "2d": "icons/v13/rs-tv/2d/refresh.svg",
+            "3d": "icons/v13/rs-tv/3d/refresh.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    },
+    {
+      "version": "V14",
+      "slug": "rami-developer",
+      "application": "RAMI Developer",
+      "name_ar": "RAMI Developer",
+      "description_ar": "لوحة المطور والمشاريع والبناء والتوقيع والإدارة",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v14/rami-developer",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "application-specific ROYAL palette",
+      "icons": [
+        {
+          "key": "dashboard",
+          "label_ar": "لوحة المطور",
+          "label_en": "Developer dashboard",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/dashboard.svg",
+            "3d": "icons/v14/rami-developer/3d/dashboard.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "projects",
+          "label_ar": "المشاريع",
+          "label_en": "Projects",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/projects.svg",
+            "3d": "icons/v14/rami-developer/3d/projects.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "build",
+          "label_ar": "البناء",
+          "label_en": "Build",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/build.svg",
+            "3d": "icons/v14/rami-developer/3d/build.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "release",
+          "label_ar": "الإصدار",
+          "label_en": "Release",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/release.svg",
+            "3d": "icons/v14/rami-developer/3d/release.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "signing-key",
+          "label_ar": "مفتاح التوقيع",
+          "label_en": "Signing key",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/signing-key.svg",
+            "3d": "icons/v14/rami-developer/3d/signing-key.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "owner-code",
+          "label_ar": "رمز المالك",
+          "label_en": "Owner activation code",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/owner-code.svg",
+            "3d": "icons/v14/rami-developer/3d/owner-code.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "terminal",
+          "label_ar": "سجل التنفيذ",
+          "label_en": "Build logs",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/terminal.svg",
+            "3d": "icons/v14/rami-developer/3d/terminal.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "database",
+          "label_ar": "قاعدة البيانات",
+          "label_en": "Database",
+          "variants": {
+            "2d": "icons/v14/rami-developer/2d/database.svg",
+            "3d": "icons/v14/rami-developer/3d/database.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    },
+    {
+      "version": "V15",
+      "slug": "royal-audio",
+      "application": "ROYAL AUDIO",
+      "name_ar": "ROYAL AUDIO",
+      "description_ar": "مشغل الصوت والمؤثرات الطبيعية والطقس",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v15/royal-audio",
+      "status": "original_batch_authored_pending_visual_review",
+      "accent_policy": "teal and gold natural-audio palette",
+      "icons": [
+        {
+          "key": "player",
+          "label_ar": "مشغل الصوت",
+          "label_en": "Sound player",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/player.svg",
+            "3d": "icons/v15/royal-audio/3d/player.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "rain",
+          "label_ar": "المطر",
+          "label_en": "Rain",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/rain.svg",
+            "3d": "icons/v15/royal-audio/3d/rain.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "thunder",
+          "label_ar": "الرعد",
+          "label_en": "Thunder",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/thunder.svg",
+            "3d": "icons/v15/royal-audio/3d/thunder.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "wind",
+          "label_ar": "الرياح",
+          "label_en": "Wind",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/wind.svg",
+            "3d": "icons/v15/royal-audio/3d/wind.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "birds",
+          "label_ar": "العصافير",
+          "label_en": "Birds",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/birds.svg",
+            "3d": "icons/v15/royal-audio/3d/birds.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "owl",
+          "label_ar": "البومة",
+          "label_en": "Owl",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/owl.svg",
+            "3d": "icons/v15/royal-audio/3d/owl.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "lake-water",
+          "label_ar": "ماء البحيرة",
+          "label_en": "Lake water",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/lake-water.svg",
+            "3d": "icons/v15/royal-audio/3d/lake-water.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "fireplace",
+          "label_ar": "النار",
+          "label_en": "Fire",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/fireplace.svg",
+            "3d": "icons/v15/royal-audio/3d/fireplace.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "ocean",
+          "label_ar": "أمواج البحر",
+          "label_en": "Ocean waves",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/ocean.svg",
+            "3d": "icons/v15/royal-audio/3d/ocean.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "mute",
+          "label_ar": "كتم الصوت",
+          "label_en": "Mute",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/mute.svg",
+            "3d": "icons/v15/royal-audio/3d/mute.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "download",
+          "label_ar": "تنزيل الصوت",
+          "label_en": "Download audio",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/download.svg",
+            "3d": "icons/v15/royal-audio/3d/download.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        },
+        {
+          "key": "playback",
+          "label_ar": "تشغيل الصوت",
+          "label_en": "Playback",
+          "variants": {
+            "2d": "icons/v15/royal-audio/2d/playback.svg",
+            "3d": "icons/v15/royal-audio/3d/playback.svg"
+          },
+          "rights": {
+            "origin": "original_royal",
+            "license": "ROYAL_ORIGINAL",
+            "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+          },
+          "status": "authored_pending_visual_review"
+        }
+      ]
+    }
+  ]
+}
