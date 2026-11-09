@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "version": "V7",
+  "slug": "controls-media",
+  "application": "ROYAL TV وROYAL+ وRS TV",
+  "name_ar": "التحكم والوسائط",
+  "description_ar": "التنقل والبحث والإعدادات والتحكم بالصوت والمشغلات",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v7/controls-media",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#16A085",
+    "secondary": "#8A6CE8",
+    "highlight": "#F5B942",
+    "surface": "#315A61"
+  },
+  "used_by": [
+    "ROYAL TV",
+    "ROYAL+ Launcher",
+    "RS TV",
+    "ROYAL AUDIO"
+  ],
+  "icons": [
+    {
+      "key": "close",
+      "label_ar": "إغلاق",
+      "label_en": "Close",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/close.svg",
+        "3d": "icons/v7/controls-media/3d/close.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/settings.svg",
+        "3d": "icons/v7/controls-media/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "skip-next",
+      "label_ar": "التالي",
+      "label_en": "Skip Next",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/skip-next.svg",
+        "3d": "icons/v7/controls-media/3d/skip-next.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "skip-previous",
+      "label_ar": "السابق",
+      "label_en": "Skip Previous",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/skip-previous.svg",
+        "3d": "icons/v7/controls-media/3d/skip-previous.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-down",
+      "label_ar": "السهم للأسفل",
+      "label_en": "Arrow Down",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-down.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-down.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-up",
+      "label_ar": "السهم للأعلى",
+      "label_en": "Arrow Up",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-up.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-up.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-left",
+      "label_ar": "السهم لليسار",
+      "label_en": "Arrow Left",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-left.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-left.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-right",
+      "label_ar": "السهم لليمين",
+      "label_en": "Arrow Right",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-right.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-right.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "menu",
+      "label_ar": "القائمة",
+      "label_en": "Menu",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/menu.svg",
+        "3d": "icons/v7/controls-media/3d/menu.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "pause",
+      "label_ar": "إيقاف مؤقت",
+      "label_en": "Pause",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/pause.svg",
+        "3d": "icons/v7/controls-media/3d/pause.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "search",
+      "label_ar": "بحث",
+      "label_en": "Search",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/search.svg",
+        "3d": "icons/v7/controls-media/3d/search.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "search-plus",
+      "label_ar": "بحث متقدم",
+      "label_en": "Search Plus",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/search-plus.svg",
+        "3d": "icons/v7/controls-media/3d/search-plus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "play",
+      "label_ar": "تشغيل",
+      "label_en": "Play",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/play.svg",
+        "3d": "icons/v7/controls-media/3d/play.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "steps",
+      "label_ar": "خطوات",
+      "label_en": "Steps",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/steps.svg",
+        "3d": "icons/v7/controls-media/3d/steps.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-back",
+      "label_ar": "رجوع",
+      "label_en": "Arrow Back",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-back.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-back.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "back",
+      "label_ar": "رجوع",
+      "label_en": "Back",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/back.svg",
+        "3d": "icons/v7/controls-media/3d/back.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "volume-up",
+      "label_ar": "رفع الصوت",
+      "label_en": "Volume Up",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/volume-up.svg",
+        "3d": "icons/v7/controls-media/3d/volume-up.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "headphones",
+      "label_ar": "سماعات",
+      "label_en": "Headphones",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/headphones.svg",
+        "3d": "icons/v7/controls-media/3d/headphones.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "tune",
+      "label_ar": "ضبط",
+      "label_en": "Tune",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/tune.svg",
+        "3d": "icons/v7/controls-media/3d/tune.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "window-open",
+      "label_ar": "فتح النافذة",
+      "label_en": "Window Open",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/window-open.svg",
+        "3d": "icons/v7/controls-media/3d/window-open.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "open-in-new",
+      "label_ar": "فتح في نافذة",
+      "label_en": "Open In New",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/open-in-new.svg",
+        "3d": "icons/v7/controls-media/3d/open-in-new.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "playlist",
+      "label_ar": "قائمة التشغيل",
+      "label_en": "Playlist",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/playlist.svg",
+        "3d": "icons/v7/controls-media/3d/playlist.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-forward",
+      "label_ar": "للأمام",
+      "label_en": "Arrow Forward",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/arrow-forward.svg",
+        "3d": "icons/v7/controls-media/3d/arrow-forward.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "window",
+      "label_ar": "نافذة",
+      "label_en": "Window",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/window.svg",
+        "3d": "icons/v7/controls-media/3d/window.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "music-notes",
+      "label_ar": "نغمات موسيقية",
+      "label_en": "Music Notes",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/music-notes.svg",
+        "3d": "icons/v7/controls-media/3d/music-notes.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "music-note",
+      "label_ar": "نغمة موسيقية",
+      "label_en": "Music Note",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/music-note.svg",
+        "3d": "icons/v7/controls-media/3d/music-note.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}

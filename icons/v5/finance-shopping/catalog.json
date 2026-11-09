@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "version": "V5",
+  "slug": "finance-shopping",
+  "application": "Almalaki ومكونات التجارة",
+  "name_ar": "المال والتسوق",
+  "description_ar": "المال والمحافظ والدفع والسلال والطلبات والخصومات",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v5/finance-shopping",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#D8B45F",
+    "secondary": "#168B79",
+    "highlight": "#FFF0BC",
+    "surface": "#39495C"
+  },
+  "used_by": [
+    "Almalaki"
+  ],
+  "icons": [
+    {
+      "key": "calculator",
+      "label_ar": "آلة حاسبة",
+      "label_en": "Calculator",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/calculator.svg",
+        "3d": "icons/v5/finance-shopping/3d/calculator.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "circle-plus",
+      "label_ar": "إضافة",
+      "label_en": "Circle Plus",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/circle-plus.svg",
+        "3d": "icons/v5/finance-shopping/3d/circle-plus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "receipt",
+      "label_ar": "إيصال",
+      "label_en": "Receipt",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/receipt.svg",
+        "3d": "icons/v5/finance-shopping/3d/receipt.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "tag",
+      "label_ar": "بطاقة سعر",
+      "label_en": "Tag",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/tag.svg",
+        "3d": "icons/v5/finance-shopping/3d/tag.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "credit-card",
+      "label_ar": "بطاقة مصرفية",
+      "label_en": "Credit Card",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/credit-card.svg",
+        "3d": "icons/v5/finance-shopping/3d/credit-card.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "order-check",
+      "label_ar": "تأكيد الطلب",
+      "label_en": "Order Check",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/order-check.svg",
+        "3d": "icons/v5/finance-shopping/3d/order-check.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "transfer",
+      "label_ar": "تحويل",
+      "label_en": "Transfer",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/transfer.svg",
+        "3d": "icons/v5/finance-shopping/3d/transfer.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "circle-minus",
+      "label_ar": "تقليل",
+      "label_en": "Circle Minus",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/circle-minus.svg",
+        "3d": "icons/v5/finance-shopping/3d/circle-minus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "payment-terminal",
+      "label_ar": "جهاز دفع",
+      "label_en": "Payment Terminal",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/payment-terminal.svg",
+        "3d": "icons/v5/finance-shopping/3d/payment-terminal.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "shopping-bag",
+      "label_ar": "حقيبة التسوق",
+      "label_en": "Shopping Bag",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/shopping-bag.svg",
+        "3d": "icons/v5/finance-shopping/3d/shopping-bag.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "discount",
+      "label_ar": "خصم",
+      "label_en": "Discount",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/discount.svg",
+        "3d": "icons/v5/finance-shopping/3d/discount.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "plus",
+      "label_ar": "زائد",
+      "label_en": "Plus",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/plus.svg",
+        "3d": "icons/v5/finance-shopping/3d/plus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "basket",
+      "label_ar": "سلة",
+      "label_en": "Basket",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/basket.svg",
+        "3d": "icons/v5/finance-shopping/3d/basket.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "cash-register",
+      "label_ar": "صندوق الدفع",
+      "label_en": "Cash Register",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/cash-register.svg",
+        "3d": "icons/v5/finance-shopping/3d/cash-register.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "cart",
+      "label_ar": "عربة التسوق",
+      "label_en": "Cart",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/cart.svg",
+        "3d": "icons/v5/finance-shopping/3d/cart.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "coin",
+      "label_ar": "عملة",
+      "label_en": "Coin",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/coin.svg",
+        "3d": "icons/v5/finance-shopping/3d/coin.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "wallet",
+      "label_ar": "محفظة",
+      "label_en": "Wallet",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/wallet.svg",
+        "3d": "icons/v5/finance-shopping/3d/wallet.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "hand-coins",
+      "label_ar": "مدفوعات",
+      "label_en": "Hand Coins",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/hand-coins.svg",
+        "3d": "icons/v5/finance-shopping/3d/hand-coins.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "minus",
+      "label_ar": "ناقص",
+      "label_en": "Minus",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/minus.svg",
+        "3d": "icons/v5/finance-shopping/3d/minus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "banknote",
+      "label_ar": "ورقة نقدية",
+      "label_en": "Banknote",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/banknote.svg",
+        "3d": "icons/v5/finance-shopping/3d/banknote.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}

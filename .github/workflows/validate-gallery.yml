@@ -1,0 +1,24 @@
+name: Validate ROYAL Design Gallery
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, "feature/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate icon manifest and SVG assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gallery
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate manifest, paired SVGs and gallery page
+        run: python scripts/validate_gallery.py

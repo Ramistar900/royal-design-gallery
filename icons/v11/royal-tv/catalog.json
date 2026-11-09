@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "version": "V11",
+  "slug": "royal-tv",
+  "application": "ROYAL TV",
+  "name_ar": "ROYAL TV",
+  "description_ar": "التلفاز والقنوات والبث والتحكم والمشاهدة",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v11/royal-tv",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "application-specific ROYAL palette",
+  "icons": [
+    {
+      "key": "subtitles",
+      "label_ar": "الترجمة النصية",
+      "label_en": "Subtitles",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/subtitles.svg",
+        "3d": "icons/v11/royal-tv/3d/subtitles.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "apps",
+      "label_ar": "التطبيقات",
+      "label_en": "Apps",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/apps.svg",
+        "3d": "icons/v2/shared-foundation/3d/apps.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "television",
+      "label_ar": "التلفاز",
+      "label_en": "Television",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/television.svg",
+        "3d": "icons/v11/royal-tv/3d/television.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "smart-tv",
+      "label_ar": "التلفاز الذكي",
+      "label_en": "Smart TV",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/smart-tv.svg",
+        "3d": "icons/v3/royal-core/3d/smart-tv.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "media-video",
+      "label_ar": "الفيديو",
+      "label_en": "Video",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-video.svg",
+        "3d": "icons/v8/media-product/3d/media-video.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V8"
+    },
+    {
+      "key": "channels",
+      "label_ar": "القنوات",
+      "label_en": "Channels",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/channels.svg",
+        "3d": "icons/v11/royal-tv/3d/channels.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "favorite",
+      "label_ar": "المفضلة",
+      "label_en": "Favorites",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/favorite.svg",
+        "3d": "icons/v11/royal-tv/3d/favorite.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "music-note",
+      "label_ar": "الموسيقى",
+      "label_en": "Music",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/music-note.svg",
+        "3d": "icons/v7/controls-media/3d/music-note.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "cast",
+      "label_ar": "بث إلى الشاشة",
+      "label_en": "Cast to screen",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/cast.svg",
+        "3d": "icons/v11/royal-tv/3d/cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "live",
+      "label_ar": "بث مباشر",
+      "label_en": "Live broadcast",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/live.svg",
+        "3d": "icons/v11/royal-tv/3d/live.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "remote",
+      "label_ar": "جهاز التحكم",
+      "label_en": "Remote control",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/remote.svg",
+        "3d": "icons/v11/royal-tv/3d/remote.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "guide",
+      "label_ar": "دليل البرامج",
+      "label_en": "Program guide",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/guide.svg",
+        "3d": "icons/v11/royal-tv/3d/guide.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "youtube",
+      "label_ar": "منصة الفيديو",
+      "label_en": "Video platform",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/youtube.svg",
+        "3d": "icons/v11/royal-tv/3d/youtube.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    }
+  ],
+  "palette": {
+    "primary": "#2D75C7",
+    "secondary": "#E7C56B",
+    "highlight": "#F5FAFF",
+    "surface": "#203A5D"
+  },
+  "used_by": [
+    "ROYAL TV"
+  ]
+}

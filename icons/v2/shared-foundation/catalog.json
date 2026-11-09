@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "version": "V2",
+  "slug": "shared-foundation",
+  "application": "مشترك بين تطبيقات ROYAL",
+  "name_ar": "الأساسيات المشتركة",
+  "description_ar": "التنقل والأجهزة والاتصال وأدوات النظام",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v2/shared-foundation",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#D7B96D",
+    "secondary": "#168B79",
+    "highlight": "#FFF0B8",
+    "surface": "#35434A"
+  },
+  "used_by": [
+    "Almalaki",
+    "ROYAL TV",
+    "ROYAL+ Launcher",
+    "RS TV",
+    "RAMI Developer"
+  ],
+  "icons": [
+    {
+      "key": "notifications-active",
+      "label_ar": "الإشعارات",
+      "label_en": "Notifications Active",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/notifications-active.svg",
+        "3d": "icons/v2/shared-foundation/3d/notifications-active.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "battery-full",
+      "label_ar": "البطارية",
+      "label_en": "Battery Full",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/battery-full.svg",
+        "3d": "icons/v2/shared-foundation/3d/battery-full.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "apps",
+      "label_ar": "التطبيقات",
+      "label_en": "Apps",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/apps.svg",
+        "3d": "icons/v2/shared-foundation/3d/apps.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "menu",
+      "label_ar": "القائمة",
+      "label_en": "Menu",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/menu.svg",
+        "3d": "icons/v2/shared-foundation/3d/menu.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "more-vert",
+      "label_ar": "المزيد",
+      "label_en": "More Vert",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/more-vert.svg",
+        "3d": "icons/v2/shared-foundation/3d/more-vert.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "cast",
+      "label_ar": "بث الشاشة",
+      "label_en": "Cast",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/cast.svg",
+        "3d": "icons/v2/shared-foundation/3d/cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "bluetooth",
+      "label_ar": "بلوتوث",
+      "label_en": "Bluetooth",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/bluetooth.svg",
+        "3d": "icons/v2/shared-foundation/3d/bluetooth.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "refresh",
+      "label_ar": "تحديث",
+      "label_en": "Refresh",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/refresh.svg",
+        "3d": "icons/v2/shared-foundation/3d/refresh.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "warning",
+      "label_ar": "تحذير",
+      "label_en": "Warning",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/warning.svg",
+        "3d": "icons/v2/shared-foundation/3d/warning.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "download",
+      "label_ar": "تنزيل",
+      "label_en": "Download",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/download.svg",
+        "3d": "icons/v2/shared-foundation/3d/download.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "android-device",
+      "label_ar": "جهاز أندرويد",
+      "label_en": "Android Device",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/android-device.svg",
+        "3d": "icons/v2/shared-foundation/3d/android-device.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "account-circle",
+      "label_ar": "حساب المستخدم",
+      "label_en": "Account Circle",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/account-circle.svg",
+        "3d": "icons/v2/shared-foundation/3d/account-circle.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-back",
+      "label_ar": "رجوع",
+      "label_en": "Arrow Back",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/arrow-back.svg",
+        "3d": "icons/v2/shared-foundation/3d/arrow-back.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "qr-code",
+      "label_ar": "رمز QR",
+      "label_en": "Qr Code",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/qr-code.svg",
+        "3d": "icons/v2/shared-foundation/3d/qr-code.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "tune",
+      "label_ar": "ضبط",
+      "label_en": "Tune",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/tune.svg",
+        "3d": "icons/v2/shared-foundation/3d/tune.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "arrow-forward",
+      "label_ar": "للأمام",
+      "label_en": "Arrow Forward",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/arrow-forward.svg",
+        "3d": "icons/v2/shared-foundation/3d/arrow-forward.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "keyboard",
+      "label_ar": "لوحة المفاتيح",
+      "label_en": "Keyboard",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/keyboard.svg",
+        "3d": "icons/v2/shared-foundation/3d/keyboard.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "folder",
+      "label_ar": "مجلد",
+      "label_en": "Folder",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/folder.svg",
+        "3d": "icons/v2/shared-foundation/3d/folder.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "help",
+      "label_ar": "مساعدة",
+      "label_en": "Help",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/help.svg",
+        "3d": "icons/v2/shared-foundation/3d/help.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "screen-share",
+      "label_ar": "مشاركة الشاشة",
+      "label_en": "Screen Share",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/screen-share.svg",
+        "3d": "icons/v2/shared-foundation/3d/screen-share.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "info",
+      "label_ar": "معلومات",
+      "label_en": "Info",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/info.svg",
+        "3d": "icons/v2/shared-foundation/3d/info.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "wifi",
+      "label_ar": "واي فاي",
+      "label_en": "Wifi",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/wifi.svg",
+        "3d": "icons/v2/shared-foundation/3d/wifi.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}

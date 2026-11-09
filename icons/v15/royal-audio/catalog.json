@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "version": "V15",
+  "slug": "royal-audio",
+  "application": "ROYAL AUDIO",
+  "name_ar": "ROYAL AUDIO",
+  "description_ar": "مشغل الصوت والمؤثرات الطبيعية والطقس",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v15/royal-audio",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "teal and gold natural-audio palette",
+  "icons": [
+    {
+      "key": "owl",
+      "label_ar": "البومة",
+      "label_en": "Owl",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/owl.svg",
+        "3d": "icons/v15/royal-audio/3d/owl.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "thunder",
+      "label_ar": "الرعد",
+      "label_en": "Thunder",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/thunder.svg",
+        "3d": "icons/v15/royal-audio/3d/thunder.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "wind",
+      "label_ar": "الرياح",
+      "label_en": "Wind",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/wind.svg",
+        "3d": "icons/v15/royal-audio/3d/wind.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "birds",
+      "label_ar": "العصافير",
+      "label_en": "Birds",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/birds.svg",
+        "3d": "icons/v15/royal-audio/3d/birds.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "rain",
+      "label_ar": "المطر",
+      "label_en": "Rain",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/rain.svg",
+        "3d": "icons/v15/royal-audio/3d/rain.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "fireplace",
+      "label_ar": "النار",
+      "label_en": "Fire",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/fireplace.svg",
+        "3d": "icons/v15/royal-audio/3d/fireplace.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "ocean",
+      "label_ar": "أمواج البحر",
+      "label_en": "Ocean waves",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/ocean.svg",
+        "3d": "icons/v15/royal-audio/3d/ocean.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "playback",
+      "label_ar": "تشغيل الصوت",
+      "label_en": "Playback",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/playback.svg",
+        "3d": "icons/v15/royal-audio/3d/playback.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "download",
+      "label_ar": "تنزيل الصوت",
+      "label_en": "Download audio",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/download.svg",
+        "3d": "icons/v15/royal-audio/3d/download.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "mute",
+      "label_ar": "كتم الصوت",
+      "label_en": "Mute",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/mute.svg",
+        "3d": "icons/v15/royal-audio/3d/mute.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "lake-water",
+      "label_ar": "ماء البحيرة",
+      "label_en": "Lake water",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/lake-water.svg",
+        "3d": "icons/v15/royal-audio/3d/lake-water.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "player",
+      "label_ar": "مشغل الصوت",
+      "label_en": "Sound player",
+      "variants": {
+        "2d": "icons/v15/royal-audio/2d/player.svg",
+        "3d": "icons/v15/royal-audio/3d/player.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL AUDIO; non-verbal sound and ambience imagery only."
+      },
+      "status": "authored_pending_visual_review"
+    }
+  ],
+  "palette": {
+    "primary": "#198F8A",
+    "secondary": "#E4C16D",
+    "highlight": "#F3FFFF",
+    "surface": "#315C5A"
+  },
+  "used_by": [
+    "ROYAL AUDIO"
+  ]
+}

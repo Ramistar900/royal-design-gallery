@@ -1,32 +1,38 @@
 # ROYAL Design Gallery
 
-المعرض العام لأيقونات تطبيقات ROYAL. يبقى مستودع التصميم الأصلي ومصادره الخاصة منفصلاً وغير منشور.
+معرض عام لمكتبة أيقونات ROYAL Design، مع إبقاء مستودعات المصدر الخاصة بالتطبيقات منفصلة.
 
-## Contents
+## الإصدارات والمجموعات
 
-- V10 — Almalaki
-- V11 — ROYAL TV
-- V12 — ROYAL+ Launcher
-- V13 — RS TV / Sinjar
-- V14 — RAMI Developer
-- V15 — ROYAL AUDIO
-- 52 concepts, each supplied in 2D and 3D: 104 standalone SVG files.
+- **V2–V8:** مكتبات مشتركة للتنقل والأجهزة والأمان والإدارة والتجارة والوسائط.
+- **V9:** Almalaki — الطعام والمشروبات والطلبات والحجوزات والمدفوعات، مع معاينات حركة اختيارية.
+- **V10:** Almalaki — أيقونات التطبيق والعمليات والمنتجات والمبيعات.
+- **V11:** ROYAL TV — التلفاز والقنوات والبث ومحتوى الفيديو.
+- **V12:** ROYAL+ Launcher — الطقس والخلفيات والقرآن والصلاة والدعاء والحديث والعبادة.
+- **V13:** RS TV / Sinjar — القنوات والمصادر ومشغل الفيديو والصوت.
+- **V14:** RAMI Developer — المشاريع والبناء والإصدارات والتوقيع والرموز والأمان.
+- **V15:** ROYAL AUDIO — المؤثرات الطبيعية وأدوات مشغل الصوت، دون أصوات بشرية.
 
-The gallery page is `index.html`. It includes Arabic search, app collection filters, and side-by-side 2D / 3D previews.
+## العرض والتوافق
 
-## Enable the public website
+- لكل مفهوم نسختان **2D** و **3D** متجاورتان.
+- لكل مجموعة لوحة ألوان مستقلة.
+- يظهر في بطاقة المجموعة التطبيق أو التطبيقات التي تستخدم الأيقونات المشتركة.
+- الأيقونات المشتركة تشير إلى زوج SVG واحد بدلاً من نسخ الملف في كل مجموعة.
+- معاينات حركة V9 اختيارية؛ النسخة الثابتة هي الافتراضية.
+- البحث والتصفية بحسب 2D أو 3D متاحان في صفحة المعرض.
 
-In the repository settings, open **Pages** and set:
+## الأعداد
 
-1. **Build and deployment** → **Deploy from a branch**
-2. Branch: **main**
-3. Folder: **/(root)**
-4. Press **Save**
+- 14 إصداراً من V2 إلى V15.
+- 227 مفهوماً فريداً.
+- 227 ملف 2D و227 ملف 3D فريد.
+- تتضمن مجموعات التطبيقات إحالات إلى الأيقونات المشتركة، لذلك قد يزيد عدد البطاقات عن عدد المفاهيم الفريدة.
 
-After GitHub Pages finishes publishing, the gallery will be available at:
+## الترخيص والمنشأ
 
-https://ramistar900.github.io/royal-design-gallery/
+الأصول أصلية ضمن مكتبة **ROYAL Design** وتحمل ترخيص **ROYAL_ORIGINAL**. عند إعادة استخدام الأصول، احتفظ ببيانات المنشأ والترخيص في ملف الفهرس. هذا المستودع يعرض نسخة المعرض والأصول المخصصة للنشر العام فقط، ولا يحتوي على الشيفرة المصدرية للتطبيقات.
 
-## Review note
+## GitHub Pages
 
-The gallery records the artwork as authored and indexed. Final visual approval still requires reviewing the icons in their target applications and devices.
+من **Settings → Pages** اختر **Deploy from a branch → main → /(root)**.

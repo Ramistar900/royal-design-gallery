@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "version": "V13",
+  "slug": "rs-tv",
+  "application": "RS TV (Sinjar TV Show)",
+  "name_ar": "RS TV / Sinjar",
+  "description_ar": "قوائم القنوات ومصادر البث ومشغل الفيديو",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v13/rs-tv",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "application-specific ROYAL palette",
+  "icons": [
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/settings.svg",
+        "3d": "icons/v7/controls-media/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V7"
+    },
+    {
+      "key": "subtitles",
+      "label_ar": "الترجمة",
+      "label_en": "Subtitles",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/subtitles.svg",
+        "3d": "icons/v13/rs-tv/3d/subtitles.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "smart-tv",
+      "label_ar": "التلفاز الذكي",
+      "label_en": "Smart TV",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/smart-tv.svg",
+        "3d": "icons/v3/royal-core/3d/smart-tv.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V3"
+    },
+    {
+      "key": "account-circle",
+      "label_ar": "الحساب",
+      "label_en": "Account",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/account-circle.svg",
+        "3d": "icons/v2/shared-foundation/3d/account-circle.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V2"
+    },
+    {
+      "key": "media-video",
+      "label_ar": "الفيديو",
+      "label_en": "Video",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-video.svg",
+        "3d": "icons/v8/media-product/3d/media-video.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V8"
+    },
+    {
+      "key": "cast",
+      "label_ar": "بث الشاشة",
+      "label_en": "Cast",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cast.svg",
+        "3d": "icons/v3/royal-core/3d/cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V3"
+    },
+    {
+      "key": "stream",
+      "label_ar": "بث الفيديو",
+      "label_en": "Video stream",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/stream.svg",
+        "3d": "icons/v13/rs-tv/3d/stream.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "search",
+      "label_ar": "بحث",
+      "label_en": "Search",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/search.svg",
+        "3d": "icons/v7/controls-media/3d/search.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V7"
+    },
+    {
+      "key": "refresh",
+      "label_ar": "تحديث القائمة",
+      "label_en": "Refresh list",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/refresh.svg",
+        "3d": "icons/v13/rs-tv/3d/refresh.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "play",
+      "label_ar": "تشغيل",
+      "label_en": "Play",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/play.svg",
+        "3d": "icons/v7/controls-media/3d/play.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V7"
+    },
+    {
+      "key": "apps-grid",
+      "label_ar": "شبكة التطبيقات",
+      "label_en": "Apps grid",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/apps-grid.svg",
+        "3d": "icons/v3/royal-core/3d/apps-grid.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V3"
+    },
+    {
+      "key": "playlist",
+      "label_ar": "قائمة التشغيل",
+      "label_en": "Playlist",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/playlist.svg",
+        "3d": "icons/v7/controls-media/3d/playlist.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "redrawn_after_placeholder_audit",
+      "shared_from": "V7"
+    },
+    {
+      "key": "channel-list",
+      "label_ar": "قائمة القنوات",
+      "label_en": "Channel list",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/channel-list.svg",
+        "3d": "icons/v13/rs-tv/3d/channel-list.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "audio",
+      "label_ar": "مسار الصوت",
+      "label_en": "Audio track",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/audio.svg",
+        "3d": "icons/v13/rs-tv/3d/audio.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "player",
+      "label_ar": "مشغل الفيديو",
+      "label_en": "Video player",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/player.svg",
+        "3d": "icons/v13/rs-tv/3d/player.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "source",
+      "label_ar": "مصدر البث",
+      "label_en": "Stream source",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/source.svg",
+        "3d": "icons/v13/rs-tv/3d/source.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    },
+    {
+      "key": "fullscreen",
+      "label_ar": "ملء الشاشة",
+      "label_en": "Fullscreen",
+      "variants": {
+        "2d": "icons/v13/rs-tv/2d/fullscreen.svg",
+        "3d": "icons/v13/rs-tv/3d/fullscreen.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "redrawn_after_placeholder_audit"
+    }
+  ],
+  "palette": {
+    "primary": "#8064C8",
+    "secondary": "#E7C56B",
+    "highlight": "#F9F2FF",
+    "surface": "#594A7D"
+  },
+  "used_by": [
+    "RS TV"
+  ]
+}

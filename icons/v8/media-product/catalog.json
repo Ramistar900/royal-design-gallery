@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "version": "V8",
+  "slug": "media-product",
+  "application": "ROYAL TV وRS TV وAlmalaki",
+  "name_ar": "الوسائط وشارات المنتجات",
+  "description_ar": "أدوات تشغيل الفيديو وشارات العروض والمنتجات",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v8/media-product",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#4B8FE8",
+    "secondary": "#8A6CE8",
+    "highlight": "#F5B942",
+    "surface": "#4A4774"
+  },
+  "used_by": [
+    "ROYAL TV",
+    "RS TV",
+    "Almalaki"
+  ],
+  "icons": [
+    {
+      "key": "media-replay",
+      "label_ar": "إعادة التشغيل",
+      "label_en": "Media Replay",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-replay.svg",
+        "3d": "icons/v8/media-product/3d/media-replay.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-bestseller",
+      "label_ar": "الأكثر مبيعاً",
+      "label_en": "Badge Bestseller",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-bestseller.svg",
+        "3d": "icons/v8/media-product/3d/badge-bestseller.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-next",
+      "label_ar": "التالي",
+      "label_en": "Media Next",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-next.svg",
+        "3d": "icons/v8/media-product/3d/media-next.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-subtitles",
+      "label_ar": "الترجمة النصية",
+      "label_en": "Media Subtitles",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-subtitles.svg",
+        "3d": "icons/v8/media-product/3d/media-subtitles.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-previous",
+      "label_ar": "السابق",
+      "label_en": "Media Previous",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-previous.svg",
+        "3d": "icons/v8/media-product/3d/media-previous.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-video",
+      "label_ar": "الفيديو",
+      "label_en": "Media Video",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-video.svg",
+        "3d": "icons/v8/media-product/3d/media-video.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-stop",
+      "label_ar": "إيقاف",
+      "label_en": "Media Stop",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-stop.svg",
+        "3d": "icons/v8/media-product/3d/media-stop.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-cast",
+      "label_ar": "بث الشاشة",
+      "label_en": "Media Cast",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-cast.svg",
+        "3d": "icons/v8/media-product/3d/media-cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-premium",
+      "label_ar": "بريميوم",
+      "label_en": "Badge Premium",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-premium.svg",
+        "3d": "icons/v8/media-product/3d/badge-premium.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-sale",
+      "label_ar": "تخفيضات",
+      "label_en": "Badge Sale",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-sale.svg",
+        "3d": "icons/v8/media-product/3d/badge-sale.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-shuffle",
+      "label_ar": "تشغيل عشوائي",
+      "label_en": "Media Shuffle",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-shuffle.svg",
+        "3d": "icons/v8/media-product/3d/media-shuffle.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-repeat",
+      "label_ar": "تكرار",
+      "label_en": "Media Repeat",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-repeat.svg",
+        "3d": "icons/v8/media-product/3d/media-repeat.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-new",
+      "label_ar": "جديد",
+      "label_en": "Badge New",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-new.svg",
+        "3d": "icons/v8/media-product/3d/badge-new.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-discount",
+      "label_ar": "خصم",
+      "label_en": "Badge Discount",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-discount.svg",
+        "3d": "icons/v8/media-product/3d/badge-discount.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-trending",
+      "label_ar": "رائج",
+      "label_en": "Badge Trending",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-trending.svg",
+        "3d": "icons/v8/media-product/3d/badge-trending.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-speed",
+      "label_ar": "سرعة التشغيل",
+      "label_en": "Media Speed",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-speed.svg",
+        "3d": "icons/v8/media-product/3d/media-speed.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-picture-in-picture",
+      "label_ar": "صورة داخل صورة",
+      "label_en": "Media Picture In Picture",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-picture-in-picture.svg",
+        "3d": "icons/v8/media-product/3d/media-picture-in-picture.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-special-offer",
+      "label_ar": "عرض خاص",
+      "label_en": "Badge Special Offer",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-special-offer.svg",
+        "3d": "icons/v8/media-product/3d/badge-special-offer.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-limited",
+      "label_ar": "كمية محدودة",
+      "label_en": "Badge Limited",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-limited.svg",
+        "3d": "icons/v8/media-product/3d/badge-limited.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-equalizer",
+      "label_ar": "معادل الصوت",
+      "label_en": "Media Equalizer",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-equalizer.svg",
+        "3d": "icons/v8/media-product/3d/media-equalizer.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "media-fullscreen",
+      "label_ar": "ملء الشاشة",
+      "label_en": "Media Fullscreen",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/media-fullscreen.svg",
+        "3d": "icons/v8/media-product/3d/media-fullscreen.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-featured",
+      "label_ar": "مميز",
+      "label_en": "Badge Featured",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-featured.svg",
+        "3d": "icons/v8/media-product/3d/badge-featured.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "badge-gift",
+      "label_ar": "هدية",
+      "label_en": "Badge Gift",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-gift.svg",
+        "3d": "icons/v8/media-product/3d/badge-gift.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}
