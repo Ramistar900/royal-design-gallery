@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" role="img" aria-label="قهوة متحركة">
+  <circle cx="12" cy="12" r="11" fill="#8B5A3C" opacity=".16"/>
+  <circle cx="12" cy="12" r="8.8" fill="#8B5A3C"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 9h13v8a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM18 11h1a2 2 0 1 1 0 4h-1"/>
+    <path d="M12 7V6a3 3 0 0 0-3-3" opacity=".9"/>
+  </g>
+  <g fill="none" stroke="#F5D7A1" stroke-width="1.25" stroke-linecap="round">
+    <path d="M9 5c-1-1 1-1.4 0-2.5"><animate attributeName="d" values="M9 5c-1-1 1-1.4 0-2.5;M9 4.4c1-1  -1-1.4 0-2.5;M9 5c-1-1 1-1.4 0-2.5" dur="1.15s" repeatCount="indefinite"/></path>
+    <path d="M14 5c1-1  -1-1.4 0-2.5"><animate attributeName="d" values="M14 5c1-1 -1-1.4 0-2.5;M14 4.4c-1-1 1-1.4 0-2.5;M14 5c1-1 -1-1.4 0-2.5" dur="1.35s" repeatCount="indefinite"/></path>
+  </g>
+  <path d="M8 13c2 1 5 1 7 0" fill="none" stroke="#F5D7A1" stroke-width="1.1" stroke-linecap="round" opacity=".85"/>
+</svg>
