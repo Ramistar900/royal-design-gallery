@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "version": "V14",
+  "slug": "rami-developer",
+  "application": "RAMI Developer",
+  "name_ar": "RAMI Developer",
+  "description_ar": "لوحة المطور والمشاريع والبناء والتوقيع والإدارة",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v14/rami-developer",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "application-specific ROYAL palette",
+  "icons": [
+    {
+      "key": "release",
+      "label_ar": "الإصدار",
+      "label_en": "Release",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/release.svg",
+        "3d": "icons/v14/rami-developer/3d/release.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/settings.svg",
+        "3d": "icons/v4/developer-admin/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V4"
+    },
+    {
+      "key": "security",
+      "label_ar": "الأمان",
+      "label_en": "Security",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/security.svg",
+        "3d": "icons/v3/royal-core/3d/security.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "security-emerald",
+      "label_ar": "الأمان الزمردي",
+      "label_en": "Emerald security",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/security-emerald.svg",
+        "3d": "icons/v4/developer-admin/3d/security-emerald.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V4"
+    },
+    {
+      "key": "build",
+      "label_ar": "البناء",
+      "label_en": "Build",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/build.svg",
+        "3d": "icons/v14/rami-developer/3d/build.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "account-circle",
+      "label_ar": "الحساب",
+      "label_en": "Account",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/account-circle.svg",
+        "3d": "icons/v2/shared-foundation/3d/account-circle.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "sync",
+      "label_ar": "المزامنة",
+      "label_en": "Sync",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/sync.svg",
+        "3d": "icons/v4/developer-admin/3d/sync.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V4"
+    },
+    {
+      "key": "sync-emerald",
+      "label_ar": "المزامنة الزمردية",
+      "label_en": "Emerald sync",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/sync-emerald.svg",
+        "3d": "icons/v4/developer-admin/3d/sync-emerald.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V4"
+    },
+    {
+      "key": "cloud-sync",
+      "label_ar": "المزامنة السحابية",
+      "label_en": "Cloud sync",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cloud-sync.svg",
+        "3d": "icons/v3/royal-core/3d/cloud-sync.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "projects",
+      "label_ar": "المشاريع",
+      "label_en": "Projects",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/projects.svg",
+        "3d": "icons/v14/rami-developer/3d/projects.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "owner-code",
+      "label_ar": "رمز المالك",
+      "label_en": "Owner activation code",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/owner-code.svg",
+        "3d": "icons/v14/rami-developer/3d/owner-code.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "terminal",
+      "label_ar": "سجل التنفيذ",
+      "label_en": "Build logs",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/terminal.svg",
+        "3d": "icons/v14/rami-developer/3d/terminal.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "code-history",
+      "label_ar": "سجل النشاط",
+      "label_en": "Activity history",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/code-history.svg",
+        "3d": "icons/v4/developer-admin/3d/code-history.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V4"
+    },
+    {
+      "key": "database",
+      "label_ar": "قاعدة البيانات",
+      "label_en": "Database",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/database.svg",
+        "3d": "icons/v14/rami-developer/3d/database.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "dashboard",
+      "label_ar": "لوحة المطور",
+      "label_en": "Developer dashboard",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/dashboard.svg",
+        "3d": "icons/v14/rami-developer/3d/dashboard.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "signing-key",
+      "label_ar": "مفتاح التوقيع",
+      "label_en": "Signing key",
+      "variants": {
+        "2d": "icons/v14/rami-developer/2d/signing-key.svg",
+        "3d": "icons/v14/rami-developer/3d/signing-key.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    }
+  ],
+  "palette": {
+    "primary": "#C49A3A",
+    "secondary": "#168B79",
+    "highlight": "#FFF9E7",
+    "surface": "#51452F"
+  },
+  "used_by": [
+    "RAMI Developer"
+  ]
+}

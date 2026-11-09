@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "version": "V10",
+  "slug": "almalaki",
+  "application": "Almalaki",
+  "name_ar": "الملكي",
+  "description_ar": "المقهى والمطعم والطلبات والمبيعات",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v10/almalaki",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "application-specific ROYAL palette",
+  "icons": [
+    {
+      "key": "plus",
+      "label_ar": "إضافة",
+      "label_en": "Add",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/plus.svg",
+        "3d": "icons/v5/finance-shopping/3d/plus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V5"
+    },
+    {
+      "key": "close",
+      "label_ar": "إغلاق",
+      "label_en": "Close",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/close.svg",
+        "3d": "icons/v7/controls-media/3d/close.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "archive",
+      "label_ar": "الأرشيف",
+      "label_en": "Archive",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/archive.svg",
+        "3d": "icons/v10/almalaki/3d/archive.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "notifications-active",
+      "label_ar": "الإشعارات",
+      "label_en": "Notifications",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/notifications-active.svg",
+        "3d": "icons/v2/shared-foundation/3d/notifications-active.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/settings.svg",
+        "3d": "icons/v7/controls-media/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "top-products",
+      "label_ar": "الأكثر تميزاً",
+      "label_en": "Top products",
+      "variants": {
+        "2d": "icons/v8/media-product/2d/badge-featured.svg",
+        "3d": "icons/v8/media-product/3d/badge-featured.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V8"
+    },
+    {
+      "key": "palette",
+      "label_ar": "الألوان والتصميم",
+      "label_en": "Palette",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/palette.svg",
+        "3d": "icons/v10/almalaki/3d/palette.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "television",
+      "label_ar": "التلفاز",
+      "label_en": "TV",
+      "variants": {
+        "2d": "icons/v11/royal-tv/2d/television.svg",
+        "3d": "icons/v11/royal-tv/3d/television.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V11"
+    },
+    {
+      "key": "delivery",
+      "label_ar": "التوصيل",
+      "label_en": "Delivery",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/delivery.svg",
+        "3d": "icons/v10/almalaki/3d/delivery.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "reservations",
+      "label_ar": "الحجوزات",
+      "label_en": "Bookings",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/booking-new.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-new.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_new_animated.svg",
+      "shared_from": "V9"
+    },
+    {
+      "key": "account-circle",
+      "label_ar": "الحساب",
+      "label_en": "Account",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/account-circle.svg",
+        "3d": "icons/v2/shared-foundation/3d/account-circle.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "dessert",
+      "label_ar": "الحلويات",
+      "label_en": "Desserts",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/food-dessert.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-dessert.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_dessert_animated.svg",
+      "shared_from": "V9"
+    },
+    {
+      "key": "payment",
+      "label_ar": "الدفع",
+      "label_en": "Payment",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/payment.svg",
+        "3d": "icons/v10/almalaki/3d/payment.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "home",
+      "label_ar": "الرئيسية",
+      "label_en": "Home",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/home.svg",
+        "3d": "icons/v10/almalaki/3d/home.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "table",
+      "label_ar": "الطاولات والحجوزات",
+      "label_en": "Tables & bookings",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/table.svg",
+        "3d": "icons/v10/almalaki/3d/table.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "order",
+      "label_ar": "الطلبات",
+      "label_en": "Orders",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/order.svg",
+        "3d": "icons/v10/almalaki/3d/order.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "sales",
+      "label_ar": "المبيعات",
+      "label_en": "Sales",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/sales.svg",
+        "3d": "icons/v10/almalaki/3d/sales.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "store",
+      "label_ar": "المتجر",
+      "label_en": "Store",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/store.svg",
+        "3d": "icons/v6/colorful-commerce/3d/store.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V6"
+    },
+    {
+      "key": "wallet",
+      "label_ar": "المحفظة",
+      "label_en": "Wallet",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/wallet.svg",
+        "3d": "icons/v5/finance-shopping/3d/wallet.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V5"
+    },
+    {
+      "key": "drink",
+      "label_ar": "المشروبات",
+      "label_en": "Drinks",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/juice.svg",
+        "3d": "icons/v9/cafe-orders/3d/juice.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_juice_animated.svg",
+      "shared_from": "V9"
+    },
+    {
+      "key": "restaurant",
+      "label_ar": "المطعم",
+      "label_en": "Restaurant",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/restaurant.svg",
+        "3d": "icons/v10/almalaki/3d/restaurant.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "products",
+      "label_ar": "المنتجات",
+      "label_en": "Products",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/products.svg",
+        "3d": "icons/v10/almalaki/3d/products.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "search",
+      "label_ar": "بحث",
+      "label_en": "Search",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/search.svg",
+        "3d": "icons/v7/controls-media/3d/search.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "check",
+      "label_ar": "تأكيد",
+      "label_en": "Confirm",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/check.svg",
+        "3d": "icons/v10/almalaki/3d/check.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "logout",
+      "label_ar": "تسجيل الخروج",
+      "label_en": "Log out",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/logout.svg",
+        "3d": "icons/v10/almalaki/3d/logout.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "minus",
+      "label_ar": "تقليل",
+      "label_en": "Decrease",
+      "variants": {
+        "2d": "icons/v5/finance-shopping/2d/minus.svg",
+        "3d": "icons/v5/finance-shopping/3d/minus.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V5"
+    },
+    {
+      "key": "delete",
+      "label_ar": "حذف",
+      "label_en": "Delete",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/delete.svg",
+        "3d": "icons/v10/almalaki/3d/delete.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "back",
+      "label_ar": "رجوع",
+      "label_en": "Back",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/back.svg",
+        "3d": "icons/v7/controls-media/3d/back.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "cart",
+      "label_ar": "سلة التسوق",
+      "label_en": "Shopping cart",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/cart.svg",
+        "3d": "icons/v10/almalaki/3d/cart.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "menu",
+      "label_ar": "قائمة الطعام",
+      "label_en": "Menu",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/menu.svg",
+        "3d": "icons/v10/almalaki/3d/menu.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "coffee",
+      "label_ar": "قهوة",
+      "label_en": "Coffee",
+      "variants": {
+        "2d": "icons/v10/almalaki/2d/coffee.svg",
+        "3d": "icons/v10/almalaki/3d/coffee.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    }
+  ],
+  "palette": {
+    "primary": "#07866D",
+    "secondary": "#D9B45F",
+    "highlight": "#FFF0B8",
+    "surface": "#273D3A"
+  },
+  "used_by": [
+    "Almalaki"
+  ]
+}

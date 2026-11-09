@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "version": "V12",
+  "slug": "royal-plus",
+  "application": "ROYAL+ Launcher",
+  "name_ar": "ROYAL+",
+  "description_ar": "الواجهة والطقس والخلفيات والقرآن ومواقيت الصلاة",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v12/royal-plus",
+  "status": "original_batch_authored_pending_visual_review",
+  "accent_policy": "application-specific ROYAL palette",
+  "icons": [
+    {
+      "key": "birds",
+      "label_ar": "أصوات الطيور",
+      "label_en": "Bird ambience",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/birds.svg",
+        "3d": "icons/v12/royal-plus/3d/birds.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/settings.svg",
+        "3d": "icons/v7/controls-media/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "security",
+      "label_ar": "الأمان",
+      "label_en": "Security",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/security.svg",
+        "3d": "icons/v3/royal-core/3d/security.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "apps",
+      "label_ar": "التطبيقات",
+      "label_en": "Apps",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/apps.svg",
+        "3d": "icons/v12/royal-plus/3d/apps.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "smart-tv",
+      "label_ar": "التلفاز الذكي",
+      "label_en": "Smart TV",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/smart-tv.svg",
+        "3d": "icons/v3/royal-core/3d/smart-tv.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "hadith",
+      "label_ar": "الحديث",
+      "label_en": "Hadith",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/hadith.svg",
+        "3d": "icons/v12/royal-plus/3d/hadith.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "package",
+      "label_ar": "الحزم",
+      "label_en": "Packages",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/package.svg",
+        "3d": "icons/v6/colorful-commerce/3d/package.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V6"
+    },
+    {
+      "key": "wallpaper",
+      "label_ar": "الخلفيات",
+      "label_en": "Wallpapers",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/wallpaper.svg",
+        "3d": "icons/v12/royal-plus/3d/wallpaper.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "dua",
+      "label_ar": "الدعاء",
+      "label_en": "Dua",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/dua.svg",
+        "3d": "icons/v12/royal-plus/3d/dua.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "weather",
+      "label_ar": "الطقس المشمس",
+      "label_en": "Sunny weather",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/weather.svg",
+        "3d": "icons/v12/royal-plus/3d/weather.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "worship",
+      "label_ar": "العبادة",
+      "label_en": "Worship",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/worship.svg",
+        "3d": "icons/v12/royal-plus/3d/worship.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "quran",
+      "label_ar": "القرآن الكريم",
+      "label_en": "Quran",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/quran.svg",
+        "3d": "icons/v12/royal-plus/3d/quran.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "fireplace",
+      "label_ar": "المدفأة",
+      "label_en": "Fireplace",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/fireplace.svg",
+        "3d": "icons/v12/royal-plus/3d/fireplace.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "payments",
+      "label_ar": "المدفوعات",
+      "label_en": "Payments",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/payments.svg",
+        "3d": "icons/v3/royal-core/3d/payments.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "cloud-sync",
+      "label_ar": "المزامنة السحابية",
+      "label_en": "Cloud sync",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cloud-sync.svg",
+        "3d": "icons/v3/royal-core/3d/cloud-sync.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "rain",
+      "label_ar": "المطر",
+      "label_en": "Rain",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/rain.svg",
+        "3d": "icons/v12/royal-plus/3d/rain.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "gallery",
+      "label_ar": "المعرض",
+      "label_en": "Gallery",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/gallery.svg",
+        "3d": "icons/v12/royal-plus/3d/gallery.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL app-specific vector artwork designed for this screen function and matched to the application's palette."
+      },
+      "status": "new_app_specific_icon"
+    },
+    {
+      "key": "music-note",
+      "label_ar": "الموسيقى",
+      "label_en": "Music",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/music-note.svg",
+        "3d": "icons/v7/controls-media/3d/music-note.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "cast",
+      "label_ar": "بث الشاشة",
+      "label_en": "Cast",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cast.svg",
+        "3d": "icons/v3/royal-core/3d/cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    },
+    {
+      "key": "bluetooth",
+      "label_ar": "بلوتوث",
+      "label_en": "Bluetooth",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/bluetooth.svg",
+        "3d": "icons/v2/shared-foundation/3d/bluetooth.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "refresh",
+      "label_ar": "تحديث",
+      "label_en": "Refresh",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/refresh.svg",
+        "3d": "icons/v2/shared-foundation/3d/refresh.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "volume-up",
+      "label_ar": "مستوى الصوت",
+      "label_en": "Volume",
+      "variants": {
+        "2d": "icons/v7/controls-media/2d/volume-up.svg",
+        "3d": "icons/v7/controls-media/3d/volume-up.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V7"
+    },
+    {
+      "key": "prayer",
+      "label_ar": "مواقيت الصلاة",
+      "label_en": "Prayer times",
+      "variants": {
+        "2d": "icons/v12/royal-plus/2d/prayer.svg",
+        "3d": "icons/v12/royal-plus/3d/prayer.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Independently authored geometric SVG artwork for ROYAL Design; no third-party source artwork copied or traced."
+      },
+      "status": "authored_pending_visual_review"
+    },
+    {
+      "key": "wifi",
+      "label_ar": "واي فاي",
+      "label_en": "Wi-Fi",
+      "variants": {
+        "2d": "icons/v2/shared-foundation/2d/wifi.svg",
+        "3d": "icons/v2/shared-foundation/3d/wifi.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V2"
+    },
+    {
+      "key": "developer-mode",
+      "label_ar": "وضع المطوّر",
+      "label_en": "Developer mode",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/developer-mode.svg",
+        "3d": "icons/v3/royal-core/3d/developer-mode.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "shared_library_alias",
+      "shared_from": "V3"
+    }
+  ],
+  "palette": {
+    "primary": "#168D86",
+    "secondary": "#DEC06A",
+    "highlight": "#F5FFF8",
+    "surface": "#24504D"
+  },
+  "used_by": [
+    "ROYAL+ Launcher"
+  ]
+}

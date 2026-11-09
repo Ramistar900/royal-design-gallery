@@ -23,6 +23,21 @@
   ],
   "icons": [
     {
+      "key": "return",
+      "label_ar": "إرجاع",
+      "label_en": "Return",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/return.svg",
+        "3d": "icons/v6/colorful-commerce/3d/return.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
       "key": "bank",
       "label_ar": "المصرف",
       "label_en": "Bank",
@@ -53,72 +68,12 @@
       "status": "colored_2d_3d_preview"
     },
     {
-      "key": "coupon",
-      "label_ar": "قسيمة",
-      "label_en": "Coupon",
+      "key": "safe",
+      "label_ar": "خزنة",
+      "label_en": "Safe",
       "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/coupon.svg",
-        "3d": "icons/v6/colorful-commerce/3d/coupon.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "delivery-truck",
-      "label_ar": "شاحنة التوصيل",
-      "label_en": "Delivery Truck",
-      "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/delivery-truck.svg",
-        "3d": "icons/v6/colorful-commerce/3d/delivery-truck.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "gift-box",
-      "label_ar": "هدية",
-      "label_en": "Gift Box",
-      "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/gift-box.svg",
-        "3d": "icons/v6/colorful-commerce/3d/gift-box.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "loyalty-star",
-      "label_ar": "نقاط الولاء",
-      "label_en": "Loyalty Star",
-      "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/loyalty-star.svg",
-        "3d": "icons/v6/colorful-commerce/3d/loyalty-star.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "package",
-      "label_ar": "طرد",
-      "label_en": "Package",
-      "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/package.svg",
-        "3d": "icons/v6/colorful-commerce/3d/package.svg"
+        "2d": "icons/v6/colorful-commerce/2d/safe.svg",
+        "3d": "icons/v6/colorful-commerce/3d/safe.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -143,12 +98,12 @@
       "status": "colored_2d_3d_preview"
     },
     {
-      "key": "return",
-      "label_ar": "إرجاع",
-      "label_en": "Return",
+      "key": "delivery-truck",
+      "label_ar": "شاحنة التوصيل",
+      "label_en": "Delivery Truck",
       "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/return.svg",
-        "3d": "icons/v6/colorful-commerce/3d/return.svg"
+        "2d": "icons/v6/colorful-commerce/2d/delivery-truck.svg",
+        "3d": "icons/v6/colorful-commerce/3d/delivery-truck.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -158,12 +113,42 @@
       "status": "colored_2d_3d_preview"
     },
     {
-      "key": "safe",
-      "label_ar": "خزنة",
-      "label_en": "Safe",
+      "key": "package",
+      "label_ar": "طرد",
+      "label_en": "Package",
       "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/safe.svg",
-        "3d": "icons/v6/colorful-commerce/3d/safe.svg"
+        "2d": "icons/v6/colorful-commerce/2d/package.svg",
+        "3d": "icons/v6/colorful-commerce/3d/package.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "wishlist",
+      "label_ar": "قائمة الرغبات",
+      "label_en": "Wishlist",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/wishlist.svg",
+        "3d": "icons/v6/colorful-commerce/3d/wishlist.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "coupon",
+      "label_ar": "قسيمة",
+      "label_en": "Coupon",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/coupon.svg",
+        "3d": "icons/v6/colorful-commerce/3d/coupon.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -188,12 +173,27 @@
       "status": "colored_2d_3d_preview"
     },
     {
-      "key": "wishlist",
-      "label_ar": "قائمة الرغبات",
-      "label_en": "Wishlist",
+      "key": "loyalty-star",
+      "label_ar": "نقاط الولاء",
+      "label_en": "Loyalty Star",
       "variants": {
-        "2d": "icons/v6/colorful-commerce/2d/wishlist.svg",
-        "3d": "icons/v6/colorful-commerce/3d/wishlist.svg"
+        "2d": "icons/v6/colorful-commerce/2d/loyalty-star.svg",
+        "3d": "icons/v6/colorful-commerce/3d/loyalty-star.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "gift-box",
+      "label_ar": "هدية",
+      "label_en": "Gift Box",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/gift-box.svg",
+        "3d": "icons/v6/colorful-commerce/3d/gift-box.svg"
       },
       "rights": {
         "origin": "original_royal",

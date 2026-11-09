@@ -23,12 +23,12 @@
   ],
   "icons": [
     {
-      "key": "booking-cancelled",
-      "label_ar": "إلغاء الحجز",
-      "label_en": "Booking Cancelled",
+      "key": "food-ice-cream",
+      "label_ar": "آيس كريم",
+      "label_en": "Food Ice Cream",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-cancelled.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-cancelled.svg"
+        "2d": "icons/v9/cafe-orders/2d/food-ice-cream.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-ice-cream.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -36,15 +36,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_cancelled_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_ice_cream_animated.svg"
     },
     {
-      "key": "booking-confirmed",
-      "label_ar": "حجز مؤكد",
-      "label_en": "Booking Confirmed",
+      "key": "payment-refund",
+      "label_ar": "استرداد المبلغ",
+      "label_en": "Payment Refund",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-confirmed.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-confirmed.svg"
+        "2d": "icons/v9/cafe-orders/2d/payment-refund.svg",
+        "3d": "icons/v9/cafe-orders/3d/payment-refund.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -52,15 +52,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_confirmed_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_refund_animated.svg"
     },
     {
-      "key": "booking-new",
-      "label_ar": "حجز جديد",
-      "label_en": "Booking New",
+      "key": "order-reorder",
+      "label_ar": "إعادة الطلب",
+      "label_en": "Order Reorder",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-new.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-new.svg"
+        "2d": "icons/v9/cafe-orders/2d/order-reorder.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-reorder.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -68,15 +68,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_new_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_reorder_animated.svg"
     },
     {
-      "key": "booking-table-available",
-      "label_ar": "طاولة متاحة",
-      "label_en": "Booking Table Available",
+      "key": "purchase-complete",
+      "label_ar": "اكتمل الشراء",
+      "label_en": "Purchase Complete",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-table-available.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-table-available.svg"
+        "2d": "icons/v9/cafe-orders/2d/purchase-complete.svg",
+        "3d": "icons/v9/cafe-orders/3d/purchase-complete.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -84,71 +84,7 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_table_available_animated.svg"
-    },
-    {
-      "key": "booking-table-occupied",
-      "label_ar": "طاولة مشغولة",
-      "label_en": "Booking Table Occupied",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-table-occupied.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-table-occupied.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_table_occupied_animated.svg"
-    },
-    {
-      "key": "booking-waiting",
-      "label_ar": "بانتظار التأكيد",
-      "label_en": "Booking Waiting",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/booking-waiting.svg",
-        "3d": "icons/v9/cafe-orders/3d/booking-waiting.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_waiting_animated.svg"
-    },
-    {
-      "key": "coffee",
-      "label_ar": "القهوة",
-      "label_en": "Coffee",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/coffee.svg",
-        "3d": "icons/v9/cafe-orders/3d/coffee.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_coffee_animated.svg"
-    },
-    {
-      "key": "delivery-out",
-      "label_ar": "خرج للتوصيل",
-      "label_en": "Delivery Out",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/delivery-out.svg",
-        "3d": "icons/v9/cafe-orders/3d/delivery-out.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_delivery_out_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_complete_animated.svg"
     },
     {
       "key": "delivery-progress",
@@ -167,12 +103,12 @@
       "motion": "icons/v9/cafe-orders/motion/svg/royal_delivery_progress_animated.svg"
     },
     {
-      "key": "food-burger",
-      "label_ar": "برغر",
-      "label_en": "Food Burger",
+      "key": "payment-pending",
+      "label_ar": "الدفع قيد الانتظار",
+      "label_en": "Payment Pending",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-burger.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-burger.svg"
+        "2d": "icons/v9/cafe-orders/2d/payment-pending.svg",
+        "3d": "icons/v9/cafe-orders/3d/payment-pending.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -180,15 +116,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_burger_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_pending_animated.svg"
     },
     {
-      "key": "food-dessert",
-      "label_ar": "حلويات",
-      "label_en": "Food Dessert",
+      "key": "purchase-in-progress",
+      "label_ar": "الشراء جارٍ",
+      "label_en": "Purchase In Progress",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-dessert.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-dessert.svg"
+        "2d": "icons/v9/cafe-orders/2d/purchase-in-progress.svg",
+        "3d": "icons/v9/cafe-orders/3d/purchase-in-progress.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -196,15 +132,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_dessert_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_in_progress_animated.svg"
     },
     {
-      "key": "food-ice-cream",
-      "label_ar": "آيس كريم",
-      "label_en": "Food Ice Cream",
+      "key": "order-in-progress",
+      "label_ar": "الطلب جارٍ",
+      "label_en": "Order In Progress",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-ice-cream.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-ice-cream.svg"
+        "2d": "icons/v9/cafe-orders/2d/order-in-progress.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-in-progress.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -212,15 +148,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_ice_cream_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_in_progress_animated.svg"
     },
     {
-      "key": "food-pizza",
-      "label_ar": "بيتزا",
-      "label_en": "Food Pizza",
+      "key": "booking-cancelled",
+      "label_ar": "إلغاء الحجز",
+      "label_en": "Booking Cancelled",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-pizza.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-pizza.svg"
+        "2d": "icons/v9/cafe-orders/2d/booking-cancelled.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-cancelled.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -228,119 +164,7 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_pizza_animated.svg"
-    },
-    {
-      "key": "food-salad",
-      "label_ar": "سلطة",
-      "label_en": "Food Salad",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-salad.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-salad.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_salad_animated.svg"
-    },
-    {
-      "key": "food-sandwich",
-      "label_ar": "ساندويتش",
-      "label_en": "Food Sandwich",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-sandwich.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-sandwich.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_sandwich_animated.svg"
-    },
-    {
-      "key": "food-shawarma",
-      "label_ar": "شاورما",
-      "label_en": "Food Shawarma",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-shawarma.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-shawarma.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_shawarma_animated.svg"
-    },
-    {
-      "key": "food-tea",
-      "label_ar": "شاي",
-      "label_en": "Food Tea",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/food-tea.svg",
-        "3d": "icons/v9/cafe-orders/3d/food-tea.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_tea_animated.svg"
-    },
-    {
-      "key": "juice",
-      "label_ar": "عصير",
-      "label_en": "Juice",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/juice.svg",
-        "3d": "icons/v9/cafe-orders/3d/juice.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_juice_animated.svg"
-    },
-    {
-      "key": "order-accepted",
-      "label_ar": "تم استلام الطلب",
-      "label_en": "Order Accepted",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-accepted.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-accepted.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_accepted_animated.svg"
-    },
-    {
-      "key": "order-cancelled",
-      "label_ar": "طلب ملغى",
-      "label_en": "Order Cancelled",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-cancelled.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-cancelled.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_cancelled_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_cancelled_animated.svg"
     },
     {
       "key": "order-cancelled-customer",
@@ -375,12 +199,12 @@
       "motion": "icons/v9/cafe-orders/motion/svg/royal_order_cancelled_restaurant_animated.svg"
     },
     {
-      "key": "order-confirmed",
-      "label_ar": "طلب مؤكد",
-      "label_en": "Order Confirmed",
+      "key": "coffee",
+      "label_ar": "القهوة",
+      "label_en": "Coffee",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-confirmed.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-confirmed.svg"
+        "2d": "icons/v9/cafe-orders/2d/coffee.svg",
+        "3d": "icons/v9/cafe-orders/3d/coffee.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -388,7 +212,87 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_confirmed_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_coffee_animated.svg"
+    },
+    {
+      "key": "booking-waiting",
+      "label_ar": "بانتظار التأكيد",
+      "label_en": "Booking Waiting",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/booking-waiting.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-waiting.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_waiting_animated.svg"
+    },
+    {
+      "key": "purchase-started",
+      "label_ar": "بدء الشراء",
+      "label_en": "Purchase Started",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/purchase-started.svg",
+        "3d": "icons/v9/cafe-orders/3d/purchase-started.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_started_animated.svg"
+    },
+    {
+      "key": "food-burger",
+      "label_ar": "برغر",
+      "label_en": "Food Burger",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/food-burger.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-burger.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_burger_animated.svg"
+    },
+    {
+      "key": "food-pizza",
+      "label_ar": "بيتزا",
+      "label_en": "Food Pizza",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/food-pizza.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-pizza.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_pizza_animated.svg"
+    },
+    {
+      "key": "order-accepted",
+      "label_ar": "تم استلام الطلب",
+      "label_en": "Order Accepted",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/order-accepted.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-accepted.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_accepted_animated.svg"
     },
     {
       "key": "order-delivered",
@@ -407,12 +311,12 @@
       "motion": "icons/v9/cafe-orders/motion/svg/royal_order_delivered_animated.svg"
     },
     {
-      "key": "order-in-progress",
-      "label_ar": "الطلب جارٍ",
-      "label_en": "Order In Progress",
+      "key": "order-ready",
+      "label_ar": "جاهز",
+      "label_en": "Order Ready",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-in-progress.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-in-progress.svg"
+        "2d": "icons/v9/cafe-orders/2d/order-ready.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-ready.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -420,23 +324,7 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_in_progress_animated.svg"
-    },
-    {
-      "key": "order-new",
-      "label_ar": "طلب جديد",
-      "label_en": "Order New",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-new.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-new.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_new_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_ready_animated.svg"
     },
     {
       "key": "order-pickup",
@@ -455,12 +343,12 @@
       "motion": "icons/v9/cafe-orders/motion/svg/royal_order_pickup_animated.svg"
     },
     {
-      "key": "order-preparing",
-      "label_ar": "قيد التحضير",
-      "label_en": "Order Preparing",
+      "key": "booking-new",
+      "label_ar": "حجز جديد",
+      "label_en": "Booking New",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-preparing.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-preparing.svg"
+        "2d": "icons/v9/cafe-orders/2d/booking-new.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-new.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -468,15 +356,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_preparing_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_new_animated.svg"
     },
     {
-      "key": "order-ready",
-      "label_ar": "جاهز",
-      "label_en": "Order Ready",
+      "key": "booking-confirmed",
+      "label_ar": "حجز مؤكد",
+      "label_en": "Booking Confirmed",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-ready.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-ready.svg"
+        "2d": "icons/v9/cafe-orders/2d/booking-confirmed.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-confirmed.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -484,15 +372,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_ready_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_confirmed_animated.svg"
     },
     {
-      "key": "order-reorder",
-      "label_ar": "إعادة الطلب",
-      "label_en": "Order Reorder",
+      "key": "food-dessert",
+      "label_ar": "حلويات",
+      "label_en": "Food Dessert",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/order-reorder.svg",
-        "3d": "icons/v9/cafe-orders/3d/order-reorder.svg"
+        "2d": "icons/v9/cafe-orders/2d/food-dessert.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-dessert.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -500,15 +388,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_reorder_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_dessert_animated.svg"
     },
     {
-      "key": "payment-failed",
-      "label_ar": "فشل الدفع",
-      "label_en": "Payment Failed",
+      "key": "delivery-out",
+      "label_ar": "خرج للتوصيل",
+      "label_en": "Delivery Out",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/payment-failed.svg",
-        "3d": "icons/v9/cafe-orders/3d/payment-failed.svg"
+        "2d": "icons/v9/cafe-orders/2d/delivery-out.svg",
+        "3d": "icons/v9/cafe-orders/3d/delivery-out.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -516,39 +404,7 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_failed_animated.svg"
-    },
-    {
-      "key": "payment-pending",
-      "label_ar": "الدفع قيد الانتظار",
-      "label_en": "Payment Pending",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/payment-pending.svg",
-        "3d": "icons/v9/cafe-orders/3d/payment-pending.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_pending_animated.svg"
-    },
-    {
-      "key": "payment-refund",
-      "label_ar": "استرداد المبلغ",
-      "label_en": "Payment Refund",
-      "variants": {
-        "2d": "icons/v9/cafe-orders/2d/payment-refund.svg",
-        "3d": "icons/v9/cafe-orders/3d/payment-refund.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_refund_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_delivery_out_animated.svg"
     },
     {
       "key": "payment-success",
@@ -567,12 +423,12 @@
       "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_success_animated.svg"
     },
     {
-      "key": "purchase-complete",
-      "label_ar": "اكتمل الشراء",
-      "label_en": "Purchase Complete",
+      "key": "food-sandwich",
+      "label_ar": "ساندويتش",
+      "label_en": "Food Sandwich",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/purchase-complete.svg",
-        "3d": "icons/v9/cafe-orders/3d/purchase-complete.svg"
+        "2d": "icons/v9/cafe-orders/2d/food-sandwich.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-sandwich.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -580,15 +436,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_complete_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_sandwich_animated.svg"
     },
     {
-      "key": "purchase-in-progress",
-      "label_ar": "الشراء جارٍ",
-      "label_en": "Purchase In Progress",
+      "key": "food-salad",
+      "label_ar": "سلطة",
+      "label_en": "Food Salad",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/purchase-in-progress.svg",
-        "3d": "icons/v9/cafe-orders/3d/purchase-in-progress.svg"
+        "2d": "icons/v9/cafe-orders/2d/food-salad.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-salad.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -596,15 +452,15 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_in_progress_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_salad_animated.svg"
     },
     {
-      "key": "purchase-started",
-      "label_ar": "بدء الشراء",
-      "label_en": "Purchase Started",
+      "key": "food-shawarma",
+      "label_ar": "شاورما",
+      "label_en": "Food Shawarma",
       "variants": {
-        "2d": "icons/v9/cafe-orders/2d/purchase-started.svg",
-        "3d": "icons/v9/cafe-orders/3d/purchase-started.svg"
+        "2d": "icons/v9/cafe-orders/2d/food-shawarma.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-shawarma.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -612,7 +468,151 @@
         "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
       },
       "status": "colored_2d_3d_preview",
-      "motion": "icons/v9/cafe-orders/motion/svg/royal_purchase_started_animated.svg"
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_shawarma_animated.svg"
+    },
+    {
+      "key": "food-tea",
+      "label_ar": "شاي",
+      "label_en": "Food Tea",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/food-tea.svg",
+        "3d": "icons/v9/cafe-orders/3d/food-tea.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_food_tea_animated.svg"
+    },
+    {
+      "key": "booking-table-available",
+      "label_ar": "طاولة متاحة",
+      "label_en": "Booking Table Available",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/booking-table-available.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-table-available.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_table_available_animated.svg"
+    },
+    {
+      "key": "booking-table-occupied",
+      "label_ar": "طاولة مشغولة",
+      "label_en": "Booking Table Occupied",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/booking-table-occupied.svg",
+        "3d": "icons/v9/cafe-orders/3d/booking-table-occupied.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_booking_table_occupied_animated.svg"
+    },
+    {
+      "key": "order-new",
+      "label_ar": "طلب جديد",
+      "label_en": "Order New",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/order-new.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-new.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_new_animated.svg"
+    },
+    {
+      "key": "order-confirmed",
+      "label_ar": "طلب مؤكد",
+      "label_en": "Order Confirmed",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/order-confirmed.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-confirmed.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_confirmed_animated.svg"
+    },
+    {
+      "key": "order-cancelled",
+      "label_ar": "طلب ملغى",
+      "label_en": "Order Cancelled",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/order-cancelled.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-cancelled.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_cancelled_animated.svg"
+    },
+    {
+      "key": "juice",
+      "label_ar": "عصير",
+      "label_en": "Juice",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/juice.svg",
+        "3d": "icons/v9/cafe-orders/3d/juice.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_juice_animated.svg"
+    },
+    {
+      "key": "payment-failed",
+      "label_ar": "فشل الدفع",
+      "label_en": "Payment Failed",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/payment-failed.svg",
+        "3d": "icons/v9/cafe-orders/3d/payment-failed.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_payment_failed_animated.svg"
+    },
+    {
+      "key": "order-preparing",
+      "label_ar": "قيد التحضير",
+      "label_en": "Order Preparing",
+      "variants": {
+        "2d": "icons/v9/cafe-orders/2d/order-preparing.svg",
+        "3d": "icons/v9/cafe-orders/3d/order-preparing.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview",
+      "motion": "icons/v9/cafe-orders/motion/svg/royal_order_preparing_animated.svg"
     }
   ]
 }

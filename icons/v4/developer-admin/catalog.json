@@ -24,12 +24,57 @@
   ],
   "icons": [
     {
-      "key": "account",
-      "label_ar": "الحساب",
-      "label_en": "Account",
+      "key": "releases",
+      "label_ar": "الإصدارات",
+      "label_en": "Releases",
       "variants": {
-        "2d": "icons/v4/developer-admin/2d/account.svg",
-        "3d": "icons/v4/developer-admin/3d/account.svg"
+        "2d": "icons/v4/developer-admin/2d/releases.svg",
+        "3d": "icons/v4/developer-admin/3d/releases.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "settings",
+      "label_ar": "الإعدادات",
+      "label_en": "Settings",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/settings.svg",
+        "3d": "icons/v4/developer-admin/3d/settings.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "security",
+      "label_ar": "الأمان",
+      "label_en": "Security",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/security.svg",
+        "3d": "icons/v4/developer-admin/3d/security.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "security-emerald",
+      "label_ar": "الأمان الزمردي",
+      "label_en": "Security Emerald",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/security-emerald.svg",
+        "3d": "icons/v4/developer-admin/3d/security-emerald.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -45,6 +90,66 @@
       "variants": {
         "2d": "icons/v4/developer-admin/2d/build.svg",
         "3d": "icons/v4/developer-admin/3d/build.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "account",
+      "label_ar": "الحساب",
+      "label_en": "Account",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/account.svg",
+        "3d": "icons/v4/developer-admin/3d/account.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "sync",
+      "label_ar": "المزامنة",
+      "label_en": "Sync",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/sync.svg",
+        "3d": "icons/v4/developer-admin/3d/sync.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "sync-emerald",
+      "label_ar": "المزامنة الزمردية",
+      "label_en": "Sync Emerald",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/sync-emerald.svg",
+        "3d": "icons/v4/developer-admin/3d/sync-emerald.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "projects",
+      "label_ar": "المشاريع",
+      "label_en": "Projects",
+      "variants": {
+        "2d": "icons/v4/developer-admin/2d/projects.svg",
+        "3d": "icons/v4/developer-admin/3d/projects.svg"
       },
       "rights": {
         "origin": "original_royal",
@@ -90,111 +195,6 @@
       "variants": {
         "2d": "icons/v4/developer-admin/2d/owner-key.svg",
         "3d": "icons/v4/developer-admin/3d/owner-key.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "projects",
-      "label_ar": "المشاريع",
-      "label_en": "Projects",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/projects.svg",
-        "3d": "icons/v4/developer-admin/3d/projects.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "releases",
-      "label_ar": "الإصدارات",
-      "label_en": "Releases",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/releases.svg",
-        "3d": "icons/v4/developer-admin/3d/releases.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "security",
-      "label_ar": "الأمان",
-      "label_en": "Security",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/security.svg",
-        "3d": "icons/v4/developer-admin/3d/security.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "security-emerald",
-      "label_ar": "الأمان الزمردي",
-      "label_en": "Security Emerald",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/security-emerald.svg",
-        "3d": "icons/v4/developer-admin/3d/security-emerald.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "settings",
-      "label_ar": "الإعدادات",
-      "label_en": "Settings",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/settings.svg",
-        "3d": "icons/v4/developer-admin/3d/settings.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "sync",
-      "label_ar": "المزامنة",
-      "label_en": "Sync",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/sync.svg",
-        "3d": "icons/v4/developer-admin/3d/sync.svg"
-      },
-      "rights": {
-        "origin": "original_royal",
-        "license": "ROYAL_ORIGINAL",
-        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
-      },
-      "status": "colored_2d_3d_preview"
-    },
-    {
-      "key": "sync-emerald",
-      "label_ar": "المزامنة الزمردية",
-      "label_en": "Sync Emerald",
-      "variants": {
-        "2d": "icons/v4/developer-admin/2d/sync-emerald.svg",
-        "3d": "icons/v4/developer-admin/3d/sync-emerald.svg"
       },
       "rights": {
         "origin": "original_royal",
