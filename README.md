@@ -1,32 +1,36 @@
 # ROYAL Design Gallery
 
-المعرض العام لأيقونات تطبيقات ROYAL. يبقى مستودع التصميم الأصلي ومصادره الخاصة منفصلاً وغير منشور.
+معرض عام لعرض مكتبة أيقونات ROYAL Design، مع الحفاظ على مكتبات المصدر الخاصة منفصلة عن هذا المستودع.
 
-## Contents
+## الإصدارات
 
-- V10 — Almalaki
-- V11 — ROYAL TV
-- V12 — ROYAL+ Launcher
-- V13 — RS TV / Sinjar
-- V14 — RAMI Developer
-- V15 — ROYAL AUDIO
-- 52 concepts, each supplied in 2D and 3D: 104 standalone SVG files.
+- **V2–V8:** مكتبات مشتركة للتنقل، الأجهزة، الأمان، الإدارة، التجارة، الوسائط وشارات المنتجات.
+- **V9:** الطعام والمشروبات والطلبات والحجوزات والمدفوعات، مع معاينات حركة اختيارية.
+- **V10:** Almalaki.
+- **V11:** ROYAL TV.
+- **V12:** ROYAL+ Launcher.
+- **V13:** RS TV / Sinjar.
+- **V14:** RAMI Developer.
+- **V15:** ROYAL AUDIO.
 
-The gallery page is `index.html`. It includes Arabic search, app collection filters, and side-by-side 2D / 3D previews.
+## العرض
 
-## Enable the public website
+- كل مفهوم يعرض نسختين **2D** و **3D** متجاورتين.
+- ألوان كل مجموعة ظاهرة في لوحة ألوان مستقلة داخل المعرض.
+- SVG متجهية قابلة للتكبير، مع ملفات حركة اختيارية حيث تتوفر.
+- البحث يدعم المفتاح العربي والإنجليزي، مع تصفية 2D أو 3D.
 
-In the repository settings, open **Pages** and set:
+## الأعداد
 
-1. **Build and deployment** → **Deploy from a branch**
-2. Branch: **main**
-3. Folder: **/(root)**
-4. Press **Save**
+- 14 إصداراً.
+- 214 مفهوماً.
+- 214 ملف 2D و214 ملف 3D.
+- أضيفت نسخ الحركة الاختيارية لمجموعة V9.
 
-After GitHub Pages finishes publishing, the gallery will be available at:
+## الترخيص والمنشأ
 
-https://ramistar900.github.io/royal-design-gallery/
+الأعمال أصلية ضمن مكتبة **ROYAL Design** وتحمل ترخيص **ROYAL_ORIGINAL**. عند إعادة استخدام الأصول، احتفظ ببيانات المنشأ والترخيص الواردة في ملفات الفهرس. هذا المستودع يعرض نسخة المعرض والأصول المخصصة للنشر العام فقط، ولا يحتوي على الشيفرة المصدرية للتطبيقات.
 
-## Review note
+## تشغيل GitHub Pages
 
-The gallery records the artwork as authored and indexed. Final visual approval still requires reviewing the icons in their target applications and devices.
+من إعدادات المستودع اختر **Settings → Pages → Deploy from a branch → main → /(root)**.

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "version": "V3",
+  "slug": "royal-core",
+  "application": "هوية ROYAL المشتركة",
+  "name_ar": "النواة الملكية",
+  "description_ar": "هوية النظام والأمان والمزامنة والتلفاز والخدمات",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v3/royal-core",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#20A98C",
+    "secondary": "#E4BE68",
+    "highlight": "#F5FFF8",
+    "surface": "#315C59"
+  },
+  "used_by": [
+    "Almalaki",
+    "ROYAL TV",
+    "ROYAL+ Launcher",
+    "RS TV",
+    "RAMI Developer"
+  ],
+  "icons": [
+    {
+      "key": "apps-grid",
+      "label_ar": "apps grid",
+      "label_en": "Apps Grid",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/apps-grid.svg",
+        "3d": "icons/v3/royal-core/3d/apps-grid.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "cast",
+      "label_ar": "cast",
+      "label_en": "Cast",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cast.svg",
+        "3d": "icons/v3/royal-core/3d/cast.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "cloud-sync",
+      "label_ar": "cloud sync",
+      "label_en": "Cloud Sync",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/cloud-sync.svg",
+        "3d": "icons/v3/royal-core/3d/cloud-sync.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "coffee",
+      "label_ar": "coffee",
+      "label_en": "Coffee",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/coffee.svg",
+        "3d": "icons/v3/royal-core/3d/coffee.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "dashboard",
+      "label_ar": "dashboard",
+      "label_en": "Dashboard",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/dashboard.svg",
+        "3d": "icons/v3/royal-core/3d/dashboard.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "developer-mode",
+      "label_ar": "developer mode",
+      "label_en": "Developer Mode",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/developer-mode.svg",
+        "3d": "icons/v3/royal-core/3d/developer-mode.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "payments",
+      "label_ar": "payments",
+      "label_en": "Payments",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/payments.svg",
+        "3d": "icons/v3/royal-core/3d/payments.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "security",
+      "label_ar": "security",
+      "label_en": "Security",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/security.svg",
+        "3d": "icons/v3/royal-core/3d/security.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "smart-tv",
+      "label_ar": "smart tv",
+      "label_en": "Smart Tv",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/smart-tv.svg",
+        "3d": "icons/v3/royal-core/3d/smart-tv.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "wifi",
+      "label_ar": "wifi",
+      "label_en": "Wifi",
+      "variants": {
+        "2d": "icons/v3/royal-core/2d/wifi.svg",
+        "3d": "icons/v3/royal-core/3d/wifi.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}

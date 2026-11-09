@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "version": "V6",
+  "slug": "colorful-commerce",
+  "application": "Almalaki ومكونات التجارة",
+  "name_ar": "التجارة الملونة",
+  "description_ar": "المتاجر والتوصيل والهدايا والطرود والولاء والدفع",
+  "dimension_styles": [
+    "2d",
+    "3d"
+  ],
+  "collection_path": "icons/v6/colorful-commerce",
+  "status": "colored_paired_preview",
+  "accent_policy": "application palette with recolorable SVG artwork",
+  "palette": {
+    "primary": "#4B8FE8",
+    "secondary": "#16A085",
+    "highlight": "#F5B942",
+    "surface": "#34547A"
+  },
+  "used_by": [
+    "Almalaki"
+  ],
+  "icons": [
+    {
+      "key": "bank",
+      "label_ar": "المصرف",
+      "label_en": "Bank",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/bank.svg",
+        "3d": "icons/v6/colorful-commerce/3d/bank.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "barcode",
+      "label_ar": "باركود",
+      "label_en": "Barcode",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/barcode.svg",
+        "3d": "icons/v6/colorful-commerce/3d/barcode.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "coupon",
+      "label_ar": "قسيمة",
+      "label_en": "Coupon",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/coupon.svg",
+        "3d": "icons/v6/colorful-commerce/3d/coupon.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "delivery-truck",
+      "label_ar": "شاحنة التوصيل",
+      "label_en": "Delivery Truck",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/delivery-truck.svg",
+        "3d": "icons/v6/colorful-commerce/3d/delivery-truck.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "gift-box",
+      "label_ar": "هدية",
+      "label_en": "Gift Box",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/gift-box.svg",
+        "3d": "icons/v6/colorful-commerce/3d/gift-box.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "loyalty-star",
+      "label_ar": "نقاط الولاء",
+      "label_en": "Loyalty Star",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/loyalty-star.svg",
+        "3d": "icons/v6/colorful-commerce/3d/loyalty-star.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "package",
+      "label_ar": "طرد",
+      "label_en": "Package",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/package.svg",
+        "3d": "icons/v6/colorful-commerce/3d/package.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "qr-payment",
+      "label_ar": "دفع QR",
+      "label_en": "Qr Payment",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/qr-payment.svg",
+        "3d": "icons/v6/colorful-commerce/3d/qr-payment.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "return",
+      "label_ar": "إرجاع",
+      "label_en": "Return",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/return.svg",
+        "3d": "icons/v6/colorful-commerce/3d/return.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "safe",
+      "label_ar": "خزنة",
+      "label_en": "Safe",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/safe.svg",
+        "3d": "icons/v6/colorful-commerce/3d/safe.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "store",
+      "label_ar": "متجر",
+      "label_en": "Store",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/store.svg",
+        "3d": "icons/v6/colorful-commerce/3d/store.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    },
+    {
+      "key": "wishlist",
+      "label_ar": "قائمة الرغبات",
+      "label_en": "Wishlist",
+      "variants": {
+        "2d": "icons/v6/colorful-commerce/2d/wishlist.svg",
+        "3d": "icons/v6/colorful-commerce/3d/wishlist.svg"
+      },
+      "rights": {
+        "origin": "original_royal",
+        "license": "ROYAL_ORIGINAL",
+        "authoring_note": "Original ROYAL Design vector source. Recolored and adapted to the unified 2D/3D collection while retaining the icon's intended function."
+      },
+      "status": "colored_2d_3d_preview"
+    }
+  ]
+}
