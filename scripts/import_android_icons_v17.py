@@ -58,6 +58,10 @@ def main():
         svg_by_key = {key_for(n): n for n in svg_entries}
         xml_by_key = {key_for(n): n for n in xml_entries}
         if set(svg_by_key) != set(xml_by_key) or len(svg_by_key) != 22 or len(xml_by_key) != 22:
+            print("SVG entries:", svg_entries)
+            print("XML entries:", xml_entries)
+            print("SVG keys:", sorted(svg_by_key))
+            print("XML keys:", sorted(xml_by_key))
             raise SystemExit("SVG/XML filenames do not form 22 unique matching icon pairs.")
         icons = []
         for key in sorted(svg_by_key):
