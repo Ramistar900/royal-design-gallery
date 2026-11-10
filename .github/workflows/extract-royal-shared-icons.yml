@@ -1,4 +1,5 @@
 name: Extract ROYAL shared icon package
+# This workflow only prepares the independent package; it never edits app repositories.
 
 on:
   pull_request:
