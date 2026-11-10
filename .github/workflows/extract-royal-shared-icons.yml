@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - .github/workflows/extract-royal-shared-icons.yml
+      - scripts/audit_icon_package.py
   push:
     branches:
       - feature/extract-royal-shared-icons
