@@ -1,0 +1,119 @@
+name: Extract ROYAL shared icon package
+
+on:
+  push:
+    branches:
+      - feature/extract-royal-shared-icons
+    paths:
+      - .github/workflows/extract-royal-shared-icons.yml
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout package branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/extract-royal-shared-icons
+          persist-credentials: true
+
+      - name: Extract archives and build inventory
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          from collections import defaultdict
+
+          root = pathlib.Path(".").resolve()
+          out = root / "packages" / "royal-design-shared-icon-package"
+          extracted = out / "extracted"
+          extracted.mkdir(parents=True, exist_ok=True)
+
+          archives = sorted(root.glob("*.zip"))
+          if not archives:
+              raise SystemExit("No ZIP archives found in repository root")
+
+          records = []
+          hashes = defaultdict(list)
+          for archive in archives:
+              folder = extracted / archive.stem.replace(" ", "_").replace("(", "").replace(")", "")
+              folder.mkdir(parents=True, exist_ok=True)
+              with zipfile.ZipFile(archive) as zf:
+                  bad = zf.testzip()
+                  if bad:
+                      raise SystemExit(f"Corrupt member in {archive.name}: {bad}")
+                  for info in zf.infolist():
+                      if info.is_dir():
+                          continue
+                      target = (folder / info.filename).resolve()
+                      if target != folder.resolve() and folder.resolve() not in target.parents:
+                          raise SystemExit(f"Unsafe ZIP path in {archive.name}: {info.filename}")
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      data = zf.read(info)
+                      target.write_bytes(data)
+                      digest = hashlib.sha256(data).hexdigest()
+                      rel = target.relative_to(root).as_posix()
+                      hashes[digest].append(rel)
+                      records.append({
+                          "archive": archive.name,
+                          "path": rel,
+                          "original_path": info.filename,
+                          "size_bytes": len(data),
+                          "sha256": digest,
+                          "extension": pathlib.Path(info.filename).suffix.lower()
+                      })
+
+          duplicate_groups = [
+              {"sha256": digest, "files": paths}
+              for digest, paths in hashes.items() if len(paths) > 1
+          ]
+          inventory = {
+              "package": "ROYAL Design – Shared Icon Package",
+              "source_archives": [p.name for p in archives],
+              "file_count": len(records),
+              "duplicate_content_groups": duplicate_groups,
+              "files": records
+          }
+          (out / "inventory.json").write_text(
+              json.dumps(inventory, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          lines = [
+              "# ROYAL Design – Shared Icon Package",
+              "",
+              "This is an independent, extracted asset package for the shared ROYAL Design library.",
+              "It is not yet wired into any application and does not replace the existing V2–V15 gallery.",
+              "",
+              f"- Source ZIP archives: {len(archives)}",
+              f"- Extracted files: {len(records)}",
+              f"- Duplicate-content groups (SHA-256): {len(duplicate_groups)}",
+              "",
+              "## Source archives",
+              *[f"- {p.name}" for p in archives],
+              "",
+              "## Structure",
+              "- extracted/: extracted contents, separated by source archive",
+              "- inventory.json: file paths, extensions, sizes, SHA-256 hashes, and duplicate groups",
+              "",
+              "Application assignment is intentionally pending content review; filenames alone are not used to assign assets.",
+              ""
+          ]
+          (out / "README.md").write_text("\n".join(lines), encoding="utf-8")
+          print(f"Extracted {len(records)} files from {len(archives)} archives")
+          print(f"Duplicate content groups: {len(duplicate_groups)}")
+          PY
+
+      - name: Commit extracted package
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages/royal-design-shared-icon-package
+          if git diff --cached --quiet; then
+            echo "No extracted package changes to commit"
+          else
+            git commit -m "Extract independent ROYAL shared icon package"
+            git push origin HEAD:feature/extract-royal-shared-icons
+          fi
