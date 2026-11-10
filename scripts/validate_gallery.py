@@ -57,7 +57,7 @@ def main():
                             root = ET.parse(path).getroot()
                             if not root.tag.lower().endswith("vector"):
                                 errors.append(f"Invalid Android VectorDrawable root: {rel}")
-                            if not any(el.tag.rsplit("}", 1)[-1] == "path" and el.attrib.get("pathData") for el in root.iter()):
+                            if not any(el.tag.rsplit("}", 1)[-1] == "path" and any(name.endswith("pathData") for name in el.attrib) for el in root.iter()):
                                 errors.append(f"Android VectorDrawable has no pathData: {rel}")
                         except ET.ParseError as exc:
                             errors.append(f"Invalid Android XML {rel}: {exc}")
