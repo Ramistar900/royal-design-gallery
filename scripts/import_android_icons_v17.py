@@ -329,7 +329,16 @@ def main() -> None:
     old_v17 = next((item for item in versions if item.get("version") == "V17"), None)
     if not v16 or len(v16.get("icons", [])) != 99:
         raise SystemExit("Expected the preserved V16 source collection with 99 entries.")
-    if not old_v17 or len(old_v17.get("icons", [])) != 22:
+    if not old_v17:
+        raise SystemExit("V17 collection is missing; refusing to create an untracked replacement.")
+    if old_v17.get("slug") == "complete-royal-library":
+        android_subset_path = ANDROID_COLLECTION / "catalog.json"
+        if not android_subset_path.is_file():
+            raise SystemExit("Complete V17 exists but its Android subset catalog is missing.")
+        android_subset = json.loads(android_subset_path.read_text(encoding="utf-8"))
+        if len(android_subset.get("icons", [])) != 22:
+            raise SystemExit("Complete V17 Android subset must contain 22 original icon pairs.")
+    elif len(old_v17.get("icons", [])) != 22:
         raise SystemExit("Expected the original V17 Android collection with 22 entries.")
 
     android_entries = read_archive(ANDROID_ARCHIVE)
