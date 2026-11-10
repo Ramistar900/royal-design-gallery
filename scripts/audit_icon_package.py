@@ -71,8 +71,8 @@ APP_MAP = [
         "app": "Shared ROYAL Design",
         "fit": "shared",
         "source": "store/ and tv/ static icon folders",
-        "scope": "Common actions such as home, back, close, add/remove, check, search, settings, profile, bell, star, heart, calendar, clock, filter, share, wifi, and loading.",
-        "icons": ["home", "back", "close", "add", "remove", "check", "search", "settings", "profile", "bell", "star", "heart", "calendar", "clock", "filter", "share", "wifi", "loading"],
+        "scope": "Actions present in both the store and TV icon families: home, back, close, add/remove, check, search, settings, bell, star, heart, clock, filter, share, wifi, and loading.",
+        "icons": ["home", "back", "close", "add", "remove", "check", "search", "settings", "bell", "star", "heart", "clock", "filter", "share", "wifi", "loading"],
         "states": ["static", "animated"],
         "caveat": "Reference shared files instead of copying them into each application's asset folder."
     }
@@ -222,8 +222,8 @@ def main() -> None:
         "application_map": APP_MAP,
         "shared_control_candidates": [
             "home", "back", "close", "add", "remove", "check", "search",
-            "settings", "profile", "bell", "star", "heart", "calendar",
-            "clock", "filter", "share", "wifi", "loading"
+            "settings", "bell", "star", "heart", "clock", "filter", "share",
+            "wifi", "loading"
         ],
         "royal_audio_media_control_candidates": [
             "play", "pause", "stop", "next", "prev", "forward",
