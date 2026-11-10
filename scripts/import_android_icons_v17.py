@@ -144,6 +144,10 @@ def main():
     html = html.replace("معرض ROYAL Design من V2 إلى V15", "معرض ROYAL Design من V2 إلى V17")
     html = html.replace("المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V15", "المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V17")
     html = html.replace('<option value="3d">3D فقط</option>', '<option value="3d">3D فقط</option><option value="android_xml">Android XML فقط</option>')
+    html = html.replace(".variant img{width:100%;height:104px;object-fit:contain;display:block}", ".variant img{width:100%;height:104px;object-fit:contain;display:block}.xml-preview{height:104px;display:grid;place-items:center;color:#dfbd65;font:750 17px ui-monospace,monospace;direction:ltr;letter-spacing:1px}")
+    html = html.replace(".variant img{height:84px}", ".variant img,.xml-preview{height:84px}")
+    html = html.replace("لكل إصدار لوحة ألوان مستقلة، وتظهر نسختا 2D و3D جنباً إلى جنب. معاينات الحركة اختيارية ولا تستبدل الأيقونات الثابتة. الأصول أصلية ضمن ترخيص ROYAL_ORIGINAL؛ يلزم اختبارها داخل التطبيق قبل اعتماد ربطها الإنتاجي.", "لكل إصدار لوحة ألوان مستقلة. تعرض الإصدارات V2–V16 نسختي 2D و3D، بينما يعرض V17 معاينة SVG وملف Android VectorDrawable XML الأصلي دون تسميته 3D. معاينات الحركة اختيارية. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 محفوظة من الحزمة المعتمدة بترخيص ROYAL_SOURCE_PACKAGE.")
+    html = html.replace("مسارات 2D و3D محفوظة كملفات SVG مستقلة وقابلة للتكبير. ترخيص الأصول الداخلية: ROYAL_ORIGINAL. احتفظ ببيانات المنشأ عند نقل الأيقونات إلى تطبيقات ROYAL.", "ملفات SVG قابلة للتكبير، وملفات Android VectorDrawable الأصلية متاحة للتنزيل في V17. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 ضمن ROYAL_SOURCE_PACKAGE؛ احتفظ ببيانات المنشأ عند إعادة الاستخدام.")
     html = html.replace("function appVersionIsV16(icon){return icon.status==='source_package_preview'}", "function appVersionIsV16(icon){return icon.status==='source_package_preview'}\nfunction makeAndroidXml(icon){const path=icon.variants.android_xml;const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.download=path.split('/').pop();link.setAttribute('aria-label','تحميل Android VectorDrawable XML');link.append(el('div','xml-preview','<vector>'));link.append(el('div','variant-name','Android XML · VectorDrawable'));box.append(link);return box}")
     html = html.replace("const img=el('img');img.src=assetUrl(path);", "const img=el('img');img.src=assetUrl(path);")
     old = "if(styleFilter.value!=='3d')pair.append(makeVariant(icon,'2d'));if(styleFilter.value!=='2d')pair.append(makeVariant(icon,'3d'));"
@@ -159,6 +163,8 @@ def main():
     readme_text = readme_text.replace("14 إصداراً من V2 إلى V15.", "16 إصداراً من V2 إلى V17.")
     readme_text = readme_text.replace("227 مفهوماً فريداً.", f"{len(unique_2d)} مفهوماً فريداً.")
     readme_text = readme_text.replace("227 ملف 2D و227 ملف 3D فريد.", f"{len(unique_2d)} ملف SVG للمعاينة، و{len(unique_3d)} ملف 3D، و{len(icons)} ملف Android XML.")
+    readme_text = readme_text.replace("- لكل مفهوم نسختان **2D** و **3D** متجاورتان.", "- إصدارات V2–V16 تعرض نسختي **2D** و **3D** متجاورتين.\\n- V17 تعرض معاينة **SVG** وملف **Android VectorDrawable XML** الأصلي.")
+    readme_text = readme_text.replace("الأصول أصلية ضمن مكتبة **ROYAL Design** وتحمل ترخيص **ROYAL_ORIGINAL**.", "أصول V2–V16 أصلية ضمن مكتبة **ROYAL Design** وتحمل ترخيص **ROYAL_ORIGINAL**. أصول V17 محفوظة من الحزمة المعتمدة وتحمل ترخيص **ROYAL_SOURCE_PACKAGE**.")
     readme.write_text(readme_text, encoding="utf-8")
     print(f"Imported V17: {len(icons)} matched SVG + Android VectorDrawable pairs.")
     
