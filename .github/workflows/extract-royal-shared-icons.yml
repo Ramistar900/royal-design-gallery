@@ -12,6 +12,7 @@ on:
       - feature/extract-royal-shared-icons
     paths:
       - .github/workflows/extract-royal-shared-icons.yml
+      - scripts/audit_icon_package.py
 
 permissions:
   contents: write
