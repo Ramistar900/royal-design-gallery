@@ -23,16 +23,23 @@ jobs:
         with:
           python-version: "3.12"
       - name: Extract approved Android icon package and update gallery
-        if: startsWith(github.ref, 'refs/heads/feature/')
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/feature/')
         run: python scripts/import_android_icons_v17.py
+      - name: Generate and verify restaurant/TV V2 source index
+        run: |
+          if [[ "${GITHUB_EVENT_NAME}" == "push" && "${GITHUB_REF}" == refs/heads/feature/* ]]; then
+            python scripts/verify_restaurant_tv_v2_index.py --write
+          else
+            python scripts/verify_restaurant_tv_v2_index.py --check
+          fi
       - name: Validate manifest, SVG assets and Android XML
         run: python scripts/validate_gallery.py
       - name: Commit generated V17 gallery assets
-        if: startsWith(github.ref, 'refs/heads/feature/')
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/feature/')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add icons index.html README.md
+          git add icons index.html README.md sources packages scripts
           if ! git diff --cached --quiet; then
             git commit -m "Add ROYAL Android icon gallery V17"
             git push
