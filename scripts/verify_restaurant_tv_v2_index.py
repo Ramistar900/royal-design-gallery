@@ -140,7 +140,7 @@ def main() -> None:
     print("PASS: all 288 SVG group counts match the approved inventory.")
     print("PASS: all 290 original files are extracted byte-for-byte.")
     print("PASS: generated INDEX.txt is present and matches the ZIP inventory.")
-    print("PASS: extracted folder contains exactly 291 files including INDEX.txt.")
+    print("PASS: extracted folder contains exactly 291 files including INDEX.txt (290 ZIP files + 1 generated index).")
 
 
 if __name__ == "__main__":
