@@ -225,7 +225,7 @@ def update_gallery_html(manifest: dict, collection: dict) -> None:
     embedded = json.dumps(manifest, ensure_ascii=False, separators=(",", ":"))
     html, count = re.subn(
         r"const embeddedManifest=(\{.*\});\s*const rootPrefix=",
-        lambda match: "const embeddedManifest=" + embedded + ";\\nconst rootPrefix=",
+        lambda match: "const embeddedManifest=" + embedded + ";\nconst rootPrefix=",
         html,
         count=1,
         flags=re.S
