@@ -18,6 +18,8 @@ APP_MAP = [
         "fit": "primary-candidate",
         "source": "restaurant_tv_3d_icons/icon_pack/store/",
         "scope": "Restaurant and cafe functional icons: menu, food, coffee, cart, orders, delivery, payment, table, profile, and shared controls.",
+        "icons": ["add", "back", "bell", "calendar", "cart", "chat", "check", "clock", "close", "coffee", "delivery", "dessert", "drink", "edit", "filter", "food", "heart", "home", "loading", "location", "login", "logout", "menu", "offer", "orders", "payment", "phone", "profile", "remove", "restaurant", "search", "settings", "share", "star", "table", "trash", "wifi"],
+        "states": ["static", "animated"],
         "caveat": "The pack uses orange/gold glossy tiles, while Almalaki's current visual identity includes emerald elements. Treat as optional library assets; do not replace the current app logo, banners, or established emerald styling."
     },
     {
@@ -25,6 +27,8 @@ APP_MAP = [
         "fit": "primary-candidate",
         "source": "restaurant_tv_3d_icons/icon_pack/tv/",
         "scope": "TV playback, channel navigation, live, guide, remote, cast, source, volume, mute, lock, timer, and common TV controls.",
+        "icons": ["add", "back", "bell", "cast", "channels", "check", "clock", "close", "filter", "forward", "fullscreen", "grid", "guide", "heart", "home", "info", "language", "live", "loading", "lock", "mute", "next", "pause", "play", "power", "prev", "record", "refresh", "remote", "remove", "rewind", "search", "settings", "share", "sleep", "source", "star", "stop", "timer", "volume_down", "volume_up", "wifi"],
+        "states": ["static", "animated"],
         "caveat": "Functional icon set only. It is not a verified ROYAL TV brand logo or complete screen design."
     },
     {
@@ -32,6 +36,8 @@ APP_MAP = [
         "fit": "primary-candidate",
         "source": "restaurant_tv_3d_icons/icon_pack/tv/",
         "scope": "Reuse the same TV controls as ROYAL TV through shared references; do not make a second copy of the source files.",
+        "icons": ["add", "back", "bell", "cast", "channels", "check", "clock", "close", "filter", "forward", "fullscreen", "grid", "guide", "heart", "home", "info", "language", "live", "loading", "lock", "mute", "next", "pause", "play", "power", "prev", "record", "refresh", "remote", "remove", "rewind", "search", "settings", "share", "sleep", "source", "star", "stop", "timer", "volume_down", "volume_up", "wifi"],
+        "states": ["static", "animated"],
         "caveat": "The pack does not contain a dedicated RS TV / Sinjar brand mark, watermark, or channel-country flag system."
     },
     {
@@ -39,6 +45,8 @@ APP_MAP = [
         "fit": "primary",
         "source": "restaurant_tv_launcher_ui_icons/launcher_ui_pack/",
         "scope": "16 launcher navigation/content icons, each supplied as static, animated, and focused states.",
+        "icons": ["apps", "favorites", "guide", "home", "input", "kids", "live_tv", "movies", "music", "notifications", "profile", "recent", "search", "series", "settings", "sports"],
+        "states": ["static", "animated", "focused"],
         "caveat": "This is the strongest direct match in the package. Keep all three states; use focused state for TV remote selection. The duplicate second archive is byte-identical and should be treated as a backup, not a second variant."
     },
     {
@@ -46,6 +54,8 @@ APP_MAP = [
         "fit": "limited-reuse",
         "source": "restaurant_tv_3d_icons/icon_pack/tv/",
         "scope": "Only the media-control subset: play, pause, stop, next, previous, forward, rewind, volume up/down, and mute.",
+        "icons": ["play", "pause", "stop", "next", "prev", "forward", "rewind", "volume_up", "volume_down", "mute"],
+        "states": ["static", "animated"],
         "caveat": "No dedicated ROYAL AUDIO identity, soundscape artwork, or audio-category icon set is present. These are controls only and do not introduce voice/audio content."
     },
     {
@@ -53,6 +63,8 @@ APP_MAP = [
         "fit": "shared-controls-only",
         "source": "restaurant_tv_3d_icons/icon_pack/store/ and icon_pack/tv/",
         "scope": "Potential generic admin controls: settings, profile, login/logout, notifications, search, calendar, clock, check, edit, delete, lock, network, and status controls.",
+        "icons": ["settings", "profile", "login", "logout", "bell", "search", "calendar", "clock", "check", "edit", "trash", "lock", "wifi", "refresh", "info"],
+        "states": ["static", "animated"],
         "caveat": "No dedicated developer, build, release, signing, owner-code, or dashboard icon family is present. Do not present these generic symbols as RAMI branding."
     },
     {
@@ -60,6 +72,8 @@ APP_MAP = [
         "fit": "shared",
         "source": "store/ and tv/ static icon folders",
         "scope": "Common actions such as home, back, close, add/remove, check, search, settings, profile, bell, star, heart, calendar, clock, filter, share, wifi, and loading.",
+        "icons": ["home", "back", "close", "add", "remove", "check", "search", "settings", "profile", "bell", "star", "heart", "calendar", "clock", "filter", "share", "wifi", "loading"],
+        "states": ["static", "animated"],
         "caveat": "Reference shared files instead of copying them into each application's asset folder."
     }
 ]
@@ -252,6 +266,14 @@ def main() -> None:
         "- restaurant_tv_launcher_ui_icons.zip: 16 رمز واجهة بثلاث حالات، بإجمالي 48 SVG.",
         "- restaurant_tv_launcher_ui_icons (1).zip: 48 ملفاً مطابقاً بايتياً للحزمة السابقة؛ أبقيناها كنسخة مصدر احتياطية.",
         "",
+        "## الرموز المحددة لكل تطبيق",
+        "",
+        *[f"### {item['app']} ({len(item.get('icons', []))} رمزاً مرشحاً)",
+          f"- الحالات: {', '.join(item.get('states', []))}",
+          "- " + ", ".join(item.get("icons", [])),
+          f"- ملاحظة: {item['caveat']}", ""]
+          for item in APP_MAP
+        ],
         "## ملاحظات تقنية قبل ربطها بالتطبيقات",
         "",
         "- الأيقونات ذات تأثير 3D هي رسومات SVG بتدرجات وظلال ولمعان، وليست ملفات نماذج ثلاثية الأبعاد.",
