@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -94,8 +95,8 @@ def main():
         "motion_svg": len(unique_motion),
         "focused_svg": len(unique_focused),
         "android_xml": len(android_xml),
-        "v17_entries": 125,
-        "v17_icon_concepts": 117,
+        "v17_entries": 413,
+        "v17_icon_concepts": 405,
     }
     for key, value in expected_totals.items():
         if totals.get(key) != value:
@@ -150,7 +151,7 @@ def main():
                             errors.append(f"Invalid Android XML {xml_rel}: {exc}")
 
             motion_rel = icon.get("motion")
-            if is_v17 and not motion_rel:
+            if is_v17 and icon.get("category") != "restaurant-tv-v2" and not motion_rel:
                 errors.append(f"V17 icon has no motion preview: {icon.get('key')}")
             if motion_rel:
                 if not safe_asset_path(motion_rel):
@@ -194,13 +195,16 @@ def main():
             "launcher-ui": 16,
             "brand-assets": 8,
             "android-system": 22,
+            "restaurant-tv-v2": 288,
         }
-        if len(v17_icons) != 125 or len({icon.get("key") for icon in v17_icons}) != 125:
-            errors.append("V17 must contain exactly 125 unique gallery entries")
+        if len(v17_icons) != 413 or len({icon.get("key") for icon in v17_icons}) != 413:
+            errors.append("V17 must contain exactly 413 unique gallery entries")
         if category_counts != expected_categories:
             errors.append(f"V17 category totals differ: {category_counts}; expected {expected_categories}")
-        if len(v17_icons) - category_counts.get("brand-assets", 0) != 117:
-            errors.append("V17 must contain 117 functional icon concepts plus eight brand assets")
+        if len(v17_icons) - category_counts.get("brand-assets", 0) != 405:
+            errors.append("V17 must contain 405 functional concepts plus eight brand assets")
+        if len(v17_icons) - category_counts.get("brand-assets", 0) - category_counts.get("restaurant-tv-v2", 0) != 117:
+            errors.append("The original V17 must retain its 117 functional concepts")
         native_motion = sum(icon.get("motion_source") == "source_archive_smil" for icon in v17_icons)
         generated_motion = sum(icon.get("motion_source") == "generated_royal_preview" for icon in v17_icons)
         focused_count = sum(bool(icon.get("variants", {}).get("focused")) for icon in v17_icons)
@@ -210,8 +214,48 @@ def main():
                 "V17 motion/focus/XML inventory differs: "
                 f"native={native_motion}, generated={generated_motion}, focused={focused_count}, xml={xml_count}"
             )
-        if sum(bool(icon.get("motion")) for icon in v17_icons) != 125:
-            errors.append("Every V17 entry must expose a motion preview")
+        if sum(bool(icon.get("motion")) for icon in v17_icons if icon.get("category") != "restaurant-tv-v2") != 125:
+            errors.append("The original 125 V17 entries must retain their motion previews")
+
+
+    # Verify the newly imported archive and its byte-for-byte extracted mirror.
+    archive_path = ROOT / "sources" / "restaurant_tv_icons_v2_transparent.zip"
+    extract_root = ROOT / "packages" / "restaurant-tv-icons-v2-transparent" / "extracted"
+    source_catalog_path = ROOT / "icons" / "v17" / "restaurant-tv-icons-v2" / "catalog.json"
+    if not archive_path.is_file():
+        errors.append("Missing original restaurant_tv_icons_v2_transparent.zip")
+    else:
+        try:
+            with zipfile.ZipFile(archive_path) as source_zip:
+                svg_members = [info for info in source_zip.infolist()
+                               if not info.is_dir() and info.filename.lower().endswith(".svg")]
+                basenames = {Path(info.filename).name.lower() for info in source_zip.infolist()
+                             if not info.is_dir()}
+                if len(svg_members) != 288:
+                    errors.append(f"Restaurant/TV V2 archive must contain 288 SVG files; found {len(svg_members)}")
+                if not ({"readme", "readme.md"} & basenames):
+                    errors.append("Restaurant/TV V2 archive is missing README")
+                if "player_ui_description.md" not in basenames:
+                    errors.append("Restaurant/TV V2 archive is missing PLAYER_UI_DESCRIPTION.md")
+                for info in svg_members:
+                    member = Path(*info.filename.replace("\\\\", "/").split("/"))
+                    mirrored = extract_root / member
+                    if not mirrored.is_file():
+                        errors.append(f"Missing extracted archive source: {info.filename}")
+                        continue
+                    if mirrored.read_bytes() != source_zip.read(info):
+                        errors.append(f"Extracted SVG differs from original ZIP entry: {info.filename}")
+        except zipfile.BadZipFile as exc:
+            errors.append(f"Invalid restaurant/TV V2 source ZIP: {exc}")
+    if not source_catalog_path.is_file():
+        errors.append("Missing restaurant/TV V2 source catalog")
+    else:
+        try:
+            source_catalog = json.loads(source_catalog_path.read_text(encoding="utf-8"))
+            if len(source_catalog.get("icons", [])) != 288:
+                errors.append("Restaurant/TV V2 source catalog must contain exactly 288 icons")
+        except json.JSONDecodeError as exc:
+            errors.append(f"Invalid restaurant/TV V2 source catalog: {exc}")
 
     html = HTML_PATH.read_text(encoding="utf-8")
     match = re.search(r"const embeddedManifest=(\{.*\});\s*const rootPrefix=", html, re.S)
