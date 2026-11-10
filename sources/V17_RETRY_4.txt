@@ -1,1 +1,0 @@
-Retry after adjusting VectorDrawable validator to check vector path elements; importer itself verifies pathData.
