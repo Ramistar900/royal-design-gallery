@@ -80,7 +80,7 @@ def main():
                 raise SystemExit(f"Android source is not a VectorDrawable for {key}: {xml_root.tag}")
             if not any(el.tag.rsplit("}", 1)[-1] == "path" for el in svg_root.iter()):
                 raise SystemExit(f"SVG has no path geometry: {key}")
-            if not any(el.tag.rsplit("}", 1)[-1] == "path" and el.attrib.get("pathData") for el in xml_root.iter()):
+            if not any(el.tag.rsplit("}", 1)[-1] == "path" and any(name.endswith("pathData") for name in el.attrib) for el in xml_root.iter()):
                 raise SystemExit(f"Android VectorDrawable has no pathData: {key}")
             svg_rel = f"icons/v17/android-system/svg/{key}.svg"
             xml_rel = f"icons/v17/android-system/drawable/{key}.xml"
