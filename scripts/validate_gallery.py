@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "icons" / "app-collections.json"
 HTML_PATH = ROOT / "index.html"
-EXPECTED_VERSIONS = [f"V{i}" for i in range(2, 17)]
+EXPECTED_VERSIONS = [f"V{i}" for i in range(2, 18)]
 PLACEHOLDERS = {"Video stream", "Stream source", "Audio track", "Fullscreen", "Video player", "Refresh list", "Subtitles"}
 SHAPES = {"path", "rect", "circle", "ellipse", "line", "polyline", "polygon"}
 
@@ -18,36 +18,49 @@ def main():
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     versions = manifest.get("versions", [])
     if [v.get("version") for v in versions] != EXPECTED_VERSIONS:
-        errors.append("Version tabs must be ordered V2 through V15")
+        errors.append("Version tabs must be ordered V2 through V17")
 
     icons = [icon for collection in versions for icon in collection.get("icons", [])]
-    unique_2d = {icon.get("variants", {}).get("2d") for icon in icons}
-    unique_3d = {icon.get("variants", {}).get("3d") for icon in icons}
-    concepts = len(unique_2d)
+    unique_2d = {icon.get("variants", {}).get("2d") for icon in icons if icon.get("variants", {}).get("2d")}
+    unique_3d = {icon.get("variants", {}).get("3d") for icon in icons if icon.get("variants", {}).get("3d")}
+    android_xml = {icon.get("variants", {}).get("android_xml") for icon in icons if icon.get("variants", {}).get("android_xml")}
     totals = manifest.get("totals", {})
     expected = {
         "app_collections": len(versions),
-        "concepts": concepts,
+        "concepts": len(unique_2d),
         "flat_svg": len(unique_2d),
         "dimensional_svg": len(unique_3d),
     }
     for key, value in expected.items():
         if totals.get(key) != value:
             errors.append(f"totals.{key} is {totals.get(key)}, expected {value}")
-    if None in unique_2d or None in unique_3d or len(unique_2d) != len(unique_3d):
-        errors.append("Every unique concept must have one 2D and one 3D variant")
 
     referenced = set()
     for collection in versions:
+        is_v17 = collection.get("version") == "V17"
         keys = [icon.get("key") for icon in collection.get("icons", [])]
         if len(keys) != len(set(keys)):
             errors.append(f"Duplicate icon keys in {collection.get('version')}")
         for icon in collection.get("icons", []):
             variants = icon.get("variants", {})
-            for style in ("2d", "3d"):
+            required_styles = ("2d", "android_xml") if is_v17 else ("2d", "3d")
+            for style in required_styles:
                 rel = variants.get(style)
                 if not rel or rel.startswith("/") or ".." in Path(rel).parts:
                     errors.append(f"Invalid {style} asset path in {collection.get('version')}:{icon.get('key')}")
+                elif style == "android_xml":
+                    path = ROOT / rel
+                    if not path.is_file():
+                        errors.append(f"Missing Android XML asset: {rel}")
+                    else:
+                        try:
+                            root = ET.parse(path).getroot()
+                            if not root.tag.lower().endswith("vector"):
+                                errors.append(f"Invalid Android VectorDrawable root: {rel}")
+                            if not any(el.tag.rsplit("}", 1)[-1] == "path" for el in root.iter()):
+                                errors.append(f"Android VectorDrawable has no pathData: {rel}")
+                        except ET.ParseError as exc:
+                            errors.append(f"Invalid Android XML {rel}: {exc}")
                 else:
                     referenced.add(rel)
             if icon.get("motion"):
@@ -76,7 +89,7 @@ def main():
         except ET.ParseError as exc:
             errors.append(f"Invalid XML/SVG {rel}: {exc}")
             continue
-        if not root.tag.endswith("svg"):
+        if not root.tag.lower().endswith("svg"):
             errors.append(f"Wrong SVG root in {rel}")
         tags = [element.tag.rsplit("}", 1)[-1] for element in root.iter()]
         if not any(tag in SHAPES for tag in tags):
@@ -94,6 +107,9 @@ def main():
     v13 = next((v for v in versions if v.get("version") == "V13"), None)
     if not v13 or not required_v13.issubset({i.get("key") for i in v13.get("icons", [])}):
         errors.append("V13 is missing one or more of its eight RS TV core icons")
+    v17 = next((v for v in versions if v.get("version") == "V17"), None)
+    if not v17 or len(v17.get("icons", [])) != 22 or len(android_xml) < 22:
+        errors.append("V17 must contain all 22 SVG/Android XML source pairs")
 
     html = HTML_PATH.read_text(encoding="utf-8")
     match = re.search(r"const embeddedManifest=(\{.*\});\s*const rootPrefix=", html, re.S)
@@ -113,9 +129,9 @@ def main():
             print(f"FAIL: {error}")
         print(f"Validation failed with {len(errors)} issue(s).")
         return 1
-    print(f"PASS: {len(versions)} versions; {concepts} unique concepts; {len(unique_2d)} 2D and {len(unique_3d)} 3D SVGs.")
+    print(f"PASS: {len(versions)} versions; {len(unique_2d)} SVG concepts; {len(unique_3d)} 3D SVGs; {len(android_xml)} Android VectorDrawables.")
     print(f"PASS: {len(referenced)} referenced SVGs, motion assets, and per-app catalogs exist and validate.")
-    print("PASS: V13 core artwork, SVG geometry, gradient references and embedded manifest are valid.")
+    print("PASS: V13 core artwork, V17 Android XML, SVG geometry, gradient references and embedded manifest are valid.")
     return 0
 
 if __name__ == "__main__":
