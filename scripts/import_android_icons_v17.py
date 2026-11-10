@@ -97,8 +97,7 @@ def verify_archive_mirror(entries: dict[str, bytes], archive_prefix: str, extrac
             continue
         if not name.startswith(archive_prefix):
             raise SystemExit(f"Unexpected archive path: {name}")
-        relative = name[len(archive_prefix):]
-        mirror = PACKAGE / extracted_folder / relative
+        mirror = PACKAGE / extracted_folder / name
         if not mirror.is_file():
             raise SystemExit(f"Missing extracted source matching {name}: {mirror.relative_to(ROOT)}")
         if mirror.read_bytes() != data:
@@ -541,7 +540,8 @@ def main() -> None:
             "motion_previews_total": 125,
             "focused_states": 16,
             "android_vector_drawables": 22,
-            "source_archive_svg_files": 212,
+            "source_archive_svg_files": 236,
+            "unique_source_svg_contents": 212,
             "duplicate_ui_backup_archives": 1
         },
         "icons": icons
