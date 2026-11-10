@@ -40,6 +40,8 @@ LABELS = {
 
 def key_for(path):
     stem = Path(path).stem.lower()
+    if stem.startswith("royal_"):
+        stem = stem[len("royal_"):]
     return re.sub(r"[^a-z0-9]+", "_", stem).strip("_")
 
 def main():
