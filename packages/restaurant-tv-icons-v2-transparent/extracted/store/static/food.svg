@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="1" stop-color="#F5B400"/></linearGradient>
+<radialGradient id="sh"><stop offset="0" stop-color="#000" stop-opacity="0.35"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#FFE08A" stop-opacity="0.6"/><stop offset="1" stop-color="#FFE08A" stop-opacity="0"/></radialGradient>
+</defs>
+
+<ellipse cx="64" cy="108" rx="26" ry="4" fill="url(#sh)"/>
+<g><g transform="translate(64 64)"><g><g transform="translate(-32 -32)"><g transform="translate(0 5)"><path d="M12 30 Q12 14 32 14 Q52 14 52 30 Z" fill="#9A6B00"/><path d="M10 36 H54" fill="none" stroke="#9A6B00" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 42 H52 Q52 50 44 50 H20 Q12 50 12 42 Z" fill="#9A6B00"/></g><path d="M12 30 Q12 14 32 14 Q52 14 52 30 Z" fill="url(#fg)"/><path d="M10 36 H54" fill="none" stroke="url(#fg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 42 H52 Q52 50 44 50 H20 Q12 50 12 42 Z" fill="url(#fg)"/><g opacity="0.35" transform="translate(-1 -1)"><path d="M12 30 Q12 14 32 14 Q52 14 52 30 Z" fill="#FFFFFF"/><path d="M10 36 H54" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 42 H52 Q52 50 44 50 H20 Q12 50 12 42 Z" fill="#FFFFFF"/></g></g></g></g></g>
+</svg>

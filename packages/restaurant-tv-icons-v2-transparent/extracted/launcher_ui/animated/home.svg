@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FF5E6"/><stop offset="1" stop-color="#14B8A6"/></linearGradient>
+<radialGradient id="sh"><stop offset="0" stop-color="#000" stop-opacity="0.35"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#7FF5E6" stop-opacity="0.6"/><stop offset="1" stop-color="#7FF5E6" stop-opacity="0"/></radialGradient>
+</defs>
+<circle cx="64" cy="64" r="56" fill="url(#halo)"><animate attributeName="opacity" values=".55;1;.55" dur="2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></circle>
+<ellipse cx="64" cy="108" rx="26" ry="4" fill="url(#sh)"/>
+<g transform="translate(64 64) scale(1.08) translate(-64 -64)"><g transform="translate(64 64)"><g><animateTransform attributeName="transform" type="scale" values="1;1.03;1" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/><g transform="translate(-32 -32)"><g transform="translate(0 5)"><path d="M12 30 L32 14 L52 30 V50 H12 Z" fill="none" stroke="#0A6158" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M27 50 V38 H37 V50" fill="none" stroke="#0A6158" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M12 30 L32 14 L52 30 V50 H12 Z" fill="none" stroke="url(#fg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M27 50 V38 H37 V50" fill="none" stroke="url(#fg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><g opacity="0.35" transform="translate(-1 -1)"><path d="M12 30 L32 14 L52 30 V50 H12 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M27 50 V38 H37 V50" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></g></g>
+</svg>
