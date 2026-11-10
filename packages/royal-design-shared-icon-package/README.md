@@ -1,7 +1,7 @@
 # ROYAL Design – Shared Icon Package
 
-This is an independent, extracted asset package for the shared ROYAL Design library.
-It is not yet wired into any application and does not replace the existing V2–V15 gallery.
+Independent extracted asset package for the shared ROYAL Design library.
+Not yet wired into any application; existing V2–V15 gallery remains unchanged.
 
 - Source ZIP archives: 5
 - Extracted files: 264
@@ -16,6 +16,6 @@ It is not yet wired into any application and does not replace the existing V2–
 
 ## Structure
 - extracted/: extracted contents, separated by source archive
-- inventory.json: file paths, extensions, sizes, SHA-256 hashes, and duplicate groups
+- inventory.json: paths, extensions, sizes, SHA-256 hashes, duplicate groups
 
-Application assignment is intentionally pending content review; filenames alone are not used to assign assets.
+Application assignment is pending content review; filenames alone are not used to assign assets.
