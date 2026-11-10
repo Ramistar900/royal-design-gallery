@@ -51,9 +51,9 @@
 - settings, profile, login, logout, bell, search, calendar, clock, check, edit, trash, lock, wifi, refresh, info
 - ملاحظة: No dedicated developer, build, release, signing, owner-code, or dashboard icon family is present. Do not present these generic symbols as RAMI branding.
 
-### Shared ROYAL Design (18 رمزاً مرشحاً)
+### Shared ROYAL Design (16 رمزاً مرشحاً)
 - الحالات: static, animated
-- home, back, close, add, remove, check, search, settings, profile, bell, star, heart, calendar, clock, filter, share, wifi, loading
+- home, back, close, add, remove, check, search, settings, bell, star, heart, clock, filter, share, wifi, loading
 - ملاحظة: Reference shared files instead of copying them into each application's asset folder.
 
 ## ملاحظات تقنية قبل ربطها بالتطبيقات
