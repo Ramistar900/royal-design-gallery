@@ -1,1 +1,0 @@
-Retry after supporting namespaced Android pathData attributes.
