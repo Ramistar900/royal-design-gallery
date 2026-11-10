@@ -298,6 +298,26 @@ def main() -> None:
     ]
     (ROOT / "CLASSIFICATION_AR.md").write_text("\n".join(md), encoding="utf-8")
 
+    readme = [
+        "# ROYAL Design - Shared Icon Package",
+        "",
+        "Independent extracted source package. No application code is modified by this package.",
+        "",
+        "- [Arabic application classification](CLASSIFICATION_AR.md)",
+        "- [Machine-readable classification](classification.json)",
+        "- [SVG technical audit](technical-audit.json)",
+        "- [Full source inventory](inventory.json)",
+        "",
+        f"- Source ZIP archives: {len(SOURCE_SETS)}",
+        f"- Extracted SVG files: {len(svg_files)}",
+        f"- Unique SVG contents: {unique_contents}",
+        f"- Exact duplicate-content groups: {len(duplicate_groups)}",
+        "",
+        "Keep the source archive folders intact. Use the classification map as guidance only; integrate assets into an app after UI review and runtime testing.",
+        ""
+    ]
+    (ROOT / "README.md").write_text("\n".join(readme), encoding="utf-8")
+
     print(f"SVG audited: {len(svg_files)}")
     print(f"Unique SVG contents: {unique_contents}")
     print(f"Duplicate-content groups: {len(duplicate_groups)}")
