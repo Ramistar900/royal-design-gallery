@@ -220,7 +220,7 @@ def main():
         except json.JSONDecodeError as exc:
             errors.append(f"Invalid embedded manifest JSON: {exc}")
 
-    for required_js in ("function makeMotionVariant(icon)", "value='motion'", "value='focused'"):
+    for required_js in ("function makeMotionVariant(icon)", 'value="motion"', 'value="focused"'):
         if required_js not in html:
             errors.append(f"Gallery UI is missing required motion/focus support: {required_js}")
     if "pair.append(makeMotionVariant(icon))" not in html:
