@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B3A9E"/><stop offset="1" stop-color="#1E6BFF"/></linearGradient></defs>
+<rect width="320" height="180" rx="16" fill="url(#bg)"/>
+<svg x="18" y="26" width="128" height="128" viewBox="0 0 128 128">
+<defs>
+<linearGradient id="t" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#7FB8FF"/><stop offset="1" stop-color="#1E6BFF"/></linearGradient>
+<radialGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity="0.75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<radialGradient id="s"><stop offset="0" stop-color="#000" stop-opacity="0.32"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="64" cy="122" rx="40" ry="6" fill="url(#s)"/>
+<g>
+<rect x="8" y="10" width="112" height="112" rx="30" fill="#0B3A9E"/>
+<rect x="8" y="6" width="112" height="112" rx="30" fill="url(#t)"/>
+<ellipse cx="64" cy="28" rx="46" ry="22" fill="url(#g)"></ellipse>
+<g transform="translate(64 62)"><g><g transform="translate(-32 -32)"><g transform="translate(0 4)"><circle cx="32" cy="32" r="8" fill="#0B3A9E"/><path d="M18 20 A18 18 0 0 0 18 44 M46 20 A18 18 0 0 1 46 44" fill="none" stroke="#0B3A9E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><circle cx="32" cy="32" r="8" fill="#FFFFFF"/><path d="M18 20 A18 18 0 0 0 18 44 M46 20 A18 18 0 0 1 46 44" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g></g></g>
+</g>
+</svg>
+<text x="300" y="92" text-anchor="end" font-family="sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">التلفاز والقنوات</text>
+<text x="300" y="120" text-anchor="end" font-family="sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.85">بث مباشر وبرامج</text>
+</svg>
