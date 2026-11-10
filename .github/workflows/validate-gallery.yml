@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add icons index.html README.md
+          git add icons index.html README.md sources packages scripts
           if ! git diff --cached --quiet; then
             git commit -m "Add ROYAL Android icon gallery V17"
             git push
