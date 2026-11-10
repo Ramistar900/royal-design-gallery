@@ -8,9 +8,9 @@
     "commercial_use": "Internal use in ROYAL applications is permitted. External redistribution must retain this provenance notice."
   },
   "totals": {
-    "app_collections": 15,
-    "concepts": 326,
-    "flat_svg": 326,
+    "app_collections": 16,
+    "concepts": 348,
+    "flat_svg": 348,
     "dimensional_svg": 326
   },
   "versions": [
@@ -6133,6 +6133,365 @@
             "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package."
           },
           "status": "source_package_preview"
+        }
+      ]
+    },
+    {
+      "version": "V17",
+      "slug": "android-system",
+      "application": "Android · تطبيقات ROYAL",
+      "name_ar": "أيقونات أندرويد",
+      "description_ar": "حزمة النظام الجديدة؛ معاينة SVG وملفات Android VectorDrawable الأصلية",
+      "dimension_styles": [
+        "2d",
+        "android_xml"
+      ],
+      "collection_path": "icons/v17/android-system",
+      "status": "source_package_preview",
+      "accent_policy": "Original source artwork preserved without relabeling Android XML as 3D",
+      "palette": {
+        "primary": "#D7B96D",
+        "secondary": "#168B79",
+        "highlight": "#FFF0B8",
+        "surface": "#35434A"
+      },
+      "used_by": [
+        "Almalaki",
+        "ROYAL TV",
+        "ROYAL+ Launcher",
+        "RS TV",
+        "RAMI Developer"
+      ],
+      "icons": [
+        {
+          "key": "account_circle",
+          "label_ar": "حساب المستخدم",
+          "label_en": "Account Circle",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/account_circle.svg",
+            "android_xml": "icons/v17/android-system/drawable/account_circle.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "android_device",
+          "label_ar": "جهاز أندرويد",
+          "label_en": "Android Device",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/android_device.svg",
+            "android_xml": "icons/v17/android-system/drawable/android_device.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "apps",
+          "label_ar": "التطبيقات",
+          "label_en": "Apps",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/apps.svg",
+            "android_xml": "icons/v17/android-system/drawable/apps.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "arrow_back",
+          "label_ar": "رجوع",
+          "label_en": "Arrow Back",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/arrow_back.svg",
+            "android_xml": "icons/v17/android-system/drawable/arrow_back.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "arrow_forward",
+          "label_ar": "للأمام",
+          "label_en": "Arrow Forward",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/arrow_forward.svg",
+            "android_xml": "icons/v17/android-system/drawable/arrow_forward.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "battery_full",
+          "label_ar": "البطارية",
+          "label_en": "Battery Full",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/battery_full.svg",
+            "android_xml": "icons/v17/android-system/drawable/battery_full.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "bluetooth",
+          "label_ar": "بلوتوث",
+          "label_en": "Bluetooth",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/bluetooth.svg",
+            "android_xml": "icons/v17/android-system/drawable/bluetooth.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "cast",
+          "label_ar": "بث الشاشة",
+          "label_en": "Cast",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/cast.svg",
+            "android_xml": "icons/v17/android-system/drawable/cast.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "download",
+          "label_ar": "تنزيل",
+          "label_en": "Download",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/download.svg",
+            "android_xml": "icons/v17/android-system/drawable/download.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "folder",
+          "label_ar": "المجلدات",
+          "label_en": "Folder",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/folder.svg",
+            "android_xml": "icons/v17/android-system/drawable/folder.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "help",
+          "label_ar": "مساعدة",
+          "label_en": "Help",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/help.svg",
+            "android_xml": "icons/v17/android-system/drawable/help.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "info",
+          "label_ar": "معلومات",
+          "label_en": "Information",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/info.svg",
+            "android_xml": "icons/v17/android-system/drawable/info.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "keyboard",
+          "label_ar": "لوحة المفاتيح",
+          "label_en": "Keyboard",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/keyboard.svg",
+            "android_xml": "icons/v17/android-system/drawable/keyboard.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "menu",
+          "label_ar": "القائمة",
+          "label_en": "Menu",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/menu.svg",
+            "android_xml": "icons/v17/android-system/drawable/menu.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "more_vert",
+          "label_ar": "المزيد",
+          "label_en": "More",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/more_vert.svg",
+            "android_xml": "icons/v17/android-system/drawable/more_vert.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "notifications_active",
+          "label_ar": "الإشعارات",
+          "label_en": "Notifications Active",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/notifications_active.svg",
+            "android_xml": "icons/v17/android-system/drawable/notifications_active.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "qr_code",
+          "label_ar": "رمز QR",
+          "label_en": "QR Code",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/qr_code.svg",
+            "android_xml": "icons/v17/android-system/drawable/qr_code.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "refresh",
+          "label_ar": "تحديث",
+          "label_en": "Refresh",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/refresh.svg",
+            "android_xml": "icons/v17/android-system/drawable/refresh.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "screen_share",
+          "label_ar": "مشاركة الشاشة",
+          "label_en": "Screen Share",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/screen_share.svg",
+            "android_xml": "icons/v17/android-system/drawable/screen_share.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "tune",
+          "label_ar": "الضبط",
+          "label_en": "Tune",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/tune.svg",
+            "android_xml": "icons/v17/android-system/drawable/tune.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "warning",
+          "label_ar": "تحذير",
+          "label_en": "Warning",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/warning.svg",
+            "android_xml": "icons/v17/android-system/drawable/warning.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
+        },
+        {
+          "key": "wifi",
+          "label_ar": "واي فاي",
+          "label_en": "Wi-Fi",
+          "variants": {
+            "2d": "icons/v17/android-system/svg/wifi.svg",
+            "android_xml": "icons/v17/android-system/drawable/wifi.xml"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG and Android VectorDrawable assets preserved from the user's approved ROYAL_Android_Icons_v2.zip archive."
+          },
+          "status": "android_vector_preview"
         }
       ]
     }
