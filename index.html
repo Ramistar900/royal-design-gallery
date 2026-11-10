@@ -24,25 +24,25 @@ h2{font-size:21px;color:var(--gold);margin:0 0 5px}.sub{color:var(--muted);font-
 .card{border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#25241f,#181816);padding:12px;min-width:0}
 .card-title{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}.label{font-weight:750}.key{font:12px ui-monospace,monospace;color:#e7c96f;direction:ltr;text-align:left;overflow-wrap:anywhere}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.variant{min-width:0;border:1px solid #34332d;background:#11110f;border-radius:12px;padding:7px;text-align:center}
-.variant img{width:100%;height:104px;object-fit:contain;display:block}.xml-preview{height:104px;display:grid;place-items:center;color:#dfbd65;font:750 17px ui-monospace,monospace;direction:ltr;letter-spacing:1px}.variant-name{font-size:12px;color:var(--muted);margin-top:3px}
+.variant img{width:100%;height:104px;object-fit:contain;display:block}.motion-frame{width:100%;height:104px;border:0;border-radius:8px;background:transparent;display:block;overflow:hidden}.motion-controls{margin-top:7px}.motion-controls button{width:100%;border:1px solid #65552b;background:#302b1d;color:#f3df9d;padding:7px 8px;border-radius:8px;font:12px system-ui;cursor:pointer}.motion-controls button:disabled{opacity:.55;cursor:wait}.xml-preview{height:104px;display:grid;place-items:center;color:#dfbd65;font:750 17px ui-monospace,monospace;direction:ltr;letter-spacing:1px}.variant-name{font-size:12px;color:var(--muted);margin-top:3px}
 .variant a{display:block;color:inherit;text-decoration:none}.variant a:focus,.app:focus,input:focus,select:focus,button:focus{outline:2px solid var(--gold);outline-offset:2px}
 .actions{display:flex;gap:7px;margin-top:10px}.actions a,.actions button{flex:1;text-align:center;border:1px solid #51452b;background:#302b1d;color:#f3df9d;padding:8px 5px;border-radius:9px;text-decoration:none;font:12px system-ui;cursor:pointer}
 .empty{text-align:center;padding:40px 12px;color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:28px;color:var(--muted);font-size:12px;line-height:1.8}
-@media(max-width:520px){header,main,footer{padding-left:13px;padding-right:13px}.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:8px}.variant img,.xml-preview{height:84px}.card-title{display:block}.key{margin-top:5px;font-size:10px}.actions{gap:5px}.actions a,.actions button{font-size:11px}}
+@media(max-width:520px){header,main,footer{padding-left:13px;padding-right:13px}.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:8px}.variant img,.motion-frame,.xml-preview{height:84px}.card-title{display:block}.key{margin-top:5px;font-size:10px}.actions{gap:5px}.actions a,.actions button{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
 <header>
 <h1>ROYAL Design</h1>
-<p>معرض ROYAL Design من V2 إلى V17. تضم V17 مكتبة كاملة من 125 بطاقة، وتظهر معاينة الحركة داخل البطاقة مباشرة.</p>
+<p>مكتبة ROYAL Design تضم 500 بطاقة موزعة على 16 إصداراً، مع 352 أصلاً ثابتاً فريداً و178 ملف حركة. ابدأ من «كل المكتبة» أو افتح أي إصدار على حدة؛ وتضم V17 وحدها 125 بطاقة.</p>
 <div class="stats" id="stats"><span class="stat">تحميل الفهرس…</span></div>
 <div class="toolbar">
 <input id="search" type="search" placeholder="ابحث بالاسم أو المفتاح…" aria-label="البحث عن أيقونة">
 <select id="styleFilter" aria-label="تصفية النمط"><option value="all">عرض جميع النسخ المتاحة</option><option value="2d">الأصل الثابت · 2D</option><option value="3d">3D · للإصدارات السابقة</option><option value="motion">الحركة فقط</option><option value="focused">حالة التركيز</option><option value="android_xml">Android XML فقط</option></select>
 </div>
 <nav class="apps" id="apps" aria-label="اختيار التطبيق"></nav>
-<div class="note">يشمل المعرض المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V17. لكل إصدار لوحة ألوان مستقلة. تعرض الإصدارات V2–V16 نسختي 2D و3D، بينما يعرض V17 معاينة SVG وملف Android VectorDrawable XML الأصلي دون تسميته 3D. معاينات الحركة اختيارية. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 محفوظة من الحزمة المعتمدة بترخيص ROYAL_SOURCE_PACKAGE.</div>
+<div class="note">يشمل المعرض المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V17. لكل إصدار لوحة ألوان مستقلة. تعرض الإصدارات V2–V16 نسختي 2D و3D، بينما يعرض V17 معاينة SVG وملف Android VectorDrawable XML الأصلي دون تسميته 3D. ابدأ من تبويب «كل المكتبة» لمشاهدة جميع البطاقات عبر الإصدارات، واستخدم مرشح «الحركة فقط» لعرض ملفات SVG المتحركة. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 محفوظة من الحزمة المعتمدة بترخيص ROYAL_SOURCE_PACKAGE.</div>
 </header>
 <main>
 <section class="collection-head">
@@ -70,53 +70,131 @@ const description=document.getElementById('collectionDescription');
 const palette=document.getElementById('palette');
 const status=document.getElementById('collectionStatus');
 const empty=document.getElementById('empty');
-let collections=[],active=0;
+let collections=[],active=-1;
 function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node}
 function assetUrl(path){return rootPrefix+path}
 function copyText(value,button){const prior=button.textContent;const done=()=>{button.textContent='تم النسخ ✓';setTimeout(()=>button.textContent=prior,1000)};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(value).then(done).catch(()=>fallback())}else fallback();function fallback(){const t=document.createElement('textarea');t.value=value;document.body.append(t);t.select();try{document.execCommand('copy');done()}finally{t.remove()}}}
-function renderNav(){appNav.innerHTML='';collections.forEach((app,i)=>{const b=el('button','app',app.version+' · '+app.name_ar);b.type='button';b.setAttribute('aria-pressed',String(i===active));b.addEventListener('click',()=>{active=i;renderNav();render()});appNav.append(b)})}
+function totalGalleryEntries(){return collections.reduce((n,a)=>n+a.icons.length,0)}
+function renderNav(){
+appNav.innerHTML='';
+const all=el('button','app','كل المكتبة · '+totalGalleryEntries()+' بطاقة');
+all.type='button';all.setAttribute('aria-pressed',String(active===-1));
+all.addEventListener('click',()=>{active=-1;renderNav();render()});appNav.append(all);
+collections.forEach((app,i)=>{const b=el('button','app',app.version+' · '+app.name_ar+' ('+app.icons.length+')');b.type='button';b.setAttribute('aria-pressed',String(i===active));b.addEventListener('click',()=>{active=i;renderNav();render()});appNav.append(b)})
+}
 function appVersionIsV16(icon){return icon.status==='source_package_preview'}
 function makeAndroidXml(icon){const path=icon.variants.android_xml;const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.download=path.split('/').pop();link.setAttribute('aria-label','تحميل Android VectorDrawable XML');link.append(el('div','xml-preview','<vector>'));link.append(el('div','variant-name','Android XML · VectorDrawable'));box.append(link);return box}
-function makeVariant(icon,style){const path=icon.variants[style];const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.target='_blank';link.rel='noopener';const img=el('img');img.src=assetUrl(path);img.alt=icon.label_ar+' — '+style.toUpperCase();img.loading='lazy';img.onerror=()=>{img.alt='تعذرت معاينة الأصل';img.style.opacity='.25'};link.append(img);const label=style==='focused'?'حالة التركيز · Focused':(appVersionIsV16(icon)?(style==='2d'?'ثابت · Static':'متحرك · Animated'):(style==='2d'?'2D · ثابت':style.toUpperCase()));link.append(el('div','variant-name',label));box.append(link);return box}
-function makeMotionVariant(icon){const path=icon.motion;const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.target='_blank';link.rel='noopener';const img=el('img');img.src=assetUrl(path);img.alt=icon.label_ar+' — motion';img.loading='lazy';img.onerror=()=>{img.alt='تعذرت معاينة الحركة';img.style.opacity='.25'};link.append(img);link.append(el('div','variant-name',icon.motion_source==='generated_royal_preview'?'حركة ROYAL خفيفة':'حركة أصلية · SMIL'));box.append(link);return box}
+function makeVariant(icon,style){
+const path=icon.variants[style];if(!path)return null;
+const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.target='_blank';link.rel='noopener';
+const img=el('img');img.src=assetUrl(path);img.alt=icon.label_ar+' — '+style.toUpperCase();img.loading='lazy';
+img.onerror=()=>{img.alt='تعذرت معاينة الأصل';img.style.opacity='.25'};
+link.append(img);
+const label=style==='focused'?'حالة التركيز · Focused':(appVersionIsV16(icon)?(style==='2d'?'ثابت · Static':'متحرك · Animated'):(style==='2d'?'2D · ثابت':style.toUpperCase()));
+link.append(el('div','variant-name',label));box.append(link);return box
+}
+function makeMotionVariant(icon){
+const path=icon.motion;const box=el('div','variant motion-variant');
+const frame=el('iframe','motion-frame');frame.src=assetUrl(path);frame.title=icon.label_ar+' — معاينة الحركة';
+frame.loading='lazy';frame.setAttribute('scrolling','no');frame.setAttribute('referrerpolicy','no-referrer');
+const label=el('div','variant-name',icon.motion_source==='generated_royal_preview'?'حركة ROYAL خفيفة':'حركة أصلية · SMIL');
+const controls=el('div','motion-controls');const toggle=el('button','','تحميل الحركة…');toggle.type='button';toggle.disabled=true;
+let paused=false;
+function getSvgRoot(){try{const doc=frame.contentDocument;return doc&&doc.documentElement}catch(_){return null}}
+frame.addEventListener('load',()=>{
+const svg=getSvgRoot();
+if(svg&&typeof svg.pauseAnimations==='function'&&typeof svg.unpauseAnimations==='function'){
+if(paused)svg.pauseAnimations();else svg.unpauseAnimations();
+toggle.disabled=false;toggle.textContent=paused?'تشغيل الحركة':'إيقاف الحركة'
+}else{toggle.disabled=true;toggle.textContent='تعذر التحكم بالحركة'}
+});
+toggle.addEventListener('click',()=>{
+const svg=getSvgRoot();if(!svg||typeof svg.pauseAnimations!=='function'||typeof svg.unpauseAnimations!=='function')return;
+paused=!paused;if(paused)svg.pauseAnimations();else svg.unpauseAnimations();
+toggle.textContent=paused?'تشغيل الحركة':'إيقاف الحركة'
+});
+controls.append(toggle);box.append(frame,label,controls);return box
+}
+function addMotionToggle(card,icon){
+const button=el('button','','معاينة الحركة');button.type='button';button.setAttribute('aria-expanded','false');
+button.addEventListener('click',()=>{
+const current=card.querySelector('.motion-variant');
+if(current){current.remove();button.textContent='معاينة الحركة';button.setAttribute('aria-expanded','false')}
+else{card.append(makeMotionVariant(icon));button.textContent='إخفاء الحركة';button.setAttribute('aria-expanded','true')}
+});
+return button
+}
 function render(){
-const app=collections[active];if(!app)return;
-const isV17=app.version==='V17';
-for(const option of styleFilter.options){if(option.value==='3d')option.hidden=isV17;if(['motion','focused','android_xml'].includes(option.value))option.hidden=!isV17}
+const allMode=active===-1;const app=allMode?null:collections[active];if(!allMode&&!app)return;
+const isV17=!allMode&&app.version==='V17';
+for(const option of styleFilter.options){
+if(allMode)option.hidden=false;
+else if(option.value==='3d')option.hidden=isV17;
+else if(['motion','focused','android_xml'].includes(option.value))option.hidden=!isV17
+}
 if(isV17&&styleFilter.value==='3d')styleFilter.value='all';
-if(!isV17&&['motion','focused','android_xml'].includes(styleFilter.value))styleFilter.value='all';
-title.textContent=app.version+' · '+app.name_ar;
-description.textContent=app.application+' — '+app.description_ar+' · ضمن: '+(app.used_by||[]).join('، ');
-status.textContent=isV17?'ROYAL DESIGN · '+app.icons.length+' بطاقة · 117 أيقونة وظيفية':'ROYAL ORIGINAL · '+app.icons.length+' مفاهيم';
-palette.innerHTML='';const paletteLabels={primary:'أساسي',secondary:'مساند',highlight:'إضاءة',surface:'خلفية'};
-Object.entries(app.palette||{}).forEach(([role,color])=>{const item=el('span','swatch');const dot=el('span','swatch-dot');dot.style.background=color;const label=el('span','',paletteLabels[role]||role);item.append(dot,label);item.title=color;palette.append(item)});
-grid.innerHTML='';let count=0;const q=search.value.trim().toLocaleLowerCase();
-for(const icon of app.icons){
-const searchable=(icon.key+' '+icon.label_ar+' '+icon.label_en).toLocaleLowerCase();if(q&&!searchable.includes(q))continue;
-count++;const card=el('article','card');const heading=el('div','card-title');heading.append(el('div','label',icon.label_ar+' · '+icon.label_en));heading.append(el('div','key',icon.key+(icon.shared_from?' · '+icon.shared_from+' مشترك':'')));card.append(heading);
+if(!allMode&&!isV17&&['motion','focused','android_xml'].includes(styleFilter.value))styleFilter.value='all';
+const total=totalGalleryEntries();
+const uniqueMotion=new Set(collections.flatMap(a=>a.icons.filter(i=>i.motion).map(i=>i.motion))).size;
+title.textContent=allMode?'المكتبة الملكية الكاملة':app.version+' · '+app.name_ar;
+description.textContent=allMode?'جميع البطاقات من V2 إلى V17، مع تمييز إصدار ومجموعة كل أصل. اختر «الحركة فقط» لعرض كل المعاينات المتحركة.':app.application+' — '+app.description_ar+' · ضمن: '+(app.used_by||[]).join('، ');
+status.textContent=allMode?total+' بطاقة · '+collections.length+' إصداراً · '+uniqueMotion+' ملف حركة':(isV17?'ROYAL DESIGN · '+app.icons.length+' بطاقة · 117 أيقونة وظيفية':'ROYAL ORIGINAL · '+app.icons.length+' مفاهيم');
+palette.innerHTML='';
+const paletteSource=allMode?{primary:'#D7B96D',secondary:'#168B79',highlight:'#FFF0B8',surface:'#35434A'}:(app.palette||{});
+const paletteLabels={primary:'أساسي',secondary:'مساند',highlight:'إضاءة',surface:'خلفية'};
+Object.entries(paletteSource).forEach(([role,color])=>{const item=el('span','swatch');const dot=el('span','swatch-dot');dot.style.background=color;const label=el('span','',paletteLabels[role]||role);item.append(dot,label);item.title=color;palette.append(item)});
+const entries=allMode?collections.flatMap(collection=>collection.icons.map(icon=>Object.assign({},icon,{_version:collection.version,_collectionName:collection.name_ar,_collectionPath:collection.collection_path}))):app.icons.map(icon=>Object.assign({},icon,{_version:app.version,_collectionName:app.name_ar,_collectionPath:app.collection_path}));
+grid.innerHTML='';let count=0;const q=search.value.trim().toLocaleLowerCase();const filter=styleFilter.value;
+for(const icon of entries){
+const searchable=(icon.key+' '+icon.label_ar+' '+icon.label_en+' '+icon._version+' '+icon._collectionName).toLocaleLowerCase();
+if(q&&!searchable.includes(q))continue;
+if(allMode){
+if(filter==='motion'&&!icon.motion)continue;
+if(filter==='focused'&&!icon.variants.focused)continue;
+if(filter==='android_xml'&&!icon.variants.android_xml)continue;
+if(filter==='3d'&&!icon.variants['3d'])continue;
+if(filter==='2d'&&!icon.variants['2d'])continue
+}
+count++;
+const card=el('article','card');const heading=el('div','card-title');
+heading.append(el('div','label',(allMode?icon._version+' · '+icon._collectionName+' · ':'')+icon.label_ar+' · '+icon.label_en));
+heading.append(el('div','key',icon.key+(icon.shared_from?' · '+icon.shared_from+' مشترك':'')));card.append(heading);
 const pair=el('div',isV17?'pair v17':'pair');
-if(isV17){
+if(allMode){
 pair.style.gridTemplateColumns='repeat(auto-fit,minmax(105px,1fr))';
-const filter=styleFilter.value;
+if(filter==='motion')pair.append(makeMotionVariant(icon));
+else if(filter==='focused')pair.append(makeVariant(icon,'focused'));
+else if(filter==='android_xml')pair.append(makeAndroidXml(icon));
+else if(filter==='3d')pair.append(makeVariant(icon,'3d'));
+else if(filter==='2d')pair.append(makeVariant(icon,'2d'));
+else{if(icon.variants['2d'])pair.append(makeVariant(icon,'2d'));if(icon.variants['3d'])pair.append(makeVariant(icon,'3d'))}
+}else if(isV17){
+pair.style.gridTemplateColumns='repeat(auto-fit,minmax(105px,1fr))';
 if(filter==='all'||filter==='2d')pair.append(makeVariant(icon,'2d'));
 if(icon.motion&&(filter==='all'||filter==='motion'))pair.append(makeMotionVariant(icon));
 if(icon.variants.focused&&(filter==='all'||filter==='focused'))pair.append(makeVariant(icon,'focused'));
-if(icon.variants.android_xml&&(filter==='all'||filter==='android_xml'))pair.append(makeAndroidXml(icon));
+if(icon.variants.android_xml&&(filter==='all'||filter==='android_xml'))pair.append(makeAndroidXml(icon))
 }else{
-if(styleFilter.value!=='3d'&&styleFilter.value!=='android_xml')pair.append(makeVariant(icon,'2d'));
-if(styleFilter.value!=='2d'&&styleFilter.value!=='android_xml')pair.append(makeVariant(icon,'3d'));
+if((filter==='all'||filter==='2d')&&icon.variants['2d'])pair.append(makeVariant(icon,'2d'));
+if((filter==='all'||filter==='3d')&&icon.variants['3d'])pair.append(makeVariant(icon,'3d'))
 }
-card.append(pair);const actions=el('div','actions');const copy=el('button','','نسخ المفتاح');copy.type='button';copy.addEventListener('click',()=>copyText(icon.key,copy));actions.append(copy);
-if(icon.motion){const motion=el('a','',isV17?'فتح ملف الحركة':'معاينة الحركة');motion.href=assetUrl(icon.motion);motion.target='_blank';motion.rel='noopener';actions.append(motion)}
-const details=el('a','','ملف الفهرس');details.href=assetUrl(app.collection_path+'/catalog.json');details.target='_blank';details.rel='noopener';actions.append(details);card.append(actions);grid.append(card)
+card.append(pair);
+const actions=el('div','actions');const copy=el('button','','نسخ المفتاح');copy.type='button';copy.addEventListener('click',()=>copyText(icon.key,copy));actions.append(copy);
+if(icon.motion&&(allMode||!isV17))actions.append(addMotionToggle(card,icon));
+const details=el('a','','ملف الفهرس');details.href=assetUrl(icon._collectionPath+'/catalog.json');details.target='_blank';details.rel='noopener';actions.append(details);
+card.append(actions);grid.append(card)
 }
 empty.hidden=count!==0
 }
 function init(){
 collections=embeddedManifest.versions||[];
 const total=collections.reduce((n,a)=>n+a.icons.length,0);
+const unique2d=new Set(collections.flatMap(a=>a.icons.map(i=>i.variants['2d']).filter(Boolean))).size;
+const unique3d=new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants['3d']).map(i=>i.variants['3d']))).size;
+const uniqueMotion=new Set(collections.flatMap(a=>a.icons.filter(i=>i.motion).map(i=>i.motion))).size;
+const androidXml=new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants.android_xml).map(i=>i.variants.android_xml))).size;
 stats.innerHTML='';
-[collections.length+' إصداراً',total+' بطاقة',new Set(collections.flatMap(a=>a.icons.map(i=>i.variants['2d']))).size+' أصل 2D',new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants['3d']).map(i=>i.variants['3d']))).size+' نسخة 3D',new Set(collections.flatMap(a=>a.icons.filter(i=>i.motion).map(i=>i.motion))).size+' ملف حركة',new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants.android_xml).map(i=>i.variants.android_xml))).size+' Android XML'].forEach(v=>stats.append(el('span','stat',v)));
+[collections.length+' إصداراً',total+' بطاقة في المكتبة',unique2d+' أصل 2D فريد',unique3d+' نسخة 3D',uniqueMotion+' ملف حركة',androidXml+' Android XML'].forEach(v=>stats.append(el('span','stat',v)));
 renderNav();render()
 }
 search.addEventListener('input',render);styleFilter.addEventListener('change',render);init();

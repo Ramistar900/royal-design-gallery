@@ -225,6 +225,18 @@ def main():
             errors.append(f"Gallery UI is missing required motion/focus support: {required_js}")
     if "pair.append(makeMotionVariant(icon))" not in html:
         errors.append("V17 animated SVG previews are not rendered inline in icon cards")
+
+    gallery_ui_checks = {
+        "all-library view is the default": "let collections=[],active=-1;" in html and "const allMode=active===-1;" in html,
+        "all-library navigation tab": "كل المكتبة" in html,
+        "motion previews use embedded SVG documents": "el('iframe','motion-frame')" in html,
+        "SMIL pause and resume controls": "pauseAnimations" in html and "unpauseAnimations" in html,
+        "lazy-loaded motion previews": "frame.loading='lazy'" in html,
+        "motion-only filter covers all collections": "if(filter==='motion'&&!icon.motion)continue" in html,
+    }
+    for label, passed in gallery_ui_checks.items():
+        if not passed:
+            errors.append(f"Gallery UI check failed: {label}")
     if "../../" in html:
         errors.append("index.html contains a relative path outside the gallery root")
 
@@ -234,7 +246,9 @@ def main():
         print(f"Validation failed with {len(errors)} issue(s).")
         return 1
 
-    print(f"PASS: {len(versions)} versions; {len(unique_2d)} unique SVG sources; {len(unique_3d)} 3D variants.")
+    total_entries = sum(len(version.get("icons", [])) for version in versions)
+    print(f"PASS: {total_entries} gallery entries across {len(versions)} versions; all-library view is the default.")
+    print(f"PASS: {len(unique_2d)} unique 2D SVG sources; {len(unique_3d)} 3D variants.")
     print(f"PASS: {len(unique_motion)} motion files; {len(unique_focused)} focused states; {len(android_xml)} Android VectorDrawables.")
     print("PASS: V17 has 125 entries (117 functional icons + 8 brand assets), and every motion file contains SMIL animation.")
     print("PASS: V17 has 95 original SMIL animations, 30 generated motion previews, 16 focused states, and 22 Android XML assets.")

@@ -220,11 +220,12 @@ def copy_original_android_assets(android_entries: dict[str, bytes]) -> list[dict
 
 
 def update_gallery_html(manifest: dict, collection: dict) -> None:
+    """Refresh embedded catalog data without replacing the reviewed gallery UI."""
     html = HTML.read_text(encoding="utf-8")
     embedded = json.dumps(manifest, ensure_ascii=False, separators=(",", ":"))
     html, count = re.subn(
         r"const embeddedManifest=(\{.*\});\s*const rootPrefix=",
-        lambda match: "const embeddedManifest=" + embedded + ";\nconst rootPrefix=",
+        lambda match: "const embeddedManifest=" + embedded + ";\\nconst rootPrefix=",
         html,
         count=1,
         flags=re.S
@@ -233,92 +234,14 @@ def update_gallery_html(manifest: dict, collection: dict) -> None:
         raise SystemExit("Could not refresh the embedded manifest in index.html.")
 
     html, count = re.subn(
-        r"<p>معرض ROYAL Design.*?</p>",
-        "<p>معرض ROYAL Design من V2 إلى V17. تضم V17 مكتبة كاملة من 125 بطاقة، وتظهر معاينة الحركة داخل البطاقة مباشرة.</p>",
+        r"<p>مكتبة ROYAL Design.*?</p>",
+        "<p>مكتبة ROYAL Design تضم 500 بطاقة موزعة على 16 إصداراً، مع 352 أصلاً ثابتاً فريداً و178 ملف حركة. ابدأ من «كل المكتبة» أو افتح أي إصدار على حدة؛ وتضم V17 وحدها 125 بطاقة.</p>",
         html,
         count=1,
         flags=re.S
     )
     if count != 1:
         raise SystemExit("Could not update the gallery introduction.")
-
-    html, count = re.subn(
-        r'<select id="styleFilter".*?</select>',
-        '<select id="styleFilter" aria-label="تصفية النمط">'
-        '<option value="all">عرض جميع النسخ المتاحة</option>'
-        '<option value="2d">الأصل الثابت · 2D</option>'
-        '<option value="3d">3D · للإصدارات السابقة</option>'
-        '<option value="motion">الحركة فقط</option>'
-        '<option value="focused">حالة التركيز</option>'
-        '<option value="android_xml">Android XML فقط</option>'
-        '</select>',
-        html,
-        count=1,
-        flags=re.S
-    )
-    if count != 1:
-        raise SystemExit("Could not update gallery style filters.")
-
-    old_variant = re.compile(r"function makeVariant\(icon,style\)\{.*?\}\nfunction render\(\)\{", re.S)
-    new_variant = """function makeVariant(icon,style){const path=icon.variants[style];const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.target='_blank';link.rel='noopener';const img=el('img');img.src=assetUrl(path);img.alt=icon.label_ar+' — '+style.toUpperCase();img.loading='lazy';img.onerror=()=>{img.alt='تعذرت معاينة الأصل';img.style.opacity='.25'};link.append(img);const label=style==='focused'?'حالة التركيز · Focused':(appVersionIsV16(icon)?(style==='2d'?'ثابت · Static':'متحرك · Animated'):(style==='2d'?'2D · ثابت':style.toUpperCase()));link.append(el('div','variant-name',label));box.append(link);return box}
-function makeMotionVariant(icon){const path=icon.motion;const box=el('div','variant');const link=el('a');link.href=assetUrl(path);link.target='_blank';link.rel='noopener';const img=el('img');img.src=assetUrl(path);img.alt=icon.label_ar+' — motion';img.loading='lazy';img.onerror=()=>{img.alt='تعذرت معاينة الحركة';img.style.opacity='.25'};link.append(img);link.append(el('div','variant-name',icon.motion_source==='generated_royal_preview'?'حركة ROYAL خفيفة':'حركة أصلية · SMIL'));box.append(link);return box}
-function render(){"""
-    html, count = old_variant.subn(lambda match: new_variant, html, count=1)
-    if count != 1:
-        raise SystemExit("Could not install inline SVG motion preview renderer.")
-
-    render_pattern = re.compile(r"function render\(\)\{.*?\}\nfunction init\(\)\{", re.S)
-    render_replacement = """function render(){
-const app=collections[active];if(!app)return;
-const isV17=app.version==='V17';
-for(const option of styleFilter.options){if(option.value==='3d')option.hidden=isV17;if(['motion','focused','android_xml'].includes(option.value))option.hidden=!isV17}
-if(isV17&&styleFilter.value==='3d')styleFilter.value='all';
-if(!isV17&&['motion','focused','android_xml'].includes(styleFilter.value))styleFilter.value='all';
-title.textContent=app.version+' · '+app.name_ar;
-description.textContent=app.application+' — '+app.description_ar+' · ضمن: '+(app.used_by||[]).join('، ');
-status.textContent=isV17?'ROYAL DESIGN · '+app.icons.length+' بطاقة · 117 أيقونة وظيفية':'ROYAL ORIGINAL · '+app.icons.length+' مفاهيم';
-palette.innerHTML='';const paletteLabels={primary:'أساسي',secondary:'مساند',highlight:'إضاءة',surface:'خلفية'};
-Object.entries(app.palette||{}).forEach(([role,color])=>{const item=el('span','swatch');const dot=el('span','swatch-dot');dot.style.background=color;const label=el('span','',paletteLabels[role]||role);item.append(dot,label);item.title=color;palette.append(item)});
-grid.innerHTML='';let count=0;const q=search.value.trim().toLocaleLowerCase();
-for(const icon of app.icons){
-const searchable=(icon.key+' '+icon.label_ar+' '+icon.label_en).toLocaleLowerCase();if(q&&!searchable.includes(q))continue;
-count++;const card=el('article','card');const heading=el('div','card-title');heading.append(el('div','label',icon.label_ar+' · '+icon.label_en));heading.append(el('div','key',icon.key+(icon.shared_from?' · '+icon.shared_from+' مشترك':'')));card.append(heading);
-const pair=el('div',isV17?'pair v17':'pair');
-if(isV17){
-pair.style.gridTemplateColumns='repeat(auto-fit,minmax(105px,1fr))';
-const filter=styleFilter.value;
-if(filter==='all'||filter==='2d')pair.append(makeVariant(icon,'2d'));
-if(icon.motion&&(filter==='all'||filter==='motion'))pair.append(makeMotionVariant(icon));
-if(icon.variants.focused&&(filter==='all'||filter==='focused'))pair.append(makeVariant(icon,'focused'));
-if(icon.variants.android_xml&&(filter==='all'||filter==='android_xml'))pair.append(makeAndroidXml(icon));
-}else{
-if(styleFilter.value!=='3d'&&styleFilter.value!=='android_xml')pair.append(makeVariant(icon,'2d'));
-if(styleFilter.value!=='2d'&&styleFilter.value!=='android_xml')pair.append(makeVariant(icon,'3d'));
-}
-card.append(pair);const actions=el('div','actions');const copy=el('button','','نسخ المفتاح');copy.type='button';copy.addEventListener('click',()=>copyText(icon.key,copy));actions.append(copy);
-if(icon.motion){const motion=el('a','',isV17?'فتح ملف الحركة':'معاينة الحركة');motion.href=assetUrl(icon.motion);motion.target='_blank';motion.rel='noopener';actions.append(motion)}
-const details=el('a','','ملف الفهرس');details.href=assetUrl(app.collection_path+'/catalog.json');details.target='_blank';details.rel='noopener';actions.append(details);card.append(actions);grid.append(card)
-}
-empty.hidden=count!==0
-}
-function init(){"""
-    html, count = render_pattern.subn(lambda match: render_replacement, html, count=1)
-    if count != 1:
-        raise SystemExit("Could not update gallery renderer.")
-
-    stats_pattern = re.compile(
-        r"\[collections\.length\+' إصداراً'.*?' Android XML'\]"
-    )
-    stats_replacement = (
-        "[collections.length+' إصداراً',total+' بطاقة',"
-        "new Set(collections.flatMap(a=>a.icons.map(i=>i.variants['2d']))).size+' أصل 2D',"
-        "new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants['3d']).map(i=>i.variants['3d']))).size+' نسخة 3D',"
-        "new Set(collections.flatMap(a=>a.icons.filter(i=>i.motion).map(i=>i.motion))).size+' ملف حركة',"
-        "new Set(collections.flatMap(a=>a.icons.filter(i=>i.variants.android_xml).map(i=>i.variants.android_xml))).size+' Android XML']"
-    )
-    html, count = stats_pattern.subn(lambda match: stats_replacement, html, count=1)
-    if count != 1:
-        raise SystemExit("Could not update gallery totals.")
     HTML.write_text(html, encoding="utf-8")
 
 
