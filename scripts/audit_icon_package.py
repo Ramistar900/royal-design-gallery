@@ -116,7 +116,7 @@ def main() -> None:
         rel = path.relative_to(ROOT).as_posix()
         digest = hashlib.sha256(data).hexdigest()
         digest_paths[digest].append(rel)
-        archive = rel.split("/extracted/", 1)[-1].split("/", 1)[0]
+        archive = rel.split("/", 1)[1].split("/", 1)[0]
         archive_counts[archive] += 1
 
         try:
