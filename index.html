@@ -24,11 +24,11 @@ h2{font-size:21px;color:var(--gold);margin:0 0 5px}.sub{color:var(--muted);font-
 .card{border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#25241f,#181816);padding:12px;min-width:0}
 .card-title{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}.label{font-weight:750}.key{font:12px ui-monospace,monospace;color:#e7c96f;direction:ltr;text-align:left;overflow-wrap:anywhere}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.variant{min-width:0;border:1px solid #34332d;background:#11110f;border-radius:12px;padding:7px;text-align:center}
-.variant img{width:100%;height:104px;object-fit:contain;display:block}.variant-name{font-size:12px;color:var(--muted);margin-top:3px}
+.variant img{width:100%;height:104px;object-fit:contain;display:block}.xml-preview{height:104px;display:grid;place-items:center;color:#dfbd65;font:750 17px ui-monospace,monospace;direction:ltr;letter-spacing:1px}.variant-name{font-size:12px;color:var(--muted);margin-top:3px}
 .variant a{display:block;color:inherit;text-decoration:none}.variant a:focus,.app:focus,input:focus,select:focus,button:focus{outline:2px solid var(--gold);outline-offset:2px}
 .actions{display:flex;gap:7px;margin-top:10px}.actions a,.actions button{flex:1;text-align:center;border:1px solid #51452b;background:#302b1d;color:#f3df9d;padding:8px 5px;border-radius:9px;text-decoration:none;font:12px system-ui;cursor:pointer}
 .empty{text-align:center;padding:40px 12px;color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:28px;color:var(--muted);font-size:12px;line-height:1.8}
-@media(max-width:520px){header,main,footer{padding-left:13px;padding-right:13px}.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:8px}.variant img{height:84px}.card-title{display:block}.key{margin-top:5px;font-size:10px}.actions{gap:5px}.actions a,.actions button{font-size:11px}}
+@media(max-width:520px){header,main,footer{padding-left:13px;padding-right:13px}.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:8px}.variant img,.xml-preview{height:84px}.card-title{display:block}.key{margin-top:5px;font-size:10px}.actions{gap:5px}.actions a,.actions button{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
@@ -42,7 +42,7 @@ h2{font-size:21px;color:var(--gold);margin:0 0 5px}.sub{color:var(--muted);font-
 <select id="styleFilter" aria-label="تصفية النمط"><option value="all">عرض 2D و3D معاً</option><option value="2d">2D فقط</option><option value="3d">3D فقط</option><option value="android_xml">Android XML فقط</option></select>
 </div>
 <nav class="apps" id="apps" aria-label="اختيار التطبيق"></nav>
-<div class="note">يشمل المعرض المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V17. لكل إصدار لوحة ألوان مستقلة، وتظهر نسختا 2D و3D جنباً إلى جنب. معاينات الحركة اختيارية ولا تستبدل الأيقونات الثابتة. الأصول أصلية ضمن ترخيص ROYAL_ORIGINAL؛ يلزم اختبارها داخل التطبيق قبل اعتماد ربطها الإنتاجي.</div>
+<div class="note">يشمل المعرض المكتبات المشتركة V2–V9 والمجموعات الخاصة بالتطبيقات V10–V17. لكل إصدار لوحة ألوان مستقلة. تعرض الإصدارات V2–V16 نسختي 2D و3D، بينما يعرض V17 معاينة SVG وملف Android VectorDrawable XML الأصلي دون تسميته 3D. معاينات الحركة اختيارية. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 محفوظة من الحزمة المعتمدة بترخيص ROYAL_SOURCE_PACKAGE.</div>
 </header>
 <main>
 <section class="collection-head">
@@ -54,7 +54,7 @@ h2{font-size:21px;color:var(--gold);margin:0 0 5px}.sub{color:var(--muted);font-
 </main>
 <footer>
 <strong>ROYAL ORIGINAL · ROYAL Design</strong><br>
-مسارات 2D و3D محفوظة كملفات SVG مستقلة وقابلة للتكبير. ترخيص الأصول الداخلية: ROYAL_ORIGINAL. احتفظ ببيانات المنشأ عند نقل الأيقونات إلى تطبيقات ROYAL.
+ملفات SVG قابلة للتكبير، وملفات Android VectorDrawable الأصلية متاحة للتنزيل في V17. أصول V2–V16 ضمن ROYAL_ORIGINAL، وأصول V17 ضمن ROYAL_SOURCE_PACKAGE؛ احتفظ ببيانات المنشأ عند إعادة الاستخدام.
 </footer>
 <script>
 const manifestSourcePath='icons/app-collections.json';
