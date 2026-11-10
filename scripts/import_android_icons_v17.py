@@ -590,3 +590,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    import subprocess
+    import sys
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "import_restaurant_tv_icons_v2.py")], check=True)
