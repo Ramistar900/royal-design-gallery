@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "icons" / "app-collections.json"
 HTML_PATH = ROOT / "index.html"
-EXPECTED_VERSIONS = [f"V{i}" for i in range(2, 16)]
+EXPECTED_VERSIONS = [f"V{i}" for i in range(2, 17)]
 PLACEHOLDERS = {"Video stream", "Stream source", "Audio track", "Fullscreen", "Video player", "Refresh list", "Subtitles"}
 SHAPES = {"path", "rect", "circle", "ellipse", "line", "polyline", "polygon"}
 

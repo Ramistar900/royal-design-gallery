@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "title": "ROYAL Design · V2–V15 App Icon Collections",
+  "title": "ROYAL Design · V2–V16 App Icon Collections",
   "rights": {
     "owner": "ROYAL Design",
     "license": "ROYAL_ORIGINAL",
@@ -8,10 +8,10 @@
     "commercial_use": "Internal use in ROYAL applications is permitted. External redistribution must retain this provenance notice."
   },
   "totals": {
-    "app_collections": 14,
-    "concepts": 227,
-    "flat_svg": 227,
-    "dimensional_svg": 227
+    "app_collections": 15,
+    "concepts": 326,
+    "flat_svg": 326,
+    "dimensional_svg": 326
   },
   "versions": [
     {
@@ -4606,11 +4606,1540 @@
       "used_by": [
         "ROYAL AUDIO"
       ]
+    },
+    {
+      "version": "V16",
+      "slug": "uploaded-royal-icon-package",
+      "application": "حزمة الأيقونات المرفوعة إلى ROYAL Design",
+      "name_ar": "حزمة ROYAL الجديدة",
+      "description_ar": "أيقونات المتجر والتلفاز وواجهة المشغّل؛ النسخ الثابتة والمتحركة وأصول التطبيقات",
+      "dimension_styles": [
+        "2d",
+        "3d"
+      ],
+      "collection_path": "icons/v16/uploaded-royal-icon-package",
+      "status": "source_package_preview",
+      "accent_policy": "preserve original source-package colors and artwork",
+      "palette": {
+        "primary": "#D7B96D",
+        "secondary": "#168B79",
+        "highlight": "#FFF0B8",
+        "surface": "#35434A"
+      },
+      "used_by": [
+        "Almalaki",
+        "ROYAL TV",
+        "ROYAL+ Launcher",
+        "RS TV"
+      ],
+      "icons": [
+        {
+          "key": "icon-pack-store-home",
+          "label_ar": "المتجر · الرئيسية",
+          "label_en": "Home",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/home.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/home.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-offer",
+          "label_ar": "المتجر · العروض",
+          "label_en": "Offer",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/offer.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/offer.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-add",
+          "label_ar": "المتجر · إضافة",
+          "label_en": "Add",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/add.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/add.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-settings",
+          "label_ar": "المتجر · الإعدادات",
+          "label_en": "Settings",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/settings.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/settings.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-coffee",
+          "label_ar": "المتجر · القهوة",
+          "label_en": "Coffee",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/coffee.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/coffee.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-location",
+          "label_ar": "المتجر · الموقع",
+          "label_en": "Location",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/location.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/location.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-check",
+          "label_ar": "المتجر · تأكيد",
+          "label_en": "Check",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/check.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/check.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-calendar",
+          "label_ar": "المتجر · التقويم",
+          "label_en": "Calendar",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/calendar.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/calendar.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-trash",
+          "label_ar": "المتجر · حذف",
+          "label_en": "Trash",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/trash.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/trash.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-edit",
+          "label_ar": "المتجر · تعديل",
+          "label_en": "Edit",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/edit.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/edit.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-clock",
+          "label_ar": "المتجر · الوقت",
+          "label_en": "Clock",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/clock.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/clock.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-chat",
+          "label_ar": "المتجر · المحادثة",
+          "label_en": "Chat",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/chat.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/chat.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-back",
+          "label_ar": "المتجر · رجوع",
+          "label_en": "Back",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/back.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/back.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-menu",
+          "label_ar": "المتجر · القائمة",
+          "label_en": "Menu",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/menu.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/menu.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-wifi",
+          "label_ar": "المتجر · الاتصال",
+          "label_en": "Wifi",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/wifi.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/wifi.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-cart",
+          "label_ar": "المتجر · السلة",
+          "label_en": "Cart",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/cart.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/cart.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-profile",
+          "label_ar": "المتجر · الملف الشخصي",
+          "label_en": "Profile",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/profile.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/profile.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-remove",
+          "label_ar": "المتجر · إزالة",
+          "label_en": "Remove",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/remove.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/remove.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-table",
+          "label_ar": "المتجر · الطاولة",
+          "label_en": "Table",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/table.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/table.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-payment",
+          "label_ar": "المتجر · الدفع",
+          "label_en": "Payment",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/payment.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/payment.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-search",
+          "label_ar": "المتجر · بحث",
+          "label_en": "Search",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/search.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/search.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-logout",
+          "label_ar": "المتجر · تسجيل الخروج",
+          "label_en": "Logout",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/logout.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/logout.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-food",
+          "label_ar": "المتجر · الطعام",
+          "label_en": "Food",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/food.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/food.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-heart",
+          "label_ar": "المتجر · المفضلة",
+          "label_en": "Heart",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/heart.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/heart.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-close",
+          "label_ar": "المتجر · إغلاق",
+          "label_en": "Close",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/close.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/close.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-dessert",
+          "label_ar": "المتجر · الحلويات",
+          "label_en": "Dessert",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/dessert.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/dessert.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-phone",
+          "label_ar": "المتجر · الهاتف",
+          "label_en": "Phone",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/phone.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/phone.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-loading",
+          "label_ar": "المتجر · loading",
+          "label_en": "Loading",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/loading.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/loading.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-restaurant",
+          "label_ar": "المتجر · المطعم",
+          "label_en": "Restaurant",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/restaurant.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/restaurant.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-filter",
+          "label_ar": "المتجر · تصفية",
+          "label_en": "Filter",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/filter.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/filter.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-star",
+          "label_ar": "المتجر · التقييم",
+          "label_en": "Star",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/star.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/star.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-delivery",
+          "label_ar": "المتجر · التوصيل",
+          "label_en": "Delivery",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/delivery.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/delivery.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-orders",
+          "label_ar": "المتجر · الطلبات",
+          "label_en": "Orders",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/orders.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/orders.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-drink",
+          "label_ar": "المتجر · المشروبات",
+          "label_en": "Drink",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/drink.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/drink.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-bell",
+          "label_ar": "المتجر · الإشعارات",
+          "label_en": "Bell",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/bell.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/bell.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-share",
+          "label_ar": "المتجر · مشاركة",
+          "label_en": "Share",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/share.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/share.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-store-login",
+          "label_ar": "المتجر · تسجيل الدخول",
+          "label_en": "Login",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/static/login.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/store/animated/login.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-home",
+          "label_ar": "التلفاز · الرئيسية",
+          "label_en": "Home",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/home.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/home.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-prev",
+          "label_ar": "التلفاز · السابق",
+          "label_en": "Prev",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/prev.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/prev.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-source",
+          "label_ar": "التلفاز · source",
+          "label_en": "Source",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/source.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/source.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-add",
+          "label_ar": "التلفاز · إضافة",
+          "label_en": "Add",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/add.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/add.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-next",
+          "label_ar": "التلفاز · التالي",
+          "label_en": "Next",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/next.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/next.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-settings",
+          "label_ar": "التلفاز · الإعدادات",
+          "label_en": "Settings",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/settings.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/settings.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-info",
+          "label_ar": "التلفاز · معلومات",
+          "label_en": "Info",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/info.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/info.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-check",
+          "label_ar": "التلفاز · تأكيد",
+          "label_en": "Check",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/check.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/check.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-refresh",
+          "label_ar": "التلفاز · refresh",
+          "label_en": "Refresh",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/refresh.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/refresh.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-volume-up",
+          "label_ar": "التلفاز · volume up",
+          "label_en": "Volume Up",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/volume_up.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/volume_up.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-channels",
+          "label_ar": "التلفاز · القنوات",
+          "label_en": "Channels",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/channels.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/channels.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-guide",
+          "label_ar": "التلفاز · الدليل",
+          "label_en": "Guide",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/guide.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/guide.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-record",
+          "label_ar": "التلفاز · record",
+          "label_en": "Record",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/record.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/record.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-lock",
+          "label_ar": "التلفاز · قفل",
+          "label_en": "Lock",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/lock.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/lock.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-clock",
+          "label_ar": "التلفاز · الوقت",
+          "label_en": "Clock",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/clock.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/clock.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-live",
+          "label_ar": "التلفاز · مباشر",
+          "label_en": "Live",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/live.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/live.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-rewind",
+          "label_ar": "التلفاز · rewind",
+          "label_en": "Rewind",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/rewind.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/rewind.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-back",
+          "label_ar": "التلفاز · رجوع",
+          "label_en": "Back",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/back.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/back.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-cast",
+          "label_ar": "التلفاز · البث",
+          "label_en": "Cast",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/cast.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/cast.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-wifi",
+          "label_ar": "التلفاز · الاتصال",
+          "label_en": "Wifi",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/wifi.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/wifi.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-stop",
+          "label_ar": "التلفاز · stop",
+          "label_en": "Stop",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/stop.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/stop.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-mute",
+          "label_ar": "التلفاز · كتم",
+          "label_en": "Mute",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/mute.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/mute.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-remove",
+          "label_ar": "التلفاز · إزالة",
+          "label_en": "Remove",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/remove.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/remove.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-forward",
+          "label_ar": "التلفاز · تقديم",
+          "label_en": "Forward",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/forward.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/forward.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-search",
+          "label_ar": "التلفاز · بحث",
+          "label_en": "Search",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/search.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/search.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-pause",
+          "label_ar": "التلفاز · إيقاف مؤقت",
+          "label_en": "Pause",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/pause.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/pause.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-heart",
+          "label_ar": "التلفاز · المفضلة",
+          "label_en": "Heart",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/heart.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/heart.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-close",
+          "label_ar": "التلفاز · إغلاق",
+          "label_en": "Close",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/close.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/close.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-remote",
+          "label_ar": "التلفاز · remote",
+          "label_en": "Remote",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/remote.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/remote.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-loading",
+          "label_ar": "التلفاز · loading",
+          "label_en": "Loading",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/loading.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/loading.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-language",
+          "label_ar": "التلفاز · اللغة",
+          "label_en": "Language",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/language.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/language.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-filter",
+          "label_ar": "التلفاز · تصفية",
+          "label_en": "Filter",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/filter.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/filter.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-play",
+          "label_ar": "التلفاز · تشغيل",
+          "label_en": "Play",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/play.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/play.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-fullscreen",
+          "label_ar": "التلفاز · ملء الشاشة",
+          "label_en": "Fullscreen",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/fullscreen.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/fullscreen.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-timer",
+          "label_ar": "التلفاز · timer",
+          "label_en": "Timer",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/timer.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/timer.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-volume-down",
+          "label_ar": "التلفاز · volume down",
+          "label_en": "Volume Down",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/volume_down.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/volume_down.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-star",
+          "label_ar": "التلفاز · التقييم",
+          "label_en": "Star",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/star.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/star.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-sleep",
+          "label_ar": "التلفاز · sleep",
+          "label_en": "Sleep",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/sleep.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/sleep.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-bell",
+          "label_ar": "التلفاز · الإشعارات",
+          "label_en": "Bell",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/bell.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/bell.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-power",
+          "label_ar": "التلفاز · الطاقة",
+          "label_en": "Power",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/power.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/power.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-share",
+          "label_ar": "التلفاز · مشاركة",
+          "label_en": "Share",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/share.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/share.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "icon-pack-tv-grid",
+          "label_ar": "التلفاز · الشبكة",
+          "label_en": "Grid",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/static/grid.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/grid.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "launcher-ui-pack-home",
+          "label_ar": "واجهة المشغّل · الرئيسية",
+          "label_en": "Home",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/home.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/home.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/home.svg"
+        },
+        {
+          "key": "launcher-ui-pack-settings",
+          "label_ar": "واجهة المشغّل · الإعدادات",
+          "label_en": "Settings",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/settings.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/settings.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/settings.svg"
+        },
+        {
+          "key": "launcher-ui-pack-apps",
+          "label_ar": "واجهة المشغّل · التطبيقات",
+          "label_en": "Apps",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/apps.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/apps.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/apps.svg"
+        },
+        {
+          "key": "launcher-ui-pack-music",
+          "label_ar": "واجهة المشغّل · الموسيقى",
+          "label_en": "Music",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/music.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/music.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/music.svg"
+        },
+        {
+          "key": "launcher-ui-pack-movies",
+          "label_ar": "واجهة المشغّل · الأفلام",
+          "label_en": "Movies",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/movies.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/movies.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/movies.svg"
+        },
+        {
+          "key": "launcher-ui-pack-guide",
+          "label_ar": "واجهة المشغّل · الدليل",
+          "label_en": "Guide",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/guide.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/guide.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/guide.svg"
+        },
+        {
+          "key": "launcher-ui-pack-sports",
+          "label_ar": "واجهة المشغّل · الرياضة",
+          "label_en": "Sports",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/sports.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/sports.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/sports.svg"
+        },
+        {
+          "key": "launcher-ui-pack-series",
+          "label_ar": "واجهة المشغّل · المسلسلات",
+          "label_en": "Series",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/series.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/series.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/series.svg"
+        },
+        {
+          "key": "launcher-ui-pack-live-tv",
+          "label_ar": "واجهة المشغّل · البث التلفزيوني",
+          "label_en": "Live Tv",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/live_tv.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/live_tv.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/live_tv.svg"
+        },
+        {
+          "key": "launcher-ui-pack-favorites",
+          "label_ar": "واجهة المشغّل · المفضلة",
+          "label_en": "Favorites",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/favorites.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/favorites.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/favorites.svg"
+        },
+        {
+          "key": "launcher-ui-pack-kids",
+          "label_ar": "واجهة المشغّل · الأطفال",
+          "label_en": "Kids",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/kids.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/kids.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/kids.svg"
+        },
+        {
+          "key": "launcher-ui-pack-profile",
+          "label_ar": "واجهة المشغّل · الملف الشخصي",
+          "label_en": "Profile",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/profile.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/profile.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/profile.svg"
+        },
+        {
+          "key": "launcher-ui-pack-input",
+          "label_ar": "واجهة المشغّل · المدخلات",
+          "label_en": "Input",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/input.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/input.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/input.svg"
+        },
+        {
+          "key": "launcher-ui-pack-notifications",
+          "label_ar": "واجهة المشغّل · الإشعارات",
+          "label_en": "Notifications",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/notifications.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/notifications.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/notifications.svg"
+        },
+        {
+          "key": "launcher-ui-pack-search",
+          "label_ar": "واجهة المشغّل · بحث",
+          "label_en": "Search",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/search.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/search.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/search.svg"
+        },
+        {
+          "key": "launcher-ui-pack-recent",
+          "label_ar": "واجهة المشغّل · الأخيرة",
+          "label_en": "Recent",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/recent.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/recent.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package; not redrawn or relabeled as an independently authored 3D icon."
+          },
+          "status": "source_package_preview",
+          "motion": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/recent.svg"
+        },
+        {
+          "key": "launcher-store-app-icon",
+          "label_ar": "المتجر · أيقونة التطبيق",
+          "label_en": "Store App Icon",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/store/app_icon.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/store/app_icon.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "launcher-store-tv-banner",
+          "label_ar": "المتجر · بانر التلفاز",
+          "label_en": "Store Banner",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/store/tv_banner_320x180.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/store/tv_banner_320x180.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "launcher-tv-app-icon",
+          "label_ar": "التلفاز · أيقونة التطبيق",
+          "label_en": "TV App Icon",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/tv/app_icon.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/tv/app_icon.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package."
+          },
+          "status": "source_package_preview"
+        },
+        {
+          "key": "launcher-tv-tv-banner",
+          "label_ar": "التلفاز · بانر التلفاز",
+          "label_en": "TV Banner",
+          "variants": {
+            "2d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/tv/tv_banner_320x180.svg",
+            "3d": "packages/royal-design-shared-icon-package/extracted/restaurant_tv_launcher_icons/launcher_pack/tv/tv_banner_320x180.svg"
+          },
+          "rights": {
+            "origin": "uploaded_royal_package",
+            "license": "ROYAL_SOURCE_PACKAGE",
+            "authoring_note": "Original SVG asset preserved from the user's uploaded ROYAL icon package."
+          },
+          "status": "source_package_preview"
+        }
+      ]
     }
   ],
   "notes": {
     "color_behavior": "Each collection has its own application palette. App-specific SVGs use their palette, and shared icons point to one maintained SVG pair so a common icon is not copied into every app.",
     "visuals": "2D and 3D variants are presented side by side. V9 motion assets are optional previews; static icons remain the default.",
-    "coverage": "V2-V8 shared libraries are linked from the relevant app galleries. V9-V15 contain cafe, TV, launcher, RS TV, developer and audio collections. App-specific icons found in the application drawable audit are included."
+    "coverage": "V2-V8 shared libraries are linked from the relevant app galleries. V9-V15 contain the original ROYAL app collections. V16 exposes the uploaded shared icon package in the gallery, preserving its original SVG assets and static/animated/focused variants."
   }
 }
