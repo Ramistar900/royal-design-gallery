@@ -268,11 +268,16 @@ def main() -> None:
         "",
         "## الرموز المحددة لكل تطبيق",
         "",
-        *[f"### {item['app']} ({len(item.get('icons', []))} رمزاً مرشحاً)",
-          f"- الحالات: {', '.join(item.get('states', []))}",
-          "- " + ", ".join(item.get("icons", [])),
-          f"- ملاحظة: {item['caveat']}", ""]
-          for item in APP_MAP
+        *[
+            line
+            for item in APP_MAP
+            for line in [
+                f"### {item['app']} ({len(item.get('icons', []))} رمزاً مرشحاً)",
+                f"- الحالات: {', '.join(item.get('states', []))}",
+                "- " + ", ".join(item.get("icons", [])),
+                f"- ملاحظة: {item['caveat']}",
+                ""
+            ]
         ],
         "## ملاحظات تقنية قبل ربطها بالتطبيقات",
         "",
