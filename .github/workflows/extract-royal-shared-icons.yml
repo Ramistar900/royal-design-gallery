@@ -103,6 +103,9 @@ jobs:
           print(f"Duplicate content groups: {len(duplicate_groups)}")
           PY
 
+      - name: Audit SVG files and write classification reports
+        run: python3 scripts/audit_icon_package.py
+
       - name: Commit extracted package
         run: |
           git config user.name "github-actions[bot]"
@@ -111,6 +114,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No extracted package changes to commit"
           else
-            git commit -m "Extract independent ROYAL shared icon package"
+            git commit -m "Extract and classify ROYAL shared icon package"
             git push origin HEAD:feature/extract-royal-shared-icons
           fi
