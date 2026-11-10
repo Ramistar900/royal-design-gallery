@@ -1,0 +1,3638 @@
+{
+  "package": "ROYAL Design - Shared Icon Package",
+  "svg_count": 262,
+  "unique_svg_contents": 212,
+  "duplicate_content_groups": 50,
+  "state_counts": {
+    "animated": 111,
+    "brand": 8,
+    "focused": 32,
+    "static": 111
+  },
+  "archive_counts": {
+    "restaurant_tv_3d_icons": 158,
+    "restaurant_tv_launcher_icons": 4,
+    "restaurant_tv_launcher_icons_1": 4,
+    "restaurant_tv_launcher_ui_icons": 48,
+    "restaurant_tv_launcher_ui_icons_1": 48
+  },
+  "smil_animated_svg_count": 111,
+  "invalid_svg": [],
+  "missing_viewBox": [],
+  "external_references": [],
+  "active_content": [],
+  "common_hex_colors": [
+    [
+      "#FFFFFF",
+      622
+    ],
+    [
+      "#0A6158",
+      330
+    ],
+    [
+      "#0B3A9E",
+      255
+    ],
+    [
+      "#9A6B00",
+      217
+    ],
+    [
+      "#7FF5E6",
+      160
+    ],
+    [
+      "#14B8A6",
+      96
+    ],
+    [
+      "#1E6BFF",
+      87
+    ],
+    [
+      "#7FB8FF",
+      86
+    ],
+    [
+      "#F5B400",
+      77
+    ],
+    [
+      "#FFE08A",
+      76
+    ],
+    [
+      "#B23C0A",
+      7
+    ],
+    [
+      "#262699",
+      7
+    ],
+    [
+      "#FF7A1A",
+      3
+    ],
+    [
+      "#5B5BFF",
+      3
+    ],
+    [
+      "#FFB36B",
+      2
+    ],
+    [
+      "#9C9AFF",
+      2
+    ]
+  ],
+  "files": [
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/add.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "74b7c0f1ba48cd46cf7edf023c6828d9a669648f2bfc3aba5c81c4b4802c33e9",
+      "bytes": 1518,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/back.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "be8f389495af9017d2a6e204876e8a06701643aaff53d18cff654df102c2d3f9",
+      "bytes": 1407,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/bell.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ef65c80e6b89847004eecdd5961190b40249ec681e5b89cc4c326728ca204692",
+      "bytes": 1832,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/calendar.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "247e21cbea249e20009c71584d0cb5fac5c4fb5641db2abaf73dfe08161eb756",
+      "bytes": 1669,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/cart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "fa175045810a59d5d9c073ceca0868a37a01358494668b5a10343f2280c1ea88",
+      "bytes": 1732,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/chat.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "20509f211691ad4da1bea75012cd7b0bbf46afaa288d60e8f7005ef2e3832a14",
+      "bytes": 1541,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/check.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7752fae6125bfce23a45225a304c142591047ab033cdfd1a48ed94d06be7c7b3",
+      "bytes": 1518,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/clock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "776be97ab643448cfe491c645cd496f2e54b214c16e4f4be921e17b357d56bf7",
+      "bytes": 1666,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/close.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "054b963daea9f78098d25e63622d4af23972a082cb018b80a7109ee20dd85d9a",
+      "bytes": 1421,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/coffee.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3c202375e0f851818d91d7699b609f242ddbecb567af674480749c9cfe4b9aed",
+      "bytes": 1865,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/delivery.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "eabfb488e4c8d582d4809e62b9e6b028349114a747a44cb49af85ff7d654e679",
+      "bytes": 2090,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/dessert.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "de7f996023c287925d050271b587a7b6b76b1a7e2bba4d1994a5561475174fd3",
+      "bytes": 1515,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/drink.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3bc72a266543de1bc6529286342f52d5379bb9374a20177b9f391959e4147bb5",
+      "bytes": 1499,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/edit.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a615c3c3062749815fc8c19efdd6261360e21aac86737e7730184912cc7af91b",
+      "bytes": 1663,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/filter.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "1298b754bccd5784da16abbb18eb318142c5da5539a3803a9aeb9195e5c8af1f",
+      "bytes": 1435,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/food.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "2f70259e59593ef61c88a129f5b040f337bb6a7674a6f0817d4aba3f1629a69c",
+      "bytes": 1647,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/heart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3ad1a3bd5af3a1f3578172fb024238052775a79efdb81b21c5319b67eb5736dd",
+      "bytes": 1498,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/home.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5168327fcd8876aeec469e681635785d96284d0ce80259724d6f058203508622",
+      "bytes": 1673,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/loading.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ffb6777b23a7b3b2db51ec4e37e2c08ea07ce5550199c61a9f69305b7e296c41",
+      "bytes": 1517,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/location.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "04d461abe8699d432eb7bc1816ecd2ebdf82445b9f082132789f195c3f6e6022",
+      "bytes": 1589,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/login.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0bdf4e5dc549d4349e07899b7eae3699676b4a6905738e3e1df33f2e78308c9d",
+      "bytes": 1467,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/logout.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f159a094f57997eadcdd229743c9ee858ee141cee980e640e9fd66b53cf72eb2",
+      "bytes": 1467,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/menu.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b8f4816bc3972d72cd40710524b909756e2aade0f77dabed9b4d387708219a84",
+      "bytes": 1431,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/offer.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7c90a484563b6c5cc86b85663f6ae60fff370967dfde3e1a8c7e21adef0ca928",
+      "bytes": 1525,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/orders.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "9cc6ccec9ec53a9c7315c8652ca43d8526677651a76a82fa62901b4dc8121fc4",
+      "bytes": 1673,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/payment.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ca06c50a856affbc018a97b3f83cde467dfab1e365f8314bc2c16a9e17686a2c",
+      "bytes": 1651,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/phone.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "538ce978f9a95c786708b6c427276fe475376256b9163574fbc4cfdfbb8e751a",
+      "bytes": 1739,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/profile.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "603d7e6f0eabae9ca57ee450a9b2f8e916a43b0d84b06680f04d09adee468b35",
+      "bytes": 1587,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/remove.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5dbe2b3e0da8f0c6e0140f93ba7ffde9514b4228995b4319cafa2a67084591f6",
+      "bytes": 1387,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/restaurant.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "345a2f9b169cce942b8c5596f5a8490c17a1ad7d2e4fb4d3185ffd27c0374e7a",
+      "bytes": 1755,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/search.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "c271cfdf7a1172d7032912b687520e7622184d9e042bf62a55c94fe51d508261",
+      "bytes": 1549,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/settings.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f3bd32783ab3bf6878f775b6efd499dca1c60141cd69f5a3aa4ea9af690ed596",
+      "bytes": 1625,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/share.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "8330c73d5895469515c034f12c196f9c8d6255ef29ec4da5dba8ddff59bcfcb0",
+      "bytes": 1697,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/star.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f92287485ac46e86172597fa509d1202366d2b8c818efa7e8fa49427eb780661",
+      "bytes": 1692,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/table.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "378cbcfc211503478ada1cae540510032a5710e40a672d727b9a487e40f01d66",
+      "bytes": 1453,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/trash.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "6dfe2b1109ed3c5e6c8a2174f62df7ffbfacaa9749f5a909cfadc540889bbc98",
+      "bytes": 1475,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/animated/wifi.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4a98a5992a6035c543c6326d26eaac64b389ace59707fbc708f86f56890bc444",
+      "bytes": 1827,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/add.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "749ce1f1cac71a7c1d9f05c45afd6fd51a0ed354f56cfdc30d3b40302dc084e2",
+      "bytes": 1198,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/back.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "89ff0b9e6eca38dfc462e98c941896c7bde94eb364b99d761f1367a6fb510109",
+      "bytes": 1196,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/bell.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "bb14e7918a3c9f90c84f9f6a12349ff8c15ee175f85f2d1417a25d757f0d6853",
+      "bytes": 1496,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/calendar.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "960b2994ac99966532be339c74a37e3e13a132c690275aaa6e8d2429bca08f9e",
+      "bytes": 1458,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/cart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7cf2c0fb145455a2fbb0a8c8f9145d44ece0819d65b66ccc1ec94a5fc543e1aa",
+      "bytes": 1402,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/chat.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b7619b05651fa53e3b2b830fdf0fc87e329bcb2d568d7d31632d2f31b517e950",
+      "bytes": 1330,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/check.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e98abd3651622592bab07855b26acfa725199901b03a1a7609c198c17984da92",
+      "bytes": 1196,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/clock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "45255ccbf931a83852113c7bec79bfa3a6a5d7e67c48e5610f5527295256bb80",
+      "bytes": 1346,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/close.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "559ae794d8378a038b79d5945bf946818280a825dce6d7f7cc43062bf9e9764f",
+      "bytes": 1210,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/coffee.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "d62c83e2e325e59732a8ff0ae76ae0b466d24350523e742e6db8a2cc9f72e38c",
+      "bytes": 1654,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/delivery.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "6d13d63ad4c915d10c8e47c5cffb98222913f86c008a9d696f0247bda56c5907",
+      "bytes": 1758,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/dessert.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "6a9ed2ae8fd9f4c288931ba19ff4896c2320aa273474efc0591b489435feb349",
+      "bytes": 1304,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/drink.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "dc85f33516e444fe47e0b9b81ba0dff912a8c754fc607d7d180cf7f451859883",
+      "bytes": 1288,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/edit.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "01b24ea844f63ee58060f4fc4aa00048acc333ba3bbd0db2f9af556cd0d14b99",
+      "bytes": 1452,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/filter.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "9748f22bedffb69345dcff459f191fee452cc0501c7074dbb06dd23c8c780d36",
+      "bytes": 1224,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/food.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "11c5d4d60add2f210583c01d3aaa89ec1caa155c0dfd9bcbf53798cd9eb54336",
+      "bytes": 1436,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/heart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "538c64455dea0e99bae1222f83f347170fad2639b621e06a47130ddc3be5cd71",
+      "bytes": 1168,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/home.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "93ceb165012deb34b97c7be8faedeb0866d6c94324b83feb7d22ccf3077eda1f",
+      "bytes": 1462,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/loading.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "275d9d142e5090d27472fd02ee8a7ecd648a0eece7985c0abc95196c64545ae5",
+      "bytes": 1198,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/location.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7aa0a28cef121c1b5786fc6ec624db41679df961591e2ce34f6aa1ba08a61fa5",
+      "bytes": 1378,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/login.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "66ae2e6c41c6eac0b24eadc1164875b3b1a37db351613c1f697f02373fc8e2f8",
+      "bytes": 1256,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/logout.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "22717abe3d8b54493399dfbf0b24a34e80dc82c1d3a36e65f390c3a8d7ea8638",
+      "bytes": 1256,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/menu.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "029a41dbdb331916ba83112ccfe8738ca3755b1527a0abfbcbecad1925559f64",
+      "bytes": 1220,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/offer.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5d3060cabac2cf93548a2b54a1884074c4843931ee725146c76eb7083aa5ffe4",
+      "bytes": 1314,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/orders.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a237fb082d1c271b261bed8d436efdebd55e75c32bbdb6fab61e59f17cf922f9",
+      "bytes": 1462,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/payment.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "fb7d71f747132fa2686a41df1d13eb1e53f945ecf59e6d9197b179cded667acc",
+      "bytes": 1440,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/phone.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0111998db964c76c652eb4da90b5335b43af22b099b22981f97c729a9dbe6b42",
+      "bytes": 1416,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/profile.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "d0646296ca3ed549f6e473eade6e2ca95fc36e545a4351bf7ec8c2587f29c952",
+      "bytes": 1376,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/remove.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "151c2a0ca6ab6ac1cde6cca8a509aa4043093341500d161673aa719f34ad9e9f",
+      "bytes": 1176,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/restaurant.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3ed3336b8cdecc4edc6e0978f0517cb9d8964e7714b99d069d0e6984b8c66389",
+      "bytes": 1544,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/search.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b4089545be6ea53e4eb6fe85839ef06cd38f1a219ddc1ff72fb508671e55db12",
+      "bytes": 1338,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/settings.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "558c8cf45418c9f9a8090e2440c4d10fbb65ce18fc11fbfca6c853ad2918a1c1",
+      "bytes": 1306,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/share.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "9cbe1ea7701a99fdc307d0c876f8ea20919b340cc7b46269b060d0fe06c2e0bf",
+      "bytes": 1486,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/star.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ecd57675826e30227f71df76397c285509995af2310c0c4522c113e3b9877403",
+      "bytes": 1370,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/table.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0bd5a56fb5a1df7bcbcd57f171615a2cd9b96588df713cc6d1d54c1ae0e4541d",
+      "bytes": 1242,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/trash.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "677a0e0c183934f7016de8b5a22d24fca5577d1ccf0dbf945e401cee2bb80f90",
+      "bytes": 1264,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/store/static/wifi.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3c36dfcd0cec52287ed45520ba7ad06b1b73696b6011b8806a8723bee600af0b",
+      "bytes": 1532,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/add.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "03f8b5aaa7e597c02b6bdcc15de91b086a2567a8138934f60caabc72763e1e46",
+      "bytes": 1518,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/back.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4603431cf91bfde229be879eb13bf59fc8f77a5eb988478837775f8d24146b3d",
+      "bytes": 1407,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/bell.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e49188230440c00c576d4fd0c7102135b0de0dee068ed6cd3cd3496b0ff10441",
+      "bytes": 1832,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/cast.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "1aedefa1ab45f210ab5beff5dcbae1e7b54fa07ed7cbb7cdc3761d5bd4f06daf",
+      "bytes": 1803,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/channels.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "872dbcabceb648ab4def96600e2a013b20b0931d28f5eb68b1b9893f14a4a49a",
+      "bytes": 1707,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/check.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a3616050611ef5413e8e69decc926ff7b0fb8aedb6a92aa87099daded6f01b0b",
+      "bytes": 1518,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/clock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e3d532eb519a5165623022840c1e91bea4035dd7aac11f794698597f2c8dba52",
+      "bytes": 1666,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/close.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b650e2d31665d452d74ea90478192d13baa027b02f2bd17ce790cd06c91d3b85",
+      "bytes": 1421,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/filter.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0690b45eb37104f75cb97726a3528ee17e6921828234de382a16f9f73b04de88",
+      "bytes": 1435,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/forward.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0d0fba39fdf2bca517e44bdcc534ce6ee5b7563b610aa6ed3d34153160f0b899",
+      "bytes": 1349,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/fullscreen.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0d1c156c1a7a3c5d10b1f7c6fbaaefa4acca158af83f6fd363d17d10b7d71ec5",
+      "bytes": 1485,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/grid.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "95cc642dd191472a0d347dbacfe2debe5e696e5fe90b12bbed1a1fc087e4b247",
+      "bytes": 2125,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/guide.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e3f800a9bfd8147cfd24f90c0796b4b8e3dde339c4cddfff4438790a0444f05d",
+      "bytes": 1647,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/heart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5911c6a572b6bb38fc8d9f43c336d62a18b80f822bfbd5078ae197ce4b5e7112",
+      "bytes": 1498,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/home.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "816c059552ef1f0548447d336cfa35157a88e42d6d131129789a846320ea4c62",
+      "bytes": 1673,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/info.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "2a3a97e819a0af2a3ef6a91cda4bca899e1e9659c27eb45ab8f606355d773f42",
+      "bytes": 1639,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/language.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b0667f80203d8975c251afafedcc5d41e0635e0c7628795d743b92c744e8a68a",
+      "bytes": 1821,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/live.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f14ecd6c0ac04b8232b6e5e535ca5b8990fae7bde3141d32e2c4b6582a467a54",
+      "bytes": 1648,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/loading.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "347d0f17063fa6fb19a1ee18c88815a8043e923569ee79ba2a627afc6a71b05b",
+      "bytes": 1517,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/lock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "c08eef4f1af9c7458bf804c2fa89be199e0e29396ef35be36d8c89f9878d0488",
+      "bytes": 1675,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/mute.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "412a6eea5762ac322cb9f316671b9bab60f88600e62cbcfcac7cf5b38193d443",
+      "bytes": 1543,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/next.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "24815d3281f91700a783747cf0e45b45bb99e4336aaaf73e2678912a9e2aac4e",
+      "bytes": 1381,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/pause.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "d7cafc0ab69e16d7bbe12fcad893d056f6663d79fb9dab810154cb310a31d8b6",
+      "bytes": 1421,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/play.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a29bbe17f78801bb7f3f07b3b7650eecffbb4768d39d6fd5bfcbdff75fedf4b5",
+      "bytes": 1366,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/power.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "80bcaf264b5f5edae815975881018068ca7884fffe6cf39b83c68c4586f2b4b6",
+      "bytes": 1756,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/prev.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "8f730704660b50ce6962c51907ee162474006bcf3d4c6585fb28ccbe9b3457cc",
+      "bytes": 1385,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/record.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "2be371c14a31cd075a6523b85d73a3009a61f2c7e9012f43b59c619e0b04a5f5",
+      "bytes": 1338,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/refresh.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a64ff485a567d04c57fec834a4d6a94c8ed1ae36acabbdb9ea965eb4216c4dda",
+      "bytes": 1761,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/remote.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "534f7032eef089d38f7b916b8d5c5e1b635a1fabfc687a2447fcd9ff1d651f79",
+      "bytes": 1643,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/remove.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "843f9b6d39703eba2c3d44eb66e387018e461a7acc5e6fad028515cf2dcdbf40",
+      "bytes": 1387,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/rewind.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ebc7b713dc47f9310bd879eb4ee28648d3b51cd8c6f668fcaa90741ae96369a9",
+      "bytes": 1353,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/search.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "d98e79e3b91abb3cf1f8f92bfce8860a3049ffc8c4999496cba44c049c2d9327",
+      "bytes": 1549,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/settings.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a6fabc5c122ee0eb2c9e25960f424a87336ea312cde6738acd3c28b9373ca0c8",
+      "bytes": 1625,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/share.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "a0275135bf380532ac69fdd3309597e2b0ee8327f5f195a2079da605891de903",
+      "bytes": 1697,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/sleep.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "0c047db0e4946665aa3ebe7337f833987443464058f7fba2714e1c75bfe9c8d8",
+      "bytes": 1387,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/source.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "960c98a497087c488327d5a599107f3318f1bbc7b68035e7adc850132d3702cb",
+      "bytes": 1651,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/star.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "6346e504317c49d4c38e3ed0fc28e1373f2792f9f1f58ab52b2f681809fbc5b4",
+      "bytes": 1692,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 25
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/stop.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "589a767c271780386c576bbf9c5f9937400a5c7c7e7a4e6726b95923ebf0c9e1",
+      "bytes": 1289,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/timer.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "d3ba7ba63bed175a70c88cb7cb46bd6602cc488f346dd70dbb7a255a20b2bfd0",
+      "bytes": 1676,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/volume_down.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "98b8155db369b1cf979147b50ec38824cb5f05097089405c3f985e9247d8d977",
+      "bytes": 1527,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/volume_up.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "6db8034bb8c9601d0fff0023b5c8e5b1da14ae19a2404a07937c0cecf5029dfd",
+      "bytes": 1678,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 27
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/animated/wifi.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4a052200d05bafd0877b58c74b2eb2744cb5bb8d2319ecd6a3123b00d80a8cec",
+      "bytes": 1827,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/add.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "3de81f414e2e32111f07511083f7f3d75c0dd090ee9b9b4cd93222ee5c28f7b2",
+      "bytes": 1198,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/back.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "9284c751217aeebc78d2133bf58314ca253480a0b57a3559d9fecae12e98b9b6",
+      "bytes": 1196,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/bell.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "aa8f87a1f6c238c97919c52504db5694b04974208bd75745e139c397f688a411",
+      "bytes": 1496,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/cast.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7538123d66584c404e903dde94786fa85cde1e4cd20d6bba88e248a37e47216a",
+      "bytes": 1592,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/channels.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "1f3766c0eb2a7b4d839f2489639736fd0ace3777e2d6df7ada807cabdd2749b1",
+      "bytes": 1496,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/check.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "262e99c24909a620949ea0bcc7df836d78c94738b9eff7cf92ad5d6dad0f7425",
+      "bytes": 1196,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/clock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "00afbb93271f80c4b9103349c735a227b02618abf3b9d170f10abbcf46d1400d",
+      "bytes": 1346,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/close.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "7c3038013055896e12d1fb463cbc8b06594a4bbac60779c8b50149902aa3e937",
+      "bytes": 1210,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/filter.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ca2f01221177610811f78bb7b29cf788e3fb173d58236ea21448d38879ca7943",
+      "bytes": 1224,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/forward.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f80830d4e97dbac5d3b2103e81ef3e1e798fee6020a173aacfacbcee437def54",
+      "bytes": 1138,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/fullscreen.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e20a87a19baa3d5c52c365f22ef4d5e1a4dd16dee4c90ad87ef7de0118b82852",
+      "bytes": 1274,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/grid.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "093f5b22fa14214a602b1f20483f39d275eda0fba57502372b343c1c9599bc1a",
+      "bytes": 1914,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/guide.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e1a95eb4f2849718ac89aeb5b9f1ace66daa895479021380d5c6b5bd66fd299f",
+      "bytes": 1436,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/heart.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f6855babec08396c81dc99cd96f010918b154481010f5734031842a0ed597200",
+      "bytes": 1168,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/home.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "fb06749fb632e07acc6ac693ec234c5cee97952bb3aac41655c3b7f14db66330",
+      "bytes": 1462,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/info.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5e81e12638d515ad0d7d50a0808045a3e1adb6570437f5c5e58a90677897532d",
+      "bytes": 1428,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/language.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b3d9d5c6726b069f5acc6975002943fa95752c33ef87e05223b18542d6cf4fd8",
+      "bytes": 1610,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/live.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "e09ad0595be44e8aef285bc573f5113ff5ab3dd70f38f6f684695d5d93d5fc16",
+      "bytes": 1350,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/loading.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b0ddafa996f185ffe9803ed89cc6b15351c50fba1e6d8b6976f329adb729a3b4",
+      "bytes": 1198,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/lock.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "1145b854f1ed953d25941d3ce459a00438da8227709c490f785c077c0545b511",
+      "bytes": 1464,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/mute.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4b677396110204599fa1f16343c371772775f285bd721ed76bb8484c5866e27e",
+      "bytes": 1332,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/next.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5617041ab5d00c94605addfe7d44100575da4aac0f57f77e1c1e2d6db7de3dcd",
+      "bytes": 1170,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/pause.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5b9cdc3d2c53860ceea3ebb02af1c1c37f3b11e2d6079e7d8cfdf326aa865635",
+      "bytes": 1210,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/play.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b615669b7bab4c8add6c6d2d942730687485d6d729a65b0b04eeab079e7488c6",
+      "bytes": 1044,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/power.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4f299958ff46f7f72c765f7d9e7cc8146db6c7c42f1fdd3c4f93d00478b43cce",
+      "bytes": 1436,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/prev.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f261a7dd40b4553218d01ebfaa232921992575bf4be995cfd13ed18cb080c587",
+      "bytes": 1174,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/record.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b95c35eb652466a94d43a91be6c95e4591840248ac6d72cd4d14c692a56ffb78",
+      "bytes": 1040,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/refresh.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "b00d0a001f363d8ac464d31c2f5c73167addffb78baf6204584dcd5275748cc5",
+      "bytes": 1442,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/remote.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "ace16be4004f09de3b458227266b4a248d20a02d784073945cfaf636f98155ef",
+      "bytes": 1432,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/remove.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "60da027e8346f841380b86ca56463bd22d8ebc2e9c1f6de9f905e1d0934ad9fa",
+      "bytes": 1176,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/rewind.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "88a027e1ada586bab2f5c0765553d728f945f37c253af52e514fba2416353095",
+      "bytes": 1142,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/search.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "cb3d02cc77adecd3e644eb8f0a07bba583aa8b0f252f56fd6c115f48a9e5358d",
+      "bytes": 1338,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/settings.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "94a1e50a1f4eaa74012710aeed47cea567cdb397b8ddcf2e8dba5ba05fe9541c",
+      "bytes": 1306,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/share.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "cf6170da2705f62f0d7ddfad8183f725bb8d884e8c6a4d149c5211db0b161dd0",
+      "bytes": 1486,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/sleep.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "839c7374218aea3b2b9c931216287268514686711239d87592e098deeb0420af",
+      "bytes": 1092,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/source.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "4c313e05b3035d34c613377dc59c5197b4b0c063506747e945a9857b258fe9aa",
+      "bytes": 1440,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/star.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "09010d13d5918a02a0d570bc9ed8490c23576bb2eae8cb058ffc9f00d93f1893",
+      "bytes": 1370,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/stop.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "5e31faf0485a7c37214ddf483aee539de06d97756c8c32d15dd4e45c245f6a87",
+      "bytes": 1078,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/timer.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "f33085b1a1548b621f17aef8de1643c8fbc276ca55fc495f20571931a83f40e9",
+      "bytes": 1352,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/volume_down.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "96e81f4569d2985e57c4487b90f8491d1616bb3974d05c6ff6e97d9c5d15094f",
+      "bytes": 1316,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/volume_up.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "25a3d39f71556d9d5527422437fe08b7585d62ebc907375acf73ac5c9f27af28",
+      "bytes": 1356,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/wifi.svg",
+      "archive": "restaurant_tv_3d_icons",
+      "sha256": "36ed71719cf294cbce61b2717744c02022584095bd84829e46a8639b8206a332",
+      "bytes": 1532,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons/launcher_pack/store/app_icon.svg",
+      "archive": "restaurant_tv_launcher_icons",
+      "sha256": "4a3b6112041a1dca9e78283ad5650160192690c63491aecab021f21bc765a21a",
+      "bytes": 1544,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons/launcher_pack/store/tv_banner_320x180.svg",
+      "archive": "restaurant_tv_launcher_icons",
+      "sha256": "aa2ac42f7918b52301a504313c37b8e96f746e7dac504e2f48fb478111be5133",
+      "bytes": 2155,
+      "viewBox": "0 0 320 180",
+      "width": "320",
+      "height": "180",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons/launcher_pack/tv/app_icon.svg",
+      "archive": "restaurant_tv_launcher_icons",
+      "sha256": "3e23ad1ab01955fe706a80a8849558338f7ce39b0dd18400d03680e4db321f89",
+      "bytes": 1350,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons/launcher_pack/tv/tv_banner_320x180.svg",
+      "archive": "restaurant_tv_launcher_icons",
+      "sha256": "cb781e33b566c002bcd4df76c5cd9f9aac73533384d5c9034496ac0cb926ef5b",
+      "bytes": 1945,
+      "viewBox": "0 0 320 180",
+      "width": "320",
+      "height": "180",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons_1/launcher_pack/store/app_icon.svg",
+      "archive": "restaurant_tv_launcher_icons_1",
+      "sha256": "3ed3336b8cdecc4edc6e0978f0517cb9d8964e7714b99d069d0e6984b8c66389",
+      "bytes": 1544,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons_1/launcher_pack/store/tv_banner_320x180.svg",
+      "archive": "restaurant_tv_launcher_icons_1",
+      "sha256": "dacc0b02f4061e532e588d7b59695e9714ba952bde6cc84c6e23072c2dd98b20",
+      "bytes": 2155,
+      "viewBox": "0 0 320 180",
+      "width": "320",
+      "height": "180",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons_1/launcher_pack/tv/app_icon.svg",
+      "archive": "restaurant_tv_launcher_icons_1",
+      "sha256": "e09ad0595be44e8aef285bc573f5113ff5ab3dd70f38f6f684695d5d93d5fc16",
+      "bytes": 1350,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_icons_1/launcher_pack/tv/tv_banner_320x180.svg",
+      "archive": "restaurant_tv_launcher_icons_1",
+      "sha256": "529cafea0fcb583b88d12e452b102fa2e535cc9ec29a1c0283a295efeb8f751d",
+      "bytes": 1945,
+      "viewBox": "0 0 320 180",
+      "width": "320",
+      "height": "180",
+      "state": "brand",
+      "smil_animation": false,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "a773a8efe4ce14770af01d97feafb1b247025b6530a9945c9fe1f5607e383516",
+      "bytes": 2465,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 33
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "5965f1bf062c3190d4cba90cad7d10b43822b939dc9da03137bc19142fb3d4a6",
+      "bytes": 1838,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "f74d6267ed5b4d29ebb451432e78fdb987f38d43d33f09b65dcc0e25fb9998b8",
+      "bytes": 1987,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "b08d8aa4e3ecb980d27c6004827d81b6346bfbacdf3f6d05e865a4d0a8571d11",
+      "bytes": 2013,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "8def66f1f55b52ee589d29a4ee5665f3dc6cb1aba3de6ae7ab0511f68f719180",
+      "bytes": 1991,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "9d652a637fd77d4352a98d8a6d8b9f4d00ba03b4f7dc988cc3f191139b03dfda",
+      "bytes": 2153,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "bffb4f66b4da59372584eb1167f4e705b2fc3c7c70f30c2582979550f3707051",
+      "bytes": 2301,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "fa74fb86607252444cea3f9caccb8c092aa51de95bbb648155e64966fd61f86a",
+      "bytes": 2157,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "522174f4e433317dd89592a7af71224eadcc521b251869cea508da45795ace95",
+      "bytes": 1931,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "ba875c944a5fd74283f895871b98a3180cf280d1b67eef841cf6d91ddddfb2a7",
+      "bytes": 2167,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "58fa85ece5889fd00b45316cddad88d3b713aa00f163d00c16e48b8365fbc659",
+      "bytes": 1927,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "1511987fa68593ce48e4c562f0de5e42a20a76958f15ad60c185620e17aa553f",
+      "bytes": 2006,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "8eeef07b5c2662d16a0894795f44297bf4c1c34844b8238aa0f0cb3207468e4c",
+      "bytes": 2000,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "ec7cf4872273a56f42e20917b2f5215e439c9cad5403d1c34d17b9703f9a111b",
+      "bytes": 2077,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "9c0f64f6f598d90b91e0185a9e050a1f320326cadcf298d1f2be923c5b053e48",
+      "bytes": 1965,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "4b053ef6053749dacb5ffc8714ed5fb7cffc78b98c73ccd290f02cb368ff3d06",
+      "bytes": 2301,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "6d3e1ee15741a632a4b6f65437c1e7607fae7f594c81455b4bef3d90f0c6771d",
+      "bytes": 2160,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "2338751b0b0d99877f1eca6d02bbb3060a139e32b076def8c0ab293c24b15179",
+      "bytes": 1414,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "b99b65e630b07c74d601163e09d77baaac4250192c083dd02e90f2ee1fa909fb",
+      "bytes": 1682,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "96ec1fa3e051a23cfda701f4e4f8cc2b4f575f201c37a61882a078c6c2bdf85e",
+      "bytes": 1708,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "24fc85bd6450b00763bcd97078727352b02a482a7b9376fc167e73a380e85a0f",
+      "bytes": 1686,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "4b9a700ef9aef1e18872cfee97bb6edbd2c02a6647cf180f10c3f67a75e7f286",
+      "bytes": 1848,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "07528026802559c2eaa365be2a8d17c802fc758b0409e92519ec4c36be56ca3c",
+      "bytes": 1910,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "7d35453f949f8bace1a636c501824a988bd7911eb8e794eec9a22cee6fd6eb32",
+      "bytes": 1852,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "c86d31bcf78101404a2bbaa3c8e1f88a0c7fee019be8bd1847f57419b26fa36d",
+      "bytes": 1626,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "64ed3429cb4161a4b4689e25ea2349738228d7a82466c8df1b4a52819b6016e2",
+      "bytes": 1742,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "a6b9b91184d3e2458b0fb64e7bd4d2622d2f1d90f68d8696b9dced1aaf6f3362",
+      "bytes": 1622,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "9a6eb71b1182c2f46c69e8add5c384842f7e91387cd7542f79cc55031162b300",
+      "bytes": 1592,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "e7fd36889118a6e3fb703b66fea55d306073e6751708dccbf0d9ccd9f2b9aa9d",
+      "bytes": 1584,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "0d776ce0a4f40b949f4db3107c98ad77cc59fb2b197c297f1779d321c4ab0184",
+      "bytes": 1772,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "8493d4d289702ad2669429bf4b1ccb76b1c602edadcce361336120a8107be72a",
+      "bytes": 1552,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "438f9f17cc1e4cc0e3f91a00d92326d29eb507900d166510e8afd7891bce242e",
+      "bytes": 1888,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "c4064330e0d65594242406b7fdd7aee63f99d0b49d7ffa08a9234bb3724f2c3f",
+      "bytes": 1915,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "f599185509c39cf91507fb00efece9d35a64e9486078cb92e8ccc98312a2ce50",
+      "bytes": 1169,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "4772a545da639ad399d9c3d4a00bc2633e7a935f2cc18010049e6b2d3f380944",
+      "bytes": 1437,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "b5423f1b25eb935b13367aa409fd0935a542cf565befa961893c762155f3109c",
+      "bytes": 1463,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "2f861de45709127ea319d878dfd8ea7ab256ee5434ccf8538e899cececf43143",
+      "bytes": 1441,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "a766d536b061ca93944ea8c44a825b91a5c525854afa4f4ac0966d88244a6c10",
+      "bytes": 1603,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "40fd0cb2287d758c82ead7656ff1f4b1f05c88f2a456a3f96184013c05338e84",
+      "bytes": 1665,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "77a78fcacdbd31ef56fba32455561fe629c8a3ce433be06d18030e3a998e210e",
+      "bytes": 1607,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "42ab40260c2e530049beef1ff970cd045304635d448b3149631dd405528d8071",
+      "bytes": 1381,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "f77468f0d5d869566ad8736337b017d67302a3a965ad2189ecbac4712d846749",
+      "bytes": 1497,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "ba5cca8aa5a996eea90aeabee9bcf6a14d4774176556acb57f67f49bd8e5b449",
+      "bytes": 1377,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "d84d9abb43d72c036810dfbe8e46d74598b270445e55f2c54145448ef4210f6c",
+      "bytes": 1347,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "989594cb2c78bcb28da5c37315eb06d90b4acf593d956ab93ff8a0d8e156f9e7",
+      "bytes": 1339,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "c67e74d4a9121f52beebd2fe3c50f384875a5b7f01061cd6e4cfb95238e4bcfb",
+      "bytes": 1527,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "2308f62687b2f8668a043dc4eb4e4cb9b8981abd1d6b51b538859ad2fc8ece01",
+      "bytes": 1307,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons",
+      "sha256": "17893362d140207ea74297f0e86357ae22485aae2558141277fdebc095953e48",
+      "bytes": 1643,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "a773a8efe4ce14770af01d97feafb1b247025b6530a9945c9fe1f5607e383516",
+      "bytes": 2465,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 33
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "5965f1bf062c3190d4cba90cad7d10b43822b939dc9da03137bc19142fb3d4a6",
+      "bytes": 1838,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "f74d6267ed5b4d29ebb451432e78fdb987f38d43d33f09b65dcc0e25fb9998b8",
+      "bytes": 1987,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "b08d8aa4e3ecb980d27c6004827d81b6346bfbacdf3f6d05e865a4d0a8571d11",
+      "bytes": 2013,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "8def66f1f55b52ee589d29a4ee5665f3dc6cb1aba3de6ae7ab0511f68f719180",
+      "bytes": 1991,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "9d652a637fd77d4352a98d8a6d8b9f4d00ba03b4f7dc988cc3f191139b03dfda",
+      "bytes": 2153,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "bffb4f66b4da59372584eb1167f4e705b2fc3c7c70f30c2582979550f3707051",
+      "bytes": 2301,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "fa74fb86607252444cea3f9caccb8c092aa51de95bbb648155e64966fd61f86a",
+      "bytes": 2157,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "522174f4e433317dd89592a7af71224eadcc521b251869cea508da45795ace95",
+      "bytes": 1931,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "ba875c944a5fd74283f895871b98a3180cf280d1b67eef841cf6d91ddddfb2a7",
+      "bytes": 2167,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "58fa85ece5889fd00b45316cddad88d3b713aa00f163d00c16e48b8365fbc659",
+      "bytes": 1927,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 29
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "1511987fa68593ce48e4c562f0de5e42a20a76958f15ad60c185620e17aa553f",
+      "bytes": 2006,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "8eeef07b5c2662d16a0894795f44297bf4c1c34844b8238aa0f0cb3207468e4c",
+      "bytes": 2000,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "ec7cf4872273a56f42e20917b2f5215e439c9cad5403d1c34d17b9703f9a111b",
+      "bytes": 2077,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 31
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "9c0f64f6f598d90b91e0185a9e050a1f320326cadcf298d1f2be923c5b053e48",
+      "bytes": 1965,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "4b053ef6053749dacb5ffc8714ed5fb7cffc78b98c73ccd290f02cb368ff3d06",
+      "bytes": 2301,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "animated",
+      "smil_animation": true,
+      "element_count": 32
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "6d3e1ee15741a632a4b6f65437c1e7607fae7f594c81455b4bef3d90f0c6771d",
+      "bytes": 2160,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 30
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "2338751b0b0d99877f1eca6d02bbb3060a139e32b076def8c0ab293c24b15179",
+      "bytes": 1414,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "b99b65e630b07c74d601163e09d77baaac4250192c083dd02e90f2ee1fa909fb",
+      "bytes": 1682,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "96ec1fa3e051a23cfda701f4e4f8cc2b4f575f201c37a61882a078c6c2bdf85e",
+      "bytes": 1708,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "24fc85bd6450b00763bcd97078727352b02a482a7b9376fc167e73a380e85a0f",
+      "bytes": 1686,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "4b9a700ef9aef1e18872cfee97bb6edbd2c02a6647cf180f10c3f67a75e7f286",
+      "bytes": 1848,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "07528026802559c2eaa365be2a8d17c802fc758b0409e92519ec4c36be56ca3c",
+      "bytes": 1910,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "7d35453f949f8bace1a636c501824a988bd7911eb8e794eec9a22cee6fd6eb32",
+      "bytes": 1852,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "c86d31bcf78101404a2bbaa3c8e1f88a0c7fee019be8bd1847f57419b26fa36d",
+      "bytes": 1626,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "64ed3429cb4161a4b4689e25ea2349738228d7a82466c8df1b4a52819b6016e2",
+      "bytes": 1742,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "a6b9b91184d3e2458b0fb64e7bd4d2622d2f1d90f68d8696b9dced1aaf6f3362",
+      "bytes": 1622,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "9a6eb71b1182c2f46c69e8add5c384842f7e91387cd7542f79cc55031162b300",
+      "bytes": 1592,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "e7fd36889118a6e3fb703b66fea55d306073e6751708dccbf0d9ccd9f2b9aa9d",
+      "bytes": 1584,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "0d776ce0a4f40b949f4db3107c98ad77cc59fb2b197c297f1779d321c4ab0184",
+      "bytes": 1772,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "8493d4d289702ad2669429bf4b1ccb76b1c602edadcce361336120a8107be72a",
+      "bytes": 1552,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "438f9f17cc1e4cc0e3f91a00d92326d29eb507900d166510e8afd7891bce242e",
+      "bytes": 1888,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "focused",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/apps.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "c4064330e0d65594242406b7fdd7aee63f99d0b49d7ffa08a9234bb3724f2c3f",
+      "bytes": 1915,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 28
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/favorites.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "f599185509c39cf91507fb00efece9d35a64e9486078cb92e8ccc98312a2ce50",
+      "bytes": 1169,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 22
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/guide.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "4772a545da639ad399d9c3d4a00bc2633e7a935f2cc18010049e6b2d3f380944",
+      "bytes": 1437,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/home.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "b5423f1b25eb935b13367aa409fd0935a542cf565befa961893c762155f3109c",
+      "bytes": 1463,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/input.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "2f861de45709127ea319d878dfd8ea7ab256ee5434ccf8538e899cececf43143",
+      "bytes": 1441,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/kids.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "a766d536b061ca93944ea8c44a825b91a5c525854afa4f4ac0966d88244a6c10",
+      "bytes": 1603,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/live_tv.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "40fd0cb2287d758c82ead7656ff1f4b1f05c88f2a456a3f96184013c05338e84",
+      "bytes": 1665,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/movies.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "77a78fcacdbd31ef56fba32455561fe629c8a3ce433be06d18030e3a998e210e",
+      "bytes": 1607,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/music.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "42ab40260c2e530049beef1ff970cd045304635d448b3149631dd405528d8071",
+      "bytes": 1381,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/notifications.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "f77468f0d5d869566ad8736337b017d67302a3a965ad2189ecbac4712d846749",
+      "bytes": 1497,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/profile.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "ba5cca8aa5a996eea90aeabee9bcf6a14d4774176556acb57f67f49bd8e5b449",
+      "bytes": 1377,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/recent.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "d84d9abb43d72c036810dfbe8e46d74598b270445e55f2c54145448ef4210f6c",
+      "bytes": 1347,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/search.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "989594cb2c78bcb28da5c37315eb06d90b4acf593d956ab93ff8a0d8e156f9e7",
+      "bytes": 1339,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/series.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "c67e74d4a9121f52beebd2fe3c50f384875a5b7f01061cd6e4cfb95238e4bcfb",
+      "bytes": 1527,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/settings.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "2308f62687b2f8668a043dc4eb4e4cb9b8981abd1d6b51b538859ad2fc8ece01",
+      "bytes": 1307,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 24
+    },
+    {
+      "path": "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/sports.svg",
+      "archive": "restaurant_tv_launcher_ui_icons_1",
+      "sha256": "17893362d140207ea74297f0e86357ae22485aae2558141277fdebc095953e48",
+      "bytes": 1643,
+      "viewBox": "0 0 128 128",
+      "width": "128",
+      "height": "128",
+      "state": "static",
+      "smil_animation": false,
+      "element_count": 26
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "sha256": "3ed3336b8cdecc4edc6e0978f0517cb9d8964e7714b99d069d0e6984b8c66389",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_3d_icons/icon_pack/store/static/restaurant.svg",
+        "extracted/restaurant_tv_launcher_icons_1/launcher_pack/store/app_icon.svg"
+      ]
+    },
+    {
+      "sha256": "e09ad0595be44e8aef285bc573f5113ff5ab3dd70f38f6f684695d5d93d5fc16",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_3d_icons/icon_pack/tv/static/live.svg",
+        "extracted/restaurant_tv_launcher_icons_1/launcher_pack/tv/app_icon.svg"
+      ]
+    },
+    {
+      "sha256": "a773a8efe4ce14770af01d97feafb1b247025b6530a9945c9fe1f5607e383516",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/apps.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/apps.svg"
+      ]
+    },
+    {
+      "sha256": "5965f1bf062c3190d4cba90cad7d10b43822b939dc9da03137bc19142fb3d4a6",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/favorites.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/favorites.svg"
+      ]
+    },
+    {
+      "sha256": "f74d6267ed5b4d29ebb451432e78fdb987f38d43d33f09b65dcc0e25fb9998b8",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/guide.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/guide.svg"
+      ]
+    },
+    {
+      "sha256": "b08d8aa4e3ecb980d27c6004827d81b6346bfbacdf3f6d05e865a4d0a8571d11",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/home.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/home.svg"
+      ]
+    },
+    {
+      "sha256": "8def66f1f55b52ee589d29a4ee5665f3dc6cb1aba3de6ae7ab0511f68f719180",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/input.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/input.svg"
+      ]
+    },
+    {
+      "sha256": "9d652a637fd77d4352a98d8a6d8b9f4d00ba03b4f7dc988cc3f191139b03dfda",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/kids.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/kids.svg"
+      ]
+    },
+    {
+      "sha256": "bffb4f66b4da59372584eb1167f4e705b2fc3c7c70f30c2582979550f3707051",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/live_tv.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/live_tv.svg"
+      ]
+    },
+    {
+      "sha256": "fa74fb86607252444cea3f9caccb8c092aa51de95bbb648155e64966fd61f86a",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/movies.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/movies.svg"
+      ]
+    },
+    {
+      "sha256": "522174f4e433317dd89592a7af71224eadcc521b251869cea508da45795ace95",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/music.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/music.svg"
+      ]
+    },
+    {
+      "sha256": "ba875c944a5fd74283f895871b98a3180cf280d1b67eef841cf6d91ddddfb2a7",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/notifications.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/notifications.svg"
+      ]
+    },
+    {
+      "sha256": "58fa85ece5889fd00b45316cddad88d3b713aa00f163d00c16e48b8365fbc659",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/profile.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/profile.svg"
+      ]
+    },
+    {
+      "sha256": "1511987fa68593ce48e4c562f0de5e42a20a76958f15ad60c185620e17aa553f",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/recent.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/recent.svg"
+      ]
+    },
+    {
+      "sha256": "8eeef07b5c2662d16a0894795f44297bf4c1c34844b8238aa0f0cb3207468e4c",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/search.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/search.svg"
+      ]
+    },
+    {
+      "sha256": "ec7cf4872273a56f42e20917b2f5215e439c9cad5403d1c34d17b9703f9a111b",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/series.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/series.svg"
+      ]
+    },
+    {
+      "sha256": "9c0f64f6f598d90b91e0185a9e050a1f320326cadcf298d1f2be923c5b053e48",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/settings.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/settings.svg"
+      ]
+    },
+    {
+      "sha256": "4b053ef6053749dacb5ffc8714ed5fb7cffc78b98c73ccd290f02cb368ff3d06",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/animated/sports.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/animated/sports.svg"
+      ]
+    },
+    {
+      "sha256": "6d3e1ee15741a632a4b6f65437c1e7607fae7f594c81455b4bef3d90f0c6771d",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/apps.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/apps.svg"
+      ]
+    },
+    {
+      "sha256": "2338751b0b0d99877f1eca6d02bbb3060a139e32b076def8c0ab293c24b15179",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/favorites.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/favorites.svg"
+      ]
+    },
+    {
+      "sha256": "b99b65e630b07c74d601163e09d77baaac4250192c083dd02e90f2ee1fa909fb",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/guide.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/guide.svg"
+      ]
+    },
+    {
+      "sha256": "96ec1fa3e051a23cfda701f4e4f8cc2b4f575f201c37a61882a078c6c2bdf85e",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/home.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/home.svg"
+      ]
+    },
+    {
+      "sha256": "24fc85bd6450b00763bcd97078727352b02a482a7b9376fc167e73a380e85a0f",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/input.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/input.svg"
+      ]
+    },
+    {
+      "sha256": "4b9a700ef9aef1e18872cfee97bb6edbd2c02a6647cf180f10c3f67a75e7f286",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/kids.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/kids.svg"
+      ]
+    },
+    {
+      "sha256": "07528026802559c2eaa365be2a8d17c802fc758b0409e92519ec4c36be56ca3c",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/live_tv.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/live_tv.svg"
+      ]
+    },
+    {
+      "sha256": "7d35453f949f8bace1a636c501824a988bd7911eb8e794eec9a22cee6fd6eb32",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/movies.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/movies.svg"
+      ]
+    },
+    {
+      "sha256": "c86d31bcf78101404a2bbaa3c8e1f88a0c7fee019be8bd1847f57419b26fa36d",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/music.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/music.svg"
+      ]
+    },
+    {
+      "sha256": "64ed3429cb4161a4b4689e25ea2349738228d7a82466c8df1b4a52819b6016e2",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/notifications.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/notifications.svg"
+      ]
+    },
+    {
+      "sha256": "a6b9b91184d3e2458b0fb64e7bd4d2622d2f1d90f68d8696b9dced1aaf6f3362",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/profile.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/profile.svg"
+      ]
+    },
+    {
+      "sha256": "9a6eb71b1182c2f46c69e8add5c384842f7e91387cd7542f79cc55031162b300",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/recent.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/recent.svg"
+      ]
+    },
+    {
+      "sha256": "e7fd36889118a6e3fb703b66fea55d306073e6751708dccbf0d9ccd9f2b9aa9d",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/search.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/search.svg"
+      ]
+    },
+    {
+      "sha256": "0d776ce0a4f40b949f4db3107c98ad77cc59fb2b197c297f1779d321c4ab0184",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/series.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/series.svg"
+      ]
+    },
+    {
+      "sha256": "8493d4d289702ad2669429bf4b1ccb76b1c602edadcce361336120a8107be72a",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/settings.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/settings.svg"
+      ]
+    },
+    {
+      "sha256": "438f9f17cc1e4cc0e3f91a00d92326d29eb507900d166510e8afd7891bce242e",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/focused/sports.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/focused/sports.svg"
+      ]
+    },
+    {
+      "sha256": "c4064330e0d65594242406b7fdd7aee63f99d0b49d7ffa08a9234bb3724f2c3f",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/apps.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/apps.svg"
+      ]
+    },
+    {
+      "sha256": "f599185509c39cf91507fb00efece9d35a64e9486078cb92e8ccc98312a2ce50",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/favorites.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/favorites.svg"
+      ]
+    },
+    {
+      "sha256": "4772a545da639ad399d9c3d4a00bc2633e7a935f2cc18010049e6b2d3f380944",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/guide.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/guide.svg"
+      ]
+    },
+    {
+      "sha256": "b5423f1b25eb935b13367aa409fd0935a542cf565befa961893c762155f3109c",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/home.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/home.svg"
+      ]
+    },
+    {
+      "sha256": "2f861de45709127ea319d878dfd8ea7ab256ee5434ccf8538e899cececf43143",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/input.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/input.svg"
+      ]
+    },
+    {
+      "sha256": "a766d536b061ca93944ea8c44a825b91a5c525854afa4f4ac0966d88244a6c10",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/kids.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/kids.svg"
+      ]
+    },
+    {
+      "sha256": "40fd0cb2287d758c82ead7656ff1f4b1f05c88f2a456a3f96184013c05338e84",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/live_tv.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/live_tv.svg"
+      ]
+    },
+    {
+      "sha256": "77a78fcacdbd31ef56fba32455561fe629c8a3ce433be06d18030e3a998e210e",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/movies.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/movies.svg"
+      ]
+    },
+    {
+      "sha256": "42ab40260c2e530049beef1ff970cd045304635d448b3149631dd405528d8071",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/music.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/music.svg"
+      ]
+    },
+    {
+      "sha256": "f77468f0d5d869566ad8736337b017d67302a3a965ad2189ecbac4712d846749",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/notifications.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/notifications.svg"
+      ]
+    },
+    {
+      "sha256": "ba5cca8aa5a996eea90aeabee9bcf6a14d4774176556acb57f67f49bd8e5b449",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/profile.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/profile.svg"
+      ]
+    },
+    {
+      "sha256": "d84d9abb43d72c036810dfbe8e46d74598b270445e55f2c54145448ef4210f6c",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/recent.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/recent.svg"
+      ]
+    },
+    {
+      "sha256": "989594cb2c78bcb28da5c37315eb06d90b4acf593d956ab93ff8a0d8e156f9e7",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/search.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/search.svg"
+      ]
+    },
+    {
+      "sha256": "c67e74d4a9121f52beebd2fe3c50f384875a5b7f01061cd6e4cfb95238e4bcfb",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/series.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/series.svg"
+      ]
+    },
+    {
+      "sha256": "2308f62687b2f8668a043dc4eb4e4cb9b8981abd1d6b51b538859ad2fc8ece01",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/settings.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/settings.svg"
+      ]
+    },
+    {
+      "sha256": "17893362d140207ea74297f0e86357ae22485aae2558141277fdebc095953e48",
+      "count": 2,
+      "files": [
+        "extracted/restaurant_tv_launcher_ui_icons/launcher_ui_pack/static/sports.svg",
+        "extracted/restaurant_tv_launcher_ui_icons_1/launcher_ui_pack/static/sports.svg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "package": "ROYAL Design - Shared Icon Package",
+  "review_status": "classified-by-content-and-source; application integration not yet approved",
+  "principles": [
+    "Keep the original archives and extracted source trees unchanged.",
+    "Use one shared source asset through references rather than duplicating files across apps.",
+    "Do not replace established app logos, watermarks, or brand colors with generic pack icons.",
+    "Animated SVG uses SMIL; Android apps should use a tested raster/vector/Lottie conversion rather than assuming native SVG animation support."
+  ],
+  "source_sets": [
+    {
+      "archive": "restaurant_tv_3d_icons.zip",
+      "contents": "158 SVGs plus source README and preview page: 37 store icons x 2 states and 42 TV icons x 2 states.",
+      "classification": "Store/cafe functional icons and TV functional icons."
+    },
+    {
+      "archive": "restaurant_tv_launcher_icons.zip",
+      "contents": "4 SVGs: store and TV app icons plus 320x180 TV banners.",
+      "classification": "Orange store + purple TV presentation variant."
+    },
+    {
+      "archive": "restaurant_tv_launcher_icons (1).zip",
+      "contents": "4 SVGs: store and TV app icons plus 320x180 TV banners.",
+      "classification": "Gold store + blue TV presentation variant; not identical to the other brand pack."
+    },
+    {
+      "archive": "restaurant_tv_launcher_ui_icons.zip",
+      "contents": "48 SVGs: 16 launcher symbols x static, animated, and focused states.",
+      "classification": "Canonical launcher UI set."
+    },
+    {
+      "archive": "restaurant_tv_launcher_ui_icons (1).zip",
+      "contents": "48 SVGs byte-identical to the canonical launcher UI set.",
+      "classification": "Exact duplicate backup; retained for provenance."
+    }
+  ],
+  "application_map": [
+    {
+      "app": "Almalaki",
+      "fit": "primary-candidate",
+      "source": "restaurant_tv_3d_icons/icon_pack/store/",
+      "scope": "Restaurant and cafe functional icons: menu, food, coffee, cart, orders, delivery, payment, table, profile, and shared controls.",
+      "icons": [
+        "add",
+        "back",
+        "bell",
+        "calendar",
+        "cart",
+        "chat",
+        "check",
+        "clock",
+        "close",
+        "coffee",
+        "delivery",
+        "dessert",
+        "drink",
+        "edit",
+        "filter",
+        "food",
+        "heart",
+        "home",
+        "loading",
+        "location",
+        "login",
+        "logout",
+        "menu",
+        "offer",
+        "orders",
+        "payment",
+        "phone",
+        "profile",
+        "remove",
+        "restaurant",
+        "search",
+        "settings",
+        "share",
+        "star",
+        "table",
+        "trash",
+        "wifi"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "The pack uses orange/gold glossy tiles, while Almalaki's current visual identity includes emerald elements. Treat as optional library assets; do not replace the current app logo, banners, or established emerald styling."
+    },
+    {
+      "app": "ROYAL TV",
+      "fit": "primary-candidate",
+      "source": "restaurant_tv_3d_icons/icon_pack/tv/",
+      "scope": "TV playback, channel navigation, live, guide, remote, cast, source, volume, mute, lock, timer, and common TV controls.",
+      "icons": [
+        "add",
+        "back",
+        "bell",
+        "cast",
+        "channels",
+        "check",
+        "clock",
+        "close",
+        "filter",
+        "forward",
+        "fullscreen",
+        "grid",
+        "guide",
+        "heart",
+        "home",
+        "info",
+        "language",
+        "live",
+        "loading",
+        "lock",
+        "mute",
+        "next",
+        "pause",
+        "play",
+        "power",
+        "prev",
+        "record",
+        "refresh",
+        "remote",
+        "remove",
+        "rewind",
+        "search",
+        "settings",
+        "share",
+        "sleep",
+        "source",
+        "star",
+        "stop",
+        "timer",
+        "volume_down",
+        "volume_up",
+        "wifi"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "Functional icon set only. It is not a verified ROYAL TV brand logo or complete screen design."
+    },
+    {
+      "app": "RS TV / Sinjar TV",
+      "fit": "primary-candidate",
+      "source": "restaurant_tv_3d_icons/icon_pack/tv/",
+      "scope": "Reuse the same TV controls as ROYAL TV through shared references; do not make a second copy of the source files.",
+      "icons": [
+        "add",
+        "back",
+        "bell",
+        "cast",
+        "channels",
+        "check",
+        "clock",
+        "close",
+        "filter",
+        "forward",
+        "fullscreen",
+        "grid",
+        "guide",
+        "heart",
+        "home",
+        "info",
+        "language",
+        "live",
+        "loading",
+        "lock",
+        "mute",
+        "next",
+        "pause",
+        "play",
+        "power",
+        "prev",
+        "record",
+        "refresh",
+        "remote",
+        "remove",
+        "rewind",
+        "search",
+        "settings",
+        "share",
+        "sleep",
+        "source",
+        "star",
+        "stop",
+        "timer",
+        "volume_down",
+        "volume_up",
+        "wifi"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "The pack does not contain a dedicated RS TV / Sinjar brand mark, watermark, or channel-country flag system."
+    },
+    {
+      "app": "ROYAL+ Launcher",
+      "fit": "primary",
+      "source": "restaurant_tv_launcher_ui_icons/launcher_ui_pack/",
+      "scope": "16 launcher navigation/content icons, each supplied as static, animated, and focused states.",
+      "icons": [
+        "apps",
+        "favorites",
+        "guide",
+        "home",
+        "input",
+        "kids",
+        "live_tv",
+        "movies",
+        "music",
+        "notifications",
+        "profile",
+        "recent",
+        "search",
+        "series",
+        "settings",
+        "sports"
+      ],
+      "states": [
+        "static",
+        "animated",
+        "focused"
+      ],
+      "caveat": "This is the strongest direct match in the package. Keep all three states; use focused state for TV remote selection. The duplicate second archive is byte-identical and should be treated as a backup, not a second variant."
+    },
+    {
+      "app": "ROYAL AUDIO",
+      "fit": "limited-reuse",
+      "source": "restaurant_tv_3d_icons/icon_pack/tv/",
+      "scope": "Only the media-control subset: play, pause, stop, next, previous, forward, rewind, volume up/down, and mute.",
+      "icons": [
+        "play",
+        "pause",
+        "stop",
+        "next",
+        "prev",
+        "forward",
+        "rewind",
+        "volume_up",
+        "volume_down",
+        "mute"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "No dedicated ROYAL AUDIO identity, soundscape artwork, or audio-category icon set is present. These are controls only and do not introduce voice/audio content."
+    },
+    {
+      "app": "RAMI Developer",
+      "fit": "shared-controls-only",
+      "source": "restaurant_tv_3d_icons/icon_pack/store/ and icon_pack/tv/",
+      "scope": "Potential generic admin controls: settings, profile, login/logout, notifications, search, calendar, clock, check, edit, delete, lock, network, and status controls.",
+      "icons": [
+        "settings",
+        "profile",
+        "login",
+        "logout",
+        "bell",
+        "search",
+        "calendar",
+        "clock",
+        "check",
+        "edit",
+        "trash",
+        "lock",
+        "wifi",
+        "refresh",
+        "info"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "No dedicated developer, build, release, signing, owner-code, or dashboard icon family is present. Do not present these generic symbols as RAMI branding."
+    },
+    {
+      "app": "Shared ROYAL Design",
+      "fit": "shared",
+      "source": "store/ and tv/ static icon folders",
+      "scope": "Actions present in both the store and TV icon families: home, back, close, add/remove, check, search, settings, bell, star, heart, clock, filter, share, wifi, and loading.",
+      "icons": [
+        "home",
+        "back",
+        "close",
+        "add",
+        "remove",
+        "check",
+        "search",
+        "settings",
+        "bell",
+        "star",
+        "heart",
+        "clock",
+        "filter",
+        "share",
+        "wifi",
+        "loading"
+      ],
+      "states": [
+        "static",
+        "animated"
+      ],
+      "caveat": "Reference shared files instead of copying them into each application's asset folder."
+    }
+  ],
+  "shared_control_candidates": [
+    "home",
+    "back",
+    "close",
+    "add",
+    "remove",
+    "check",
+    "search",
+    "settings",
+    "bell",
+    "star",
+    "heart",
+    "clock",
+    "filter",
+    "share",
+    "wifi",
+    "loading"
+  ],
+  "royal_audio_media_control_candidates": [
+    "play",
+    "pause",
+    "stop",
+    "next",
+    "prev",
+    "forward",
+    "rewind",
+    "volume_up",
+    "volume_down",
+    "mute"
+  ],
+  "launcher_ui_states": {
+    "static": "normal idle state",
+    "animated": "SMIL motion/pulse state; browser preview only until converted and tested for Android",
+    "focused": "focus/selection state for TV remote navigation"
+  },
+  "brand_variants": {
+    "restaurant_tv_launcher_icons.zip": "orange store and purple TV palette",
+    "restaurant_tv_launcher_icons (1).zip": "gold store and blue TV palette",
+    "note": "These are alternate color treatments, not byte-identical duplicate archives."
+  }
+}
