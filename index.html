@@ -180,7 +180,7 @@ if((filter==='all'||filter==='3d')&&icon.variants['3d'])pair.append(makeVariant(
 }
 card.append(pair);
 const actions=el('div','actions');const copy=el('button','','نسخ المفتاح');copy.type='button';copy.addEventListener('click',()=>copyText(icon.key,copy));actions.append(copy);
-if(icon.motion&&(allMode||!isV17))actions.append(addMotionToggle(card,icon));
+if(icon.motion&&((allMode&&filter!=='motion')||(!allMode&&!isV17)))actions.append(addMotionToggle(card,icon));
 const details=el('a','','ملف الفهرس');details.href=assetUrl(icon._collectionPath+'/catalog.json');details.target='_blank';details.rel='noopener';actions.append(details);
 card.append(actions);grid.append(card)
 }

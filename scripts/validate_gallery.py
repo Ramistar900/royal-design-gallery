@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Validate every ROYAL Design collection, including the complete V17 motion library."""
 import json
+import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -219,6 +223,30 @@ def main():
                 errors.append("Embedded manifest differs from icons/app-collections.json")
         except json.JSONDecodeError as exc:
             errors.append(f"Invalid embedded manifest JSON: {exc}")
+
+    node = shutil.which("node")
+    script_match = re.search(r"<script>(.*?)</script>", html, re.S)
+    if not node:
+        errors.append("Node.js is unavailable; cannot syntax-check the gallery JavaScript")
+    elif not script_match:
+        errors.append("index.html has no inline JavaScript block")
+    else:
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as temp:
+                temp.write(script_match.group(1))
+                temp_path = temp.name
+            result = subprocess.run(
+                [node, "--check", temp_path],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            if result.returncode:
+                errors.append("Gallery JavaScript syntax error: " + (result.stderr.strip() or result.stdout.strip()))
+        finally:
+            if temp_path and os.path.exists(temp_path):
+                os.unlink(temp_path)
 
     for required_js in ("function makeMotionVariant(icon)", 'value="motion"', 'value="focused"'):
         if required_js not in html:
